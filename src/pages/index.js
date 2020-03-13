@@ -15,7 +15,7 @@ const IndexPage = () => (
         <div className="row m-0">
           <h2 className="as-body col-sm-6 sub-headline">I’m a software developer, remote work advocate, open source contributor, productivity hacker and wannabe designer. </h2>
           <div className="col-sm-6"></div>
-          <p className="col-sm-6 subscribe-line p-0">I write about remote work, software and productivity. Subscribe to enjoy my articles every once in a while (hopefully weekly)</p>
+          <p className="col-sm-6 subscribe-line p-0">I write about remote work, software and productivity. Subscribe to enjoy my articles every once in a while (hopefully weekly).</p>
           <div className="col-sm-6"></div>
           <div className="col-sm-6">
             <div className="row">
