@@ -6,16 +6,16 @@ description: COVID-19 forced me to quarantine for 3 weeks. This is my personal j
 
 Two days ago, Bogotá decided to go on a mandatory 4-day quarantine as the number of infected by COVID-19 grew to more than 120. Yesterday the number went over 158. The president declared a 19-day quarantine starting next Tuesday.
 
-As for every other person on this planet, this will be a pretty extraneous situation for me. I decided to document and be transparent about how I take this process, what I learn from it and how I adapt.
+As for every other person on this planet, this will be a pretty extraneous situation for me. **I decided to document my journey** and be transparent about how I take this process, what I learn from it and how I adapt.
 
 <div class="divider"></div>
 
 # But why?
 
-I've watched too many films to know you should keep a journal of the apocalypse. Besides feeling like Will Smith wandering lonely in NY or Matthew McConaughey going through Gargantua, there are a few other reasons to document my journey:
+I've watched too many films to know you should keep a journal of the apocalypse. Besides feeling like Will Smith wandering lonely in NY or Matthew McConaughey going through Gargantua, there are a few other reasons to put this down on a journal:
 
 ## Supporting
-I'm pretty sure this won't be the worst situation I'll ever face in my life. This journal will be evidence for my future self; evidence on how I can mentally deal with whatever life shoots at me. I suggest you do the same - if not on a blog, do 1 min recordings on your phone. Be honest about how you feel and how optimistic or pessimistic you are on the situation. You'll be thankful for doing so in the future.
+I'm pretty sure this won't be the worst situation I'll ever face in my life. This journal will be evidence for my future self; evidence on how I can mentally deal with whatever life shoots at me. I suggest you do the same - if not on a blog, do 1 min recordings on your phone. Be honest about how you feel and how optimistic or pessimistic you are on the situation. In the future, you’ll be thankful for doing so.
 
 ## Teaching
 I'm also on a mission to teach everything I learn. From technical development to personal growth, I'm sure someone out there feels identified with whatever I have to say. I hope to inspire someone with my story.
@@ -27,7 +27,7 @@ Finally, I want to track, with data and evidence, what my personal situation loo
 
 # Day 1 Analysis
 
-## Day 0
+## Where am I at?
 
 Let me start with my current stance on the coronavirus.
 
@@ -41,7 +41,7 @@ Needless to say, none of that will happen short-term except for me leaving my st
 
 My situation is nothing compared to those who have lost loved ones. I'm not even complaining; I'm just stating the facts of my initial state in the quarantine. Above all, I'm extremely privileged and I'm thankful for it. I have shelter, food, savings, a loving wife and family. I can also work remotely (as I have for the past 4 years) writing software all day if I want.
 
-As I get to constantly practice gratitude, I take most life situations very *comfortably*. It sounds cliche, but I really **focus on appreciating what I have rather than complaining for what I don't**.
+As I get to constantly practice gratitude, I take most life situations very *comfortably*. It sounds cliche, but I really **focus on appreciating what I have rather than complaining about what I don't**.
 
 ## Roadmap for the quarantine
 
@@ -53,7 +53,7 @@ I have an ideal roadmap of how I plan my days to go into quarantine. I might or 
 
 3. I'll strive for **daily personal growth**. That means learning something new on whatever topic I find interesting.
 
-4. I normally workout everyday at 5:00am. Being deprived of working out in the park sucks, but I still need to keep active. My plan will then be to **workout at home for 20mins**, every single day.
+4. I normally workout every day at 5:00 am. Being deprived of working out in the park sucks, but I still need to keep active. My plan will then be to **workout at home for 20mins**, every single day.
 
 5. The secret to living is giving. As I recognize my undeserved privileged position, I feel obliged to help those who are most vulnerable these days. I'll commit to **financially help at least one person every day** during this quarantine (and hopefully after that, too).
 
@@ -76,12 +76,12 @@ Have you ever thought about how much life you waste reading news?
 * **Avoid news**: No
 * **Write blog**: Yes
 * **Personal growth**: Yes. Kept reading *Before you know it - John Bargh*.
-* **Wake up 5:00am**: No. Woke up at 7:45am.
+* **Wake up 5:00 am**: No. Woke up at 7:45 am.
 * **Workout**: No
 * **Help someone**: No
 * **Time wasted < 90 mins**: No. 200 mins. (this sucks)
 
-## Finance
+## Finances
 
 * **Spent**: 100 USD (groceries for some days)
 * **Stocks Portfolio (24h)**: -2.81%
@@ -92,3 +92,7 @@ Have you ever thought about how much life you waste reading news?
 <div class="divider"></div>
 
 Stay tuned.
+
+<div class="divider"></div>
+
+Reach me out on twitter [@caroso1222](https://twitter.com/caroso1222) if you have something to say, but please be aware I stay away from that place as much as possible.
