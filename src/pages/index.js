@@ -15,15 +15,15 @@ const IndexPage = () => (
       <div className="row">
         <div className="col-sm-7">
           <h1 className="as-body col-sm-12 p-0 headline">Hey there, I'm Carlos Roso</h1>
-          <h2 className="as-body sub-headline">I’m a software developer, remote work advocate, open source contributor, productivity hacker and designer. </h2>
+          <h2 className="as-body sub-headline">I’m a software developer, remote work advocate, open source contributor, productivity hacker and designer.</h2>
           <p className="subscribe-line p-0">I write about remote work, software and productivity. Subscribe to enjoy my articles every once in a while (hopefully weekly).</p>
           <div className="col-sm-12">
             <div className="row">
-              <div className="col-8 p-0">
-                <input className="cr-input cr-input--gray" type="text"></input>
+              <div className="col-sm-8 p-0 mb-1">
+                <input className="cr-input cr-input--gray" type="text" placeholder="Your email..."></input>
               </div>
-              <div className="col-4">
-                <button type="button" className="cta-button">Subscribe</button>
+              <div className="col-sm-4 cta-button-wrapper">
+                <button type="button" className="cta-button mb-1">Subscribe</button>
               </div>
             </div>
           </div>

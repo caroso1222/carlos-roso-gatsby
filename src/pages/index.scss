@@ -1,5 +1,6 @@
 .headline {
   font-size: 30px;
+  line-height: 1.5em;
 }
 
 .sub-headline {
@@ -15,12 +16,11 @@
 
 .main-container {
   margin-bottom: 35px;
-  padding-top: 3em;
 }
 
 .profile-pic {
   position: relative;
-  top: -1em;
+  margin-top: 3em;
 
   &__img {
     border-radius: 2px;
@@ -30,11 +30,36 @@
 
 .latest {
   background: #fbfbfb;
-  padding-top: 4em;
-  padding-bottom: 4em;
+  padding-top: 2em;
+  padding-bottom: 2em;
 
   &__header {
     text-transform: uppercase;
     font-size: 12px;
+  }
+}
+
+.cta-button-wrapper {
+  padding: 0;
+}
+
+// desktop
+@media (min-width: 576px) {
+  .profile-pic {
+    top: -0.3em;
+  }
+
+  .latest {
+    padding-top: 4em;
+    padding-bottom: 4em;
+  }
+
+  .main-container {
+    padding-top: 3em;
+  }
+
+  .cta-button-wrapper {
+    padding-right: 15px;
+    padding-left: 15px;
   }
 }

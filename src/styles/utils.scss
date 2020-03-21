@@ -38,6 +38,7 @@
   height: 52px;
   border-radius: 2px;
   transition: background-color ease 0.25s;
+  min-width: 100%;
 
   &:hover {
     background-color: #e6493b;

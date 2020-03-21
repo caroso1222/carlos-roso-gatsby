@@ -6,6 +6,10 @@
   margin: 0 !important;
 }
 
+.mb-1 {
+  margin-bottom: 1em;
+}
+
 .d-flex {
   display: flex;
 }
@@ -67,13 +71,15 @@
   margin-right: auto;
   margin-left: auto;
   // custom
-  padding-left: 4em;
-  padding-right: 4em;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
+    padding-left: 4em;
+    padding-right: 4em;
   }
 }
 

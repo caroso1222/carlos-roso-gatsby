@@ -2,7 +2,7 @@
 
 .bg {
   &__container {
-    padding: 2.5em 2.4em 0;
+    padding: 0;
 
     img + em {
       text-align: center;
@@ -100,5 +100,15 @@
     font-weight: 600;
     margin-bottom: 13px;
     display: block;
+  }
+}
+
+@media (min-width: 576px) {
+  .bg {
+
+    &__container {
+      padding: 2.5em 2.4em 0;
+      
+    }
   }
 }

@@ -25,9 +25,11 @@ Finally, I want to track, with data and evidence, what my personal situation loo
 
 <div class="divider"></div>
 
-# Thoughts and feelings
+# Day 1 Analysis
 
 ## Day 0
+
+Let me start with my current stance on the coronavirus.
 
 As it's the case for many more people, the virus attacked in a particular bad timing, for me. [Last December](https://twitter.com/caroso1222/status/1197380913593647105) I was offered to join the Kindle team at Amazon as a Software Engineer. I was supposed to start in May and join their offices in Madrid. I decided to sell everything (my appartment included) while I waited for my residence and work permit. I also gave a 2-week notice to my company as I was going to use the remaining time to prepare for the move.
 
@@ -65,7 +67,7 @@ I have an ideal roadmap of how I plan my days to go in the quarantine. I might o
 
 ## Time management
 
-I'm logging pretty much everything I do in this public [Google doc](https://docs.google.com/document/d/1h1eGly40sAf9gdJMXhKgoB20zqzsJeECZAJvDkgM8Ik/edit#), almost in real-time. My goal is to be as transparent as possible.
+I'm logging pretty much everything I do in this public [Google Doc](https://docs.google.com/document/d/1h1eGly40sAf9gdJMXhKgoB20zqzsJeECZAJvDkgM8Ik/edit#), almost in real-time. My goal is to be as transparent as possible.
 
 In summary, I spent a good chunk of my Friday reading news and I can only remember one important fact: President Duque declared quarantine for the whole country. That took me 1 minute, but I spent close to 3.5 hours mindlessly consuming news. This needs to change.
 

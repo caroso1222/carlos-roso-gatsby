@@ -16,7 +16,7 @@ const Footer = () => (
             </g>
         </svg>
       </a>
-      <a href="https://twitter.com/caroso1222" target="_blank" rel="noopener noreferrer" className="d-inline-block footer__icon">
+      <a href="https://github.com/caroso1222" target="_blank" rel="noopener noreferrer" className="d-inline-block footer__icon">
         <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1">
             <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd" opacity="0.8">
                 <g id="Desktop" transform="translate(-863.000000, -1149.000000)" fill="#000000" fillRule="nonzero">
@@ -27,7 +27,7 @@ const Footer = () => (
             </g>
         </svg>
       </a>
-      <a href="https://twitter.com/caroso1222" target="_blank" rel="noopener noreferrer" className="d-inline-block footer__icon">
+      <a href="https://www.linkedin.com/in/carlos-edinson-roso-espinosa-41577886/" target="_blank" rel="noopener noreferrer" className="d-inline-block footer__icon">
         <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1">
             <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd" opacity="0.8">
                 <g id="Desktop" transform="translate(-902.000000, -1148.000000)" fill="#000000" fillRule="nonzero">
