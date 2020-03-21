@@ -23,6 +23,12 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+        endpoint: 'https://carlosroso.us19.list-manage.com/subscribe/post?u=6e6b2a45aafc4611ed67292ee&id=ca6efbbe50',
+      },
+    },
+    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [

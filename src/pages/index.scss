@@ -1,3 +1,5 @@
+@import '../styles/palette';
+
 .headline {
   font-size: 30px;
   line-height: 1.5em;
@@ -43,10 +45,31 @@
   padding: 0;
 }
 
+.cr-info-message {
+  font-weight: 600;
+  font-size: 0.9em;
+
+  &__icon {
+    position: relative;
+    margin-right: 5px;
+    top: 2px;
+    
+    &--success {
+      color: $success;
+    }
+    
+    &--error {
+      color: $warning;
+      top: 2px;
+    }
+  }
+}
+
 // desktop
 @media (min-width: 576px) {
   .profile-pic {
     top: -0.3em;
+    margin-top: 0;
   }
 
   .latest {

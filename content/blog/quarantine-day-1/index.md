@@ -1,5 +1,5 @@
 ---
-title: Quarantine - Day 1
+title: Quarantine — Day 1
 date: "2020-03-21T21:00:00.000Z"
 description: COVID-19 forced me to quarantine for 3 weeks. This is my personal journey.
 ---
@@ -39,11 +39,9 @@ Needless to say, none of that will happen short-term except for me leaving my st
 
 ...I'm very optimistic.
 
-My situation is nothing compared to those who have lost loved ones. I'm not even complaining; I'm just stating the facts of my initial state in the quarantine. Above all, I'm extremely privileged and I'm thankful about that. I have shelter, food, savings, a loving wife and family. I can also work remotely (as I have for the past 4 years) writing software all day, if I want.
+My situation is nothing compared to those who have lost loved ones. I'm not even complaining; I'm just stating the facts of my initial state in the quarantine. Above all, I'm extremely privileged and I'm thankful about it. I have shelter, food, savings, a loving wife and family. I can also work remotely (as I have for the past 4 years) writing software all day, if I want.
 
-As I get to constantly practice gratitude, I take most of life situations very *comfortably*. Sounds cliche, but I really **focus my energy on thanking for what I have rather than complaining for what I don't**.
-
-I've even found out my optimism is normally not well accepted as people don't feel empathetic with me. That's fine, too, I've learned to accept it.
+As I get to constantly practice gratitude, I take most life situations very *comfortably*. Sounds cliche, but I really **focus on appreciating what I have rather than complaining for what I don't**.
 
 ## Roadmap for the quarantine
 
