@@ -7,9 +7,12 @@ export default ({ data }) => {
   const post = data.markdownRemark
   return (
     <Layout>
-      <div className="col-sm-10 offset-sm-1 bg__container">
-        <h1 className="bg__main-title">{post.frontmatter.title}</h1>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+      <div className="container">
+        <div className="col-sm-10 offset-sm-1 bg__container">
+          <small className="bg__date as-header">{post.frontmatter.date}</small>
+          <h1 className="bg__main-title">{post.frontmatter.title}</h1>
+          <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        </div>
       </div>
     </Layout>
   )
@@ -21,6 +24,7 @@ export const query = graphql`
       html
       frontmatter {
         title
+        date(formatString: "MMMM DD, YYYY")
       }
     }
   }

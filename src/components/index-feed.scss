@@ -1,0 +1,32 @@
+@import '../styles/palette.scss';
+
+.feed-article {
+  &__date {
+    text-transform: uppercase;
+    font-size: 12px;
+    opacity: 0.3;
+    font-weight: 600;
+    margin-bottom: 13px;
+    display: block;
+  }
+
+  &__header {
+    margin-bottom: 5px;
+    font-size: 1em;
+    font-weight: 700;
+
+    a {
+
+      color: $dark;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  &__description {
+    font-size: 0.9em;
+    opacity: 0.8;
+  }
+}

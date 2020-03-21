@@ -14,5 +14,27 @@
 }
 
 .main-container {
-  margin-bottom: 85px;
+  margin-bottom: 35px;
+  padding-top: 3em;
+}
+
+.profile-pic {
+  position: relative;
+  top: -1em;
+
+  &__img {
+    border-radius: 2px;
+    box-shadow: 0 1px 52px -11px rgba(0,0,0,0.4);
+  }
+}
+
+.latest {
+  background: #fbfbfb;
+  padding-top: 4em;
+  padding-bottom: 4em;
+
+  &__header {
+    text-transform: uppercase;
+    font-size: 12px;
+  }
 }
