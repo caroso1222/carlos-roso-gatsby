@@ -83,12 +83,11 @@ Have you ever thought about how much life you waste reading news?
 
 ## Finance
 
-* **Earned**: 325 USD 
 * **Spent**: 100 USD (groceries for some days)
-* **Portfolio**: (1 day): -462 USD
-* **Portfolio**: (since day 0): -462 USD
-* **Cryptofolio**: (1 day): -90 USD
-* **Cryptofolio**: (since day 0): -90 USD
+* **Stocks Portfolio (24h)**: -2.81%
+* **Stocks Portfolio (since day 0)**: -2.81%
+* **Cryptofolio (1 day)**: -3%
+* **Cryptofolio (since day 0)**: -3%
 
 <div class="divider"></div>
 
