@@ -1,0 +1,51 @@
+/* Prism adjustments */
+
+code[class*="language-"], pre[class*="language-"] {
+  font-size: 0.9em;
+}
+
+pre[class*="language-"] {
+  border-radius: 3px;
+}
+
+.gatsby-highlight {
+  margin-bottom: 1.82rem;
+  overflow: auto;
+  &--lg {
+    width: 124%;
+    position: relative;
+    left: -12%;
+  }
+}
+
+:not(pre) > code[class*="language-"] {
+  border-radius: 2px;
+  padding: 3px 5px;
+  background: #e0e0e0;
+  color: #222222;
+  text-shadow: none;
+
+  &:after {
+    content: "";
+  }
+
+  &:before {
+    display: none;
+  }
+}
+
+/* Adjust the position of the line numbers */
+
+.gatsby-highlight pre[class*="language-"] {
+  &.line-numbers {
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    padding-left: 3.2em;
+  }
+
+  .line-numbers-rows {
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    padding-left: 10px;
+  }
+}

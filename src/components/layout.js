@@ -38,7 +38,7 @@ const Layout = ({ children }) => {
         <footer className="d-flex justify-content-between footer">
           <h6 className="footer__info">Carlos Roso © 2019</h6>
           <div className="footer__icons">
-            <a href="https://twitter.com/caroso1222" target="_blank" className="d-inline-block footer__icon">
+            <a href="https://twitter.com/caroso1222" target="_blank" rel="noopener noreferrer" className="d-inline-block footer__icon">
               <svg width="16px" height="13px" viewBox="0 0 16 13" version="1.1">
                   <defs></defs>
                   <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd" opacity="0.8">
@@ -50,10 +50,8 @@ const Layout = ({ children }) => {
                   </g>
               </svg>
             </a>
-            <a href="https://twitter.com/caroso1222" target="_blank" className="d-inline-block footer__icon">
+            <a href="https://twitter.com/caroso1222" target="_blank" rel="noopener noreferrer" className="d-inline-block footer__icon">
               <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1">
-                  <desc>Created with Sketch.</desc>
-                  <defs></defs>
                   <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd" opacity="0.8">
                       <g id="Desktop" transform="translate(-863.000000, -1149.000000)" fill="#000000" fillRule="nonzero">
                           <g id="github" transform="translate(863.000000, 1149.000000)">
@@ -63,10 +61,8 @@ const Layout = ({ children }) => {
                   </g>
               </svg>
             </a>
-            <a href="https://twitter.com/caroso1222" target="_blank" className="d-inline-block footer__icon">
+            <a href="https://twitter.com/caroso1222" target="_blank" rel="noopener noreferrer" className="d-inline-block footer__icon">
               <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1">
-                  <desc>Created with Sketch.</desc>
-                  <defs></defs>
                   <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd" opacity="0.8">
                       <g id="Desktop" transform="translate(-902.000000, -1148.000000)" fill="#000000" fillRule="nonzero">
                           <g id="linkedin" transform="translate(902.000000, 1148.000000)">

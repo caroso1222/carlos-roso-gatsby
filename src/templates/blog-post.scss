@@ -1,0 +1,95 @@
+@import '../styles/palette.scss';
+
+.bg {
+  &__container {
+    padding: 2.5em 2.4em 0;
+
+    img + em {
+      text-align: center;
+      display: block;
+      margin-top: -2em;
+      font-size: 0.75em;
+      opacity: 0.6;
+      color: $dark;
+      line-height: 1.8em;
+
+      a {
+        color: $dark;
+      }
+    }
+
+    p {
+      line-height: 1.85em;
+    }
+
+    a {
+      color: $primary;
+    }
+
+    blockquote {
+      border-left: 2px solid #212121;
+      padding-left: 25px;
+      margin-bottom: 2em;
+    }
+
+    .divider {
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 70px;
+      margin-top: 70px;
+
+      &, &:after, &:before {
+        height: 3px;
+        width: 3px;
+        border-radius: 50%;
+        background: $dark;
+        position: relative;
+      }
+
+      &:after, &:before {
+        content: "";
+        position: absolute;
+        display: inline-block;
+      }
+
+      &:after {
+        left: -50px;
+      }
+
+      &:before {
+        right: -50px;
+      }
+    }
+
+    ol {
+      margin-bottom: 1.82em;
+      margin-left: 1.7em;
+
+      li {
+        margin-bottom: 0.6em;
+        line-height: 1.85em;
+      }
+    }
+
+    h1:not(.bg__main-title) {
+      font-size: 1.5em;
+      margin-bottom: 0.6em;
+      margin-top: 2.2em;
+    }
+
+    h2 {
+      font-size: 21px;
+      margin-bottom: 0.75em;
+    }
+
+    h3 {
+      font-size: 1em;
+    }
+  }
+
+  &__main-title {
+    font-size: 1.8em;
+    line-height: 1.3em;
+    font-weight: 600;
+  }
+}
