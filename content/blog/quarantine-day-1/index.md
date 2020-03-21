@@ -6,22 +6,22 @@ description: COVID-19 forced me to quarantine for 3 weeks. This is my personal j
 
 Two days ago, Bogotá decided to go on a mandatory 4-day quarantine as the number of infected by COVID-19 grew to more than 120. Yesterday the number went over 158. The president declared a 19-day quarantine starting next Tuesday.
 
-As for every other person in this planet, this will be a pretty extraneous situation for me. I decided to document and be transparent about how I take this process, what I learn from it and how I adapt.
+As for every other person on this planet, this will be a pretty extraneous situation for me. I decided to document and be transparent about how I take this process, what I learn from it and how I adapt.
 
 <div class="divider"></div>
 
 # But why?
 
-I watched too many films to know you should keep a daily record on the apocalypse. Besides feeling like Will Smith wandering lonely in NY or Matthew McConaughey going through Gargantua, there are a few other reasons to document my journey:
+I've watched too many films to know you should keep a journal of the apocalypse. Besides feeling like Will Smith wandering lonely in NY or Matthew McConaughey going through Gargantua, there are a few other reasons to document my journey:
 
 ## Supporting
-I'm pretty sure this won't be the worst situation I'll ever face in my life. This journal will be an evidence for my future self; an evidence on how I can mentally deal with whatever life shoots at me. I suggest you do the same - if not on a blog, do 1 min recordings on your phone. Be honest on how you feel and how optimistic or pesimistic you are on the situation. You'll be thankful about that in the future.
+I'm pretty sure this won't be the worst situation I'll ever face in my life. This journal will be evidence for my future self; evidence on how I can mentally deal with whatever life shoots at me. I suggest you do the same - if not on a blog, do 1 min recordings on your phone. Be honest about how you feel and how optimistic or pessimistic you are on the situation. You'll be thankful for doing so in the future.
 
 ## Teaching
 I'm also on a mission to teach everything I learn. From technical development to personal growth, I'm sure someone out there feels identified with whatever I have to say. I hope to inspire someone with my story.
 
 ## Tracking
-Finally, I want to track, with data and evidence, what my personal situation looks like. I'll be closely tracking my expenses, web surfing behavior, time allocation, portfolio loses and potential earnings. This will hopefully help me recover faster when all this comes to an end.
+Finally, I want to track, with data and evidence, what my personal situation looks like. I'll be closely tracking my expenses, web surfing behavior, time allocation, portfolio loses and potential earnings. This will hopefully help me recover faster when this all comes to an end.
 
 <div class="divider"></div>
 
@@ -31,7 +31,7 @@ Finally, I want to track, with data and evidence, what my personal situation loo
 
 Let me start with my current stance on the coronavirus.
 
-As it's the case for many more people, the virus attacked in a particular bad timing, for me. [Last December](https://twitter.com/caroso1222/status/1197380913593647105) I was offered to join the Kindle team at Amazon as a Software Engineer. I was supposed to start in May and join their offices in Madrid. I decided to sell everything (my appartment included) while I waited for my residence and work permit. I also gave a 2-week notice to my company as I was going to use the remaining time to prepare for the move.
+As it's the case for many more people, the timing of the virus attack was particularly bad. [Last December](https://twitter.com/caroso1222/status/1197380913593647105) I was offered to join the Kindle team at Amazon as a Software Engineer. I was supposed to start in May and join their offices in Madrid. I decided to sell everything (my apartment included) while I waited for my residence and work permit. I also gave a 2-week notice to my company as I was going to use the remaining time to prepare for the move.
 
 Needless to say, none of that will happen short-term except for me leaving my stable job. I'll need to live for the next weeks in my *almost empty* place, working a few hours a week doing side contract work and hoping Spain (and Colombia) recovers from this sooner rather than later.
 
@@ -39,17 +39,17 @@ Needless to say, none of that will happen short-term except for me leaving my st
 
 ...I'm very optimistic.
 
-My situation is nothing compared to those who have lost loved ones. I'm not even complaining; I'm just stating the facts of my initial state in the quarantine. Above all, I'm extremely privileged and I'm thankful about it. I have shelter, food, savings, a loving wife and family. I can also work remotely (as I have for the past 4 years) writing software all day, if I want.
+My situation is nothing compared to those who have lost loved ones. I'm not even complaining; I'm just stating the facts of my initial state in the quarantine. Above all, I'm extremely privileged and I'm thankful for it. I have shelter, food, savings, a loving wife and family. I can also work remotely (as I have for the past 4 years) writing software all day if I want.
 
-As I get to constantly practice gratitude, I take most life situations very *comfortably*. Sounds cliche, but I really **focus on appreciating what I have rather than complaining for what I don't**.
+As I get to constantly practice gratitude, I take most life situations very *comfortably*. It sounds cliche, but I really **focus on appreciating what I have rather than complaining for what I don't**.
 
 ## Roadmap for the quarantine
 
-I have an ideal roadmap of how I plan my days to go in the quarantine. I might or might not accomplish everything; you'll audit the log, too.
+I have an ideal roadmap of how I plan my days to go into quarantine. I might or might not accomplish everything; you'll audit the log, too.
 
-1. Above all, **I'll avoid reading news**. I know what the situation will be in the next 3 weeks: there's a virus, we'll need to quarantine, end of story. Whether they find a cure, or the number of infected grows, or the economy keeps collapsing, it won't matter to me. Most importantly, I don't want any of that to have any effect on my daily mood.
+1. Above all, **I'll avoid reading the news**. I know what the situation will look like in the next 3 weeks: there's a virus, we'll need to quarantine, end of the story. Whether they find a cure, the number of infected grows, or the economy keeps collapsing, it won't matter to me. Most importantly, I don't want any of that to have any effect on my daily mood.
 
-2. For my own sanity, **I'll keep this log up to date**, paying close attention on how my mind and feelings evolve or mutate. I'll be honest on what I feel, day by day.
+2. For my own sanity, **I'll keep this log up to date**, paying close attention on how my mind and feelings evolve or mutate. I'll be honest about what I feel, day by day.
 
 3. I'll strive for **daily personal growth**. That means learning something new on whatever topic I find interesting.
 
@@ -61,7 +61,7 @@ I have an ideal roadmap of how I plan my days to go in the quarantine. I might o
 
 <div class="divider"></div>
 
-# Data
+# Data Report
 
 ## Time management
 
@@ -76,7 +76,7 @@ Have you ever thought about how much life you waste reading news?
 * **Avoid news**: No
 * **Write blog**: Yes
 * **Personal growth**: Yes. Kept reading *Before you know it - John Bargh*.
-* **Wake up 5:00am**: No. 7:45am.
+* **Wake up 5:00am**: No. Woke up at 7:45am.
 * **Workout**: No
 * **Help someone**: No
 * **Time wasted < 90 mins**: No. 200 mins. (this sucks)
