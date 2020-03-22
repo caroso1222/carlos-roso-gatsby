@@ -77,7 +77,7 @@
       margin-top: 2.2em;
     }
 
-    h2 {
+    h2:not(.bg__main-subtitle) {
       font-size: 21px;
       margin-bottom: 0.75em;
     }
@@ -91,6 +91,15 @@
     font-size: 1.8em;
     line-height: 1.3em;
     font-weight: 600;
+    margin-bottom: 0.6em;
+  }
+
+  &__main-subtitle {
+    font-weight: 500;
+    font-size: 1em;
+    opacity: 0.5;
+    line-height: 1.8em;
+    margin-bottom: 0;
   }
 
   &__date {
@@ -103,12 +112,21 @@
   }
 }
 
+.post-promo {
+  background: #F7FBFF;
+  padding: 1.5em 0;
+
+  &__header {
+    font-size: 1.4em;
+    margin-bottom: 1em;
+  }
+}
+
 @media (min-width: 576px) {
   .bg {
 
     &__container {
-      padding: 2.5em 2.4em 0;
-      
+      padding: 2.5em 2.4em;
     }
   }
 }

@@ -54,6 +54,7 @@
   padding: 0 16px;
   height: 52px;
   transition: border-color ease 0.25s;
+  border: 1px solid #eaeaea;
 
   &:focus {
     border-color: $dark;
