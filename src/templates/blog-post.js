@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import "./blog-post.scss"
 import SEO from "../components/seo"
 import NewsletterSubscribe from "../components/newsletter-subscribe"
+import ShortBio from "../components/short-bio"
 
 export default ({ data }) => {
   const post = data.markdownRemark
@@ -18,14 +19,20 @@ export default ({ data }) => {
           <h2 className="bg__main-subtitle as-body">{post.frontmatter.description}</h2>
           <div className="divider"></div>
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
+          <div className="bg__bio">
+            <span className="bg__bio-separator"></span>
+            <ShortBio />
+          </div>
         </div>
       </div>
       <div className="post-promo">
         <div className="container">
           <div className="col-sm-10 offset-sm-1 bg__container">
             <h5 className="post-promo__header">Join the newsletter</h5>
-            <p>I write about remote work, software and productivity. Subscribe to enjoy my articles every once in a while (hopefully weekly).</p>
-            <NewsletterSubscribe />
+            <p>I write about remote work, software and personal growth. Subscribe to enjoy my articles every once in a while (hopefully weekly).</p>
+            <div className="col-sm-8 p-0">
+              <NewsletterSubscribe />
+            </div>
           </div>
         </div>
       </div>

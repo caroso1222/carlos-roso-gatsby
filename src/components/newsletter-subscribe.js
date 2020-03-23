@@ -31,28 +31,28 @@ const NewsletterSubscribe = () => {
   };
 
   return (
-    <div>
+    <div className="nl-widget">
     {!emailSuccess && !isSubscribed && <div className="col-sm-12">
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className="m-0">
         <div className="row">
-          <div className="col-sm-8 p-0 mb-1">
-            <input className="cr-input"  
+          <div className="col-sm-8 p-0">
+            <input className="cr-input nl-widget__input"  
                   name="email"
-                  type="text" placeholder="Your email..."
+                  type="email" placeholder="Your email..."
                   onChange={handleEmailChange}></input>
           </div>
           <div className="col-sm-4 cta-button-wrapper">
-            <button type="submit" className="cta-button mb-1">Subscribe</button>
+            <button type="submit" className="cta-button nl-widget__cta">Subscribe</button>
           </div>
         </div>
       </form>
     </div>
     }
-    {emailSuccess && <p className="cr-info-message">
+    {emailSuccess && <p className="cr-info-message m-0">
       <FaCheck className="cr-info-message__icon cr-info-message__icon--success" /> All set. Thanks for subscribing!
     </p>
     }
-    {isSubscribed && <p className="cr-info-message">
+    {isSubscribed && <p className="cr-info-message m-0">
       <FaExclamation className="cr-info-message__icon cr-info-message__icon--error"/>Oops. It seems like you're already subscribed.
     </p>}</div>
   )

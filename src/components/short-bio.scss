@@ -1,0 +1,67 @@
+@import '../styles/palette.scss';
+
+.short-bio {
+  text-align: center;
+  margin-bottom: 3em;
+
+  &__img-wrapper {
+    height: 79px;
+    width: 79px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+
+    &:after {
+      content: "";
+      display: block;
+    }
+  }
+
+  &__img-outer {
+    border: 2px solid #DBE3EA;
+    width: 91px;
+    height: 91px;
+    border-radius: 50%;
+    padding: 4px;
+  }
+
+  &__content {
+    padding: 0;
+  }
+
+  &__img-container {
+    justify-content: center;
+    margin-bottom: 2em;
+  }
+
+  a.short-bio__link {
+    font-size: 0.8em;
+    color: #99a4ad;
+    opacity: 0.8;
+    font-weight: 600;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .short-bio {
+    text-align: left;
+    margin-bottom: 0;
+
+    &__content {
+      padding-left: 10px;
+      margin-bottom: 0.8em;
+    }
+
+    a.short-bio__link {
+      padding-left: 10px;
+    }
+
+    &__img-container {
+      justify-content: initial;
+    }
+  }
+}

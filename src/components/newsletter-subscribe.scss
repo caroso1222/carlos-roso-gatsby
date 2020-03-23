@@ -1,0 +1,21 @@
+.nl-widget {
+  &__input {
+    margin-bottom: 1em;
+  }
+
+  &__cta {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 576px) {
+  .nl-widget {
+    &__input {
+      margin-bottom: 0;
+    }
+  
+    &__cta {
+      margin-bottom: 0;
+    }
+  }
+}
