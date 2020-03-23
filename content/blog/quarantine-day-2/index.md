@@ -45,7 +45,7 @@ Overall, I feel pretty good about this day.
 * **Spent**: 20 USD
 * **Stocks Portfolio (24h)**: 0% (weekend)
 * **Stocks Portfolio (since day 0)**: -2.81%
-* **Cryptofolio (1 day)**: -3.2%
+* **Cryptofolio (24h)**: -3.2%
 * **Cryptofolio (since day 0)**: -6.1%
 
 <div class="divider"></div>

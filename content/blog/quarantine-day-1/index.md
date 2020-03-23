@@ -86,7 +86,7 @@ Have you ever thought about how much life you waste reading news?
 * **Spent**: 100 USD (groceries for some days)
 * **Stocks Portfolio (24h)**: -2.81%
 * **Stocks Portfolio (since day 0)**: -2.81%
-* **Cryptofolio (1 day)**: -3%
+* **Cryptofolio (24h)**: -3%
 * **Cryptofolio (since day 0)**: -3%
 
 <div class="divider"></div>
