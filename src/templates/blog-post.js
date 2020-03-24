@@ -29,7 +29,7 @@ export default ({ data }) => {
         <div className="container">
           <div className="col-sm-10 offset-sm-1 bg__container">
             <h5 className="post-promo__header">Join the newsletter</h5>
-            <p>I write about remote work, software and personal growth. Subscribe to enjoy my articles every once in a while (hopefully weekly).</p>
+            <p>I write about remote work, software and personal growth. Subscribe to enjoy my articles every once in a while.</p>
             <div className="col-sm-8 p-0">
               <NewsletterSubscribe />
             </div>

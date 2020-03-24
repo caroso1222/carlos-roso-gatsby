@@ -1,6 +1,6 @@
 ---
 title: Quarantine — Day 1
-date: "2020-03-21T21:00:00.000Z"
+date: "2020-03-20T21:00:00.000Z"
 description: COVID-19 forced me to quarantine for 3 weeks. This is my personal journey.
 ---
 

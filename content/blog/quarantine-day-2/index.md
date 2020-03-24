@@ -1,6 +1,6 @@
 ---
 title: Quarantine — Day 2
-date: "2020-03-22T21:00:00.000Z"
+date: "2020-03-21T21:00:00.000Z"
 description: Significant reduction on news exposure. Lesson learned. 
 ---
 

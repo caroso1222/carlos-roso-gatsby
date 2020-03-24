@@ -46,7 +46,7 @@ const IndexPage = () => {
             <h1 className="as-body col-sm-12 p-0 headline">Hey there, I'm Carlos Roso</h1>
             <h2 className="as-body sub-headline">I’m a software developer, remote work advocate, open source contributor, productivity hacker and designer.</h2>
 
-            <p className="subscribe-line p-0">I write about remote work, software and personal growth. Subscribe to enjoy my articles every once in a while (hopefully weekly).</p>
+            <p className="subscribe-line p-0">I write about remote work, software and personal growth. Subscribe to enjoy my articles every once in a while.</p>
             {!emailSuccess && !isSubscribed && <div className="col-sm-12">
               <form onSubmit={handleSubmit}>
                 <div className="row">
