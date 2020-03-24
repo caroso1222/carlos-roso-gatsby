@@ -20,6 +20,7 @@
 
     p {
       line-height: 1.85em;
+      font-weight: 300;
     }
 
     a {
@@ -91,6 +92,16 @@
     h3 {
       font-size: 1em;
     }
+
+    .twitter-tweet {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .instagram-media {
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
   }
 
   &__main-title {
@@ -156,7 +167,7 @@
       padding: 2.5em 2.4em;
 
       blockquote {
-        margin: 0 1.45rem 1.45rem;
+        margin: 0 1.45em 1.95em;
       }
 
       .divider {
