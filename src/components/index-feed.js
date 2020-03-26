@@ -16,6 +16,7 @@ const IndexFeed = () => {
               description
               title
               date(formatString: "MMMM DD, YYYY")
+              draft
             }
           }
         }
@@ -26,7 +27,7 @@ const IndexFeed = () => {
 
   return (
     <div>
-      {posts.map(({ node }) => {
+      {posts.filter(({node}) => !node.frontmatter.draft).map(({ node }) => {
         return (
           <article key={node.fields.slug} className="feed-article">
             <header>
