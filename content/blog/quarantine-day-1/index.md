@@ -2,6 +2,7 @@
 title: Quarantine — Day 1
 date: "2020-03-20T21:00:00.000Z"
 description: COVID-19 forced me to quarantine for 3 weeks. This is my personal journey.
+tags: ["covid"]
 ---
 
 Two days ago, Bogotá decided to go on a mandatory 4-day quarantine as the number of infected by COVID-19 grew to more than 120. Yesterday the number went over 158. The president declared a 19-day quarantine starting next Tuesday.

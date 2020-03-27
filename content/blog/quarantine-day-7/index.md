@@ -2,6 +2,7 @@
 title: Quarantine — Day 7
 date: "2020-03-26T22:34:11.222Z"
 description: New routine. It's all about family.
+tags: ["covid"]
 draft: true
 ---
 

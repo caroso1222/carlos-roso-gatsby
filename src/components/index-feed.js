@@ -1,6 +1,7 @@
 import { useStaticQuery, graphql } from "gatsby"
 import React from "react"
 import { Link } from "gatsby"
+import QuarantineBox from "./quarantine-box"
 import "./index-feed.scss"
 
 const IndexFeed = () => {
@@ -17,6 +18,7 @@ const IndexFeed = () => {
               title
               date(formatString: "MMMM DD, YYYY")
               draft
+              tags
             }
           }
         }
@@ -25,9 +27,21 @@ const IndexFeed = () => {
   `)
   const posts = data.allMarkdownRemark.edges;
 
+  const TAG_BLACKLIST = ['covid'];
+
+  const not = fn => args => !fn(args);
+  const hasBlaclistedTag = edge => (edge.node.frontmatter.tags || []).some(tag => TAG_BLACKLIST.indexOf(tag) !== -1);
+  const isDraft = edge => edge.node.frontmatter.draft;
+
+  console.log(posts);
+
+  const filteredPosts = posts
+                        .filter(not(hasBlaclistedTag))
+                        .filter(not(isDraft));
   return (
     <div>
-      {posts.filter(({node}) => !node.frontmatter.draft).map(({ node }) => {
+      <QuarantineBox />
+      {filteredPosts.map(({ node }) => {
         return (
           <article key={node.fields.slug} className="feed-article">
             <header>
@@ -38,20 +52,18 @@ const IndexFeed = () => {
                 </Link>
               </h3>
             </header>
-            <section>
-              <p className="feed-article__description"
-                dangerouslySetInnerHTML={{
-                  __html: node.frontmatter.description,
-                }}
-              />
-            </section>
+            <p className="feed-article__description"
+              dangerouslySetInnerHTML={{
+                __html: node.frontmatter.description,
+              }}
+            />
           </article>
         )
       })
 
       }
     </div>
-  )
+  );
 }
 
 export default IndexFeed

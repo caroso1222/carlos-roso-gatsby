@@ -1,7 +1,8 @@
 ---
 title: Quarantine — Day 3
 date: "2020-03-22T21:00:00.000Z"
-description: Pretty normal Sunday. Read zero news. Too much Netflix. 
+description: Pretty normal Sunday. Read zero news. Too much Netflix.
+tags: ["covid"]
 ---
 
 > *This post is part of an ongoing series in which I document my journey through the COVID-19 quarantine. See [Day 1](/quarantine-day-1) for full context.*

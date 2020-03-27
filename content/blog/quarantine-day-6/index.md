@@ -2,6 +2,7 @@
 title: Quarantine — Day 6
 date: "2020-03-25T00:31:32.691Z"
 description: Great morning. Terrible afternoon.
+tags: ["covid"]
 ---
 
 > *This post is part of an ongoing series in which I document my journey through the COVID-19 quarantine. See [Day 1](/quarantine-day-1) for full context.*

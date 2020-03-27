@@ -2,6 +2,7 @@
 title: Quarantine — Day 4
 date: "2020-03-23T21:00:00.000Z"
 description: Last day at work.
+tags: ["covid"]
 ---
 
 > *This post is part of an ongoing series in which I document my journey through the COVID-19 quarantine. See [Day 1](/quarantine-day-1) for full context.*

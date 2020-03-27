@@ -2,6 +2,7 @@
 title: Quarantine — Day 5
 date: "2020-03-24T00:09:11.386Z"
 description: Dream fulfilled. Worked on open source all day.
+tags: ["covid"]
 ---
 
 > *This post is part of an ongoing series in which I document my journey through the COVID-19 quarantine. See [Day 1](/quarantine-day-1) for full context.*

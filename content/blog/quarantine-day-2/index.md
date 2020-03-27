@@ -1,7 +1,8 @@
 ---
 title: Quarantine — Day 2
 date: "2020-03-21T21:00:00.000Z"
-description: Significant reduction on news exposure. Lesson learned. 
+description: Significant reduction on news exposure. Lesson learned.
+tags: ["covid"]
 ---
 
 > *This post is part of an ongoing series in which I document my journey through the COVID-19 quarantine. See [Day 1](/quarantine-day-1) for full context.*
