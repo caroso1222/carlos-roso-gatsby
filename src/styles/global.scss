@@ -23,9 +23,10 @@ pre[class*="language-"] {
 :not(pre) > code[class*="language-"] {
   border-radius: 2px;
   padding: 3px 5px;
-  background: #e0e0e0;
+  background: #f3f1f1;
   color: #222222;
   text-shadow: none;
+  font-size: 0.8em;
 
   &:after {
     content: "";
@@ -60,7 +61,7 @@ p {
 }
 
 a {
-  color: $primary;
+  color: darken($color: $primary, $amount: 10);
   text-decoration: none;
 
   &:hover {
