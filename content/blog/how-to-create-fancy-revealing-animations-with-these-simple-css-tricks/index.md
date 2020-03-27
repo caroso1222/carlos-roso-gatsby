@@ -17,7 +17,7 @@ Thanks for reading.
 
 <div class="divider"></div>
 
-Wait, it seems you want some more detail, some more meat. That’s cool, I can do that as well. So, in the next couple paragraphs I’ll explain you in more detail how to **easily** achieve the animation shown above.
+Wait, it seems you want some more detail, some more meat. That’s cool, I can do that as well. So, in the next couple of paragraphs, I’ll explain to you in more detail how to **easily** achieve the animation shown above.
 
 # Mastering the technique
 
