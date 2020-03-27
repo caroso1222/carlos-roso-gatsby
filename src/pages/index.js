@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import IndexFeed from "../components/index-feed"
-import Image from "../components/image"
 import SEO from "../components/seo"
 import "./index.scss"
 import profilePic from '../images/profile-pic.jpg'
@@ -73,7 +71,7 @@ const IndexPage = () => {
           </div>
           <div className="col-sm-5">
             <div className="profile-pic d-flex justify-content-center">
-              <img className="profile-pic__img" src={profilePic} alt="Logo" />
+              <img className="profile-pic__img" src={profilePic} alt="Profile pic" />
             </div>
           </div>
         </div>

@@ -6,7 +6,7 @@ const Header = ({ siteTitle }) => (
   <header>
     <div className="d-flex justify-content-center topnav align-items-center">
       <Link to="/" className="topnav__link as-header">Home</Link>
-      <a className="topnav__link as-header" target="_blank" rel="noopener noreferrer" href="https://legacy.carlosroso.com">About</a>
+      <Link to="about" className="topnav__link as-header">About</Link>
     </div>
   </header>
 )

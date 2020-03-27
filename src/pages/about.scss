@@ -1,0 +1,23 @@
+.about {
+  &__subheadline {
+    font-size: 1.11em;
+  }
+}
+
+.about-pic {
+  position: relative;
+  margin-top: 1em;
+
+  &__img {
+    border-radius: 2px;
+    max-height: 387px;
+    margin-bottom: 3em;
+  }
+}
+
+@media (min-width: 576px) {
+  .about-pic {
+    top: -0.3em;
+    margin-top: 0;
+  }
+}
