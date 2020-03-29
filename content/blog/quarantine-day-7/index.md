@@ -9,7 +9,7 @@ tags: ["covid"]
 
 There's only one reason I do all my time tracking and detailed logging: learn and grow. I was reading on my logs from the last weeks and noticed a wicked pattern: I was being too focused on productivity and growth that I was not giving my wife the time she deserves. I don't want to be giving advice on work-life balance when I'm 40 after having screwed up my life for work; I want to commit to change, starting now.
 
-It's not that I consider my a workaholic. I get to spend a considerable amount of time on the things I value the most. But there's always room for change. I'll commit to work until max 7:00pm from now on.
+It's not that I consider myself a workaholic. I get to spend a considerable amount of time on the things I value the most. But there's always room for change. I'll commit to work until max 7:00pm from now on.
 
 # Data Report
 

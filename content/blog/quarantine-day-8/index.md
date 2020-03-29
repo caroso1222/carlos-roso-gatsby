@@ -1,9 +1,8 @@
 ---
 title: Quarantine — Day 8
 date: "2020-03-27T22:37:02.678Z"
-description: It's easy to avoid distractions. But it's too difficult to focus.
+description: It's easy to avoid distractions. It's too difficult to focus.
 tags: ["covid"]
-draft: true
 ---
 
 > *This post is part of an ongoing series in which I document my journey through the COVID-19 quarantine. See [Day 1](/quarantine-day-1) for full context.*
@@ -16,7 +15,7 @@ I've been consistently avoiding distractions these weeks. Doesn't seem like a pa
 
 I got a ton of ideas I'm not really sure where to start or which one to commit to. I keep doing solid progress on [Notyf](https://github.com/caroso1222/notyf), and I'm happy about it. But, other than that, I'm having a hard time finding my *side hustle*. Not sure if I should just try whatever comes to mind, or keep thinking thoroughly about it.
 
-Let's see what the weekend and the next week brings on me.
+Let's see what the next week brings on me.
 
 <div class="divider"></div>
 
@@ -27,24 +26,23 @@ Let's see what the weekend and the next week brings on me.
 Time log (public): [Google Doc](https://docs.google.com/document/d/1h1eGly40sAf9gdJMXhKgoB20zqzsJeECZAJvDkgM8Ik/edit#).
 
 
+## Highlights
 
-## Highlights 
-
-* **Avoid news**:
-* **Write blog**:
-* **Personal growth**:
-* **Wake up 5:00 am**:
-* **Workout**:
-* **Help someone**:
-* **Time wasted < 90 mins**:
+* **Avoid news**: Yes
+* **Write blog**: Yes
+* **Personal growth**: No
+* **Wake up 5:00 am**: Yes
+* **Workout**: No
+* **Help someone**: Yes
+* **Time wasted < 90 mins**: Yes
 
 ## Finances
 
-* **Spent**:
-* **Stocks Portfolio (24h)**:
-* **Stocks Portfolio (since day 0)**:
-* **Cryptofolio (24h)**:
-* **Cryptofolio (since day 0)**:
+* **Spent**: 20USD
+* **Stocks Portfolio (24h)**: 0% (weekend)
+* **Stocks Portfolio (All time)**: +4.10%
+* **Cryptofolio (24h)**: +0.91%
+* **Cryptofolio (All time)**: +9.52%
 
 <div class="divider"></div>
 
