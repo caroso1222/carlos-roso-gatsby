@@ -39,7 +39,7 @@ Time log (public): [Google Doc](https://docs.google.com/document/d/1h1eGly40sAf9
 ## Finances
 
 * **Spent**: 20USD
-* **Stocks Portfolio (24h)**: 0% (weekend)
+* **Stocks Portfolio (24h)**: 0%
 * **Stocks Portfolio (All time)**: +4.10%
 * **Cryptofolio (24h)**: +0.91%
 * **Cryptofolio (All time)**: +9.52%

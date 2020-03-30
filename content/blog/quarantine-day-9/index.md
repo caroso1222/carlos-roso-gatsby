@@ -1,8 +1,8 @@
 ---
-title: Quarantine day 9
+title: Quarantine — Day 9
 date: "2020-03-28T01:36:41.715Z"
 description: High dose of psychology. Food for thought.
-draft: true
+draft: false
 tags: ["covid"]
 ---
 
@@ -28,21 +28,21 @@ Time log (public): [Google Doc](https://docs.google.com/document/d/1h1eGly40sAf9
 
 ## Highlights
 
-* **Avoid news**:
-* **Write blog**:
-* **Personal growth**:
-* **Wake up 5:00 am**:
-* **Workout**:
-* **Help someone**:
-* **Time wasted < 90 mins**:
+* **Avoid news**: Yes
+* **Write blog**: Yes
+* **Personal growth**: Yes. Kept reading Before you know it - John Bargh.
+* **Wake up 5:00 am**: Yes
+* **Workout**: No
+* **Help someone**: Yes
+* **Time wasted < 90 mins**: No
 
 ## Finances
 
-* **Spent**:
-* **Stocks Portfolio (24h)**:
-* **Stocks Portfolio (All time)**:
-* **Cryptofolio (24h)**:
-* **Cryptofolio (All time)**:
+* **Spent**: 300 USD. Paid taxes.
+* **Stocks Portfolio (24h)**: 0% (weekend)
+* **Stocks Portfolio (All time)**: +4.10%
+* **Cryptofolio (24h)**: -0.8%
+* **Cryptofolio (All time)**: +8.64%
 
 <div class="divider"></div>
 
