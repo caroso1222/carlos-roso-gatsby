@@ -1,6 +1,242 @@
-.notyf {
+.notyf-page {
   height: 100vh;
   width: 100vw;
   background: linear-gradient(to bottom right, #232C56, #3C3E89);
   color: white;
+  display: flex;
+  align-items: center;
+
+  h1 {
+    font-size: 3.88em;
+  }
+
+  h2 {
+    font-weight: 400;
+    line-height: 1.8em;
+    font-size: 1.22em;
+    margin-bottom: 2em;
+  }
+
+  &__docs {
+    margin-bottom: 1.4em;
+
+    button {
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.13);
+      border-radius: 3px;
+      color: white;
+      height: 45px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 17px;
+      transition: ease 0.25s background;
+
+      &:hover {
+        background: rgba(255, 255, 255, 0.10);
+      }
+
+      span {
+        font-weight: 500;
+        margin: 0;
+        font-size: 0.83em;
+        margin-right: 15px;
+      }
+    }
+  }
+
+  &__dots {
+    position: absolute;
+    left: -46px;
+    bottom: -80px;
+  }
+
+  &__credits {
+    font-size: 0.72em;
+    font-weight: 600;
+  }
+
+  &__left {
+    position: relative;
+  }
+
+  &__controller {
+    width: 290px;
+    background: rgba(255, 255, 255, 0.08);
+    padding: 1em;
+    border-radius: 4px;
+
+    section {
+      margin-bottom: 1.3em;
+    }
+
+    label {
+      font-size: 0.5em;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1.8px;
+      color: rgba(255, 255, 255, 0.5);
+      display: block;
+      margin-bottom: 13px;
+    }
+
+    input[type=text], input[type=number] {
+      height: 42px;
+      border-radius: 2px;
+      padding: 0 1em;
+      background: rgba(255, 255, 255, 0.18);
+      border: 1px solid transparent;
+      width: 100%;
+      font-size: 0.77em;
+      font-weight: 500;
+      transition: ease 0.25s border-color;
+      margin: 0;
+
+      &:focus {
+        border-color:rgba(255, 255, 255, 0.58);
+      }
+    }
+
+    input[type=radio], input[type=checkbox] {
+      position: relative;
+      width: 16px;
+      height: 16px;
+      appearance: none;
+      outline: 0;
+      margin: 0;
+      border: 1px solid #fff;
+      cursor: pointer;
+      margin-right: 9px;
+      transition: opacity 175ms cubic-bezier(0.1, 0.1, 0.25, 1);
+      opacity: 0.5;
+      color: #fff;
+
+      &::before {
+        position: absolute;
+        content: '';
+        display: block;
+        top: 3px;
+        left: 3px;
+        width: 8px;
+        height: 8px;
+        border-radius: 1px;
+        background: white;
+        transform: scale(0);
+        transition: transform 0.05s ease;
+      }
+      &:checked {
+        opacity: 1;
+        &::before {
+          opacity: 1;
+          transform: scale(1);
+        }
+      }
+
+      ~ label {
+        color: #fff;
+        text-transform: none;
+        letter-spacing: 0;
+        font-size: 0.77em;
+        font-weight: 500;
+        margin: 0;
+        cursor: pointer;
+      }
+    }
+
+    input[type=radio] {
+      border-radius: 50%;
+
+      &::before {
+        border-radius: 50%;
+      }
+    }
+
+    input[type=checkbox] {
+      border-radius: 2px;
+
+      &::before {
+        border-radius: 1px;
+      }
+    }
+  }
+
+  &__cta {
+    background-color: #E54087;
+    color: white;
+    height: 42px;
+    border: none;
+    width: 100%;
+    font-size: 0.83em;
+    font-weight: 600;
+    margin-bottom: 0;
+    transition: background-color 0.2s ease;
+    border-radius: 3px;
+
+    &:hover {
+      background-color: darken(desaturate(#E54087, 10), 3);
+    }
+  }
+
+  &__thing {
+    position: absolute;
+
+    &--circle-1 {
+      opacity: 0.07;
+      top: 230px;
+      left: -20px;
+    }
+
+    &--double-zigzag {
+      opacity: 0.17;
+      top: 30px;
+      left: 330px;
+    }
+    
+    &--upper-cross {
+      opacity: 0.4;
+      top: -20px;
+      left: 0px;  
+    }
+    
+    &--lower-cross {
+      opacity: 0.12;
+      bottom: -40px;
+      right: 360px;  
+    }
+
+    &--triangle {
+      opacity: 0.13;
+      top: 250px;
+      right: 40px;
+    }
+
+    &--circle-2 {
+      opacity: 0.12;
+      top: -80px;
+      right: -20px;
+    }
+
+    &--line-1 {
+      top: -74px;
+      left: 6px;
+    }
+
+    &--line-2 {
+      opacity: 0.12;
+      top: -90px;
+      right: 10px;
+      transform: rotate(90deg);
+    }
+
+    &--triple-zigzag {
+      bottom: -50px;
+      right: 0;
+    }
+  }
+}
+
+.notyf__message {
+  font-size: 0.9em;
+  font-family: 'Montserrat','Arial',sans-serif;
+  font-weight: 500;
 }
