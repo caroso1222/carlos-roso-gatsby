@@ -66,7 +66,7 @@ const NotyfPage = () => {
       meta={[
         {
           name: `description`,
-          content: {description},
+          content: description,
         },
         {
           property: `og:title`,
@@ -74,7 +74,7 @@ const NotyfPage = () => {
         },
         {
           property: `og:description`,
-          content: {description},
+          content: description,
         },
         {
           property: `og:type`,
@@ -98,7 +98,7 @@ const NotyfPage = () => {
         },
         {
           name: `twitter:description`,
-          content: {description},
+          content: description,
         },
       ]}
     />
