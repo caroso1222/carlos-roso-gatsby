@@ -82,7 +82,7 @@ const NotyfPage = () => {
         },
         {
           property: `og:image`,
-          content: ogImage,
+          content: 'https://carlos-temp-public.s3.amazonaws.com/ogimage.jpg',
         },
         {
           name: `twitter:card`,
