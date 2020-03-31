@@ -26,6 +26,28 @@
   width: 100%;
 }
 
+.flex-column {
+  flex-direction: column;
+}
+
+.only-mobile {
+  display: inherit;
+}
+
+.only-desktop {
+  display: none;
+}
+
+@media only screen and (min-width: 576px) {
+  .only-mobile {
+    display: none;
+  }
+
+  .only-desktop {
+    display: inherit;
+  }
+}
+
 .justify-content-between {
   justify-content: space-between;
 }
