@@ -9,6 +9,9 @@ draft: true
 
 <div class="divider"></div>
 
+## Tue Mar 31 2020
+
+Finished writing the introduction. This will take a lot more than I initially expected. I have no rush, though, I'm focused on the process for now, not the end result.
 
 ## Mon Mar 30 2020
 

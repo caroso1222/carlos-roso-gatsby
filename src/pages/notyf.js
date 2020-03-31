@@ -11,7 +11,6 @@ import Line from '../images/notyf/line.inline.svg';
 import Triangle from '../images/notyf/triangle.inline.svg';
 import TripleZigZag from '../images/notyf/triple-zigzag.inline.svg';
 import Helmet from "react-helmet"
-import ogImage from '../images/notyf/ogimage.jpg'
 import { Link } from "gatsby"
 
 let notyf;
