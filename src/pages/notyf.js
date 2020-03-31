@@ -136,15 +136,15 @@ const NotyfPage = () => {
                 <section>
                   <label className="as-header">Position - X</label>
                   <div className="d-flex">
-                    <div className="d-flex mr-1">
+                    <div className="d-flex mr-1 align-items-center">
                       <input id="x-left" value="left" type="radio" className="as-header" name="positionX" ref={register}></input>
                       <label className="as-header" htmlFor="x-left">Left</label>
                     </div>
-                    <div className="d-flex mr-1">
+                    <div className="d-flex mr-1 align-items-center">
                       <input id="x-center" value="center" type="radio" className="as-header" name="positionX" ref={register}></input>
                       <label className="as-header" htmlFor="x-center">Center</label>
                     </div>
-                    <div className="d-flex mr-1">
+                    <div className="d-flex mr-1 align-items-center">
                       <input id="x-right" value="right" type="radio" className="as-header" name="positionX" ref={register}></input>
                       <label className="as-header" htmlFor="x-right">Right</label>
                     </div>
@@ -153,11 +153,11 @@ const NotyfPage = () => {
                 <section>
                   <label className="as-header">Position - Y</label>
                   <div className="d-flex">
-                    <div className="d-flex mr-1">
+                    <div className="d-flex mr-1 align-items-center">
                       <input id="y-top" value="top" type="radio" className="as-header" name="positionY" ref={register}></input>
                       <label className="as-header" htmlFor="y-top">Top</label>
                     </div>
-                    <div className="d-flex mr-1">
+                    <div className="d-flex mr-1 align-items-center">
                       <input id="y-bottom" value="bottom" type="radio" className="as-header" name="positionY" ref={register}></input>
                       <label className="as-header" htmlFor="y-right">Bottom</label>
                     </div>
@@ -166,11 +166,11 @@ const NotyfPage = () => {
                 <section>
                   <label className="as-header">Behavior</label>
                   <div className="d-flex">
-                    <div className="d-flex mr-1">
+                    <div className="d-flex mr-1 align-items-center">
                       <input id="with-ripple" type="checkbox" className="as-header" ref={register} name="ripple"></input>
                       <label className="as-header" htmlFor="with-ripple">With ripple</label>
                     </div>
-                    <div className="d-flex">
+                    <div className="d-flex align-items-center">
                       <input id="dismissible" type="checkbox" className="as-header" ref={register} name="dismissible"></input>
                       <label className="as-header" htmlFor="dismissible">Dismissible</label>
                     </div>
@@ -179,15 +179,15 @@ const NotyfPage = () => {
                 <section>
                   <label className="as-header">Type</label>
                   <div className="d-flex">
-                    <div className="d-flex mr-1">
+                    <div className="d-flex mr-1 align-items-center">
                       <input id="type-success" type="radio" className="as-header" name="type" value="success" ref={register}></input>
                       <label className="as-header" htmlFor="type-success">Success</label>
                     </div>
-                    <div className="d-flex mr-1">
+                    <div className="d-flex mr-1 align-items-center">
                       <input id="type-error" type="radio" className="as-header" name="type" value="error" ref={register}></input>
                       <label className="as-header" htmlFor="type-error">Error</label>
                     </div>
-                    <div className="d-flex mr-1">
+                    <div className="d-flex mr-1 align-items-center">
                       <input id="type-custom" type="radio" className="as-header" name="type" value="custom" ref={register}></input>
                       <label className="as-header" htmlFor="type-custom">Custom</label>
                     </div>
