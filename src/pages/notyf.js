@@ -82,6 +82,10 @@ const NotyfPage = () => {
         },
         {
           property: `og:image`,
+          content: 'http://carlos-temp-public.s3.amazonaws.com/ogimage.jpg',
+        },
+        {
+          property: `og:image:secure_url`,
           content: 'https://carlos-temp-public.s3.amazonaws.com/ogimage.jpg',
         },
         {
