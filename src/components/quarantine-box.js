@@ -25,13 +25,12 @@ const QuarantineBox = () => {
   `)
 
   const posts = data.allMarkdownRemark.edges;
-  console.log({posts});
+
   // const numPosts = posts.length;
   // const filteredPosts = [posts[0], {
   //   node: { fields: { slug: '/covid-quarantine' }, frontmatter: { title: '...' } }
   // }, ...posts.slice(Math.max(numPosts-6, 2), numPosts)];
   const filteredPosts = posts;
-  console.log({filteredPosts});
 
   return (
     <div className="qbox">

@@ -11,22 +11,24 @@ import Line from '../images/notyf/line.inline.svg';
 import Triangle from '../images/notyf/triangle.inline.svg';
 import TripleZigZag from '../images/notyf/triple-zigzag.inline.svg';
 
-
-const notyf = new Notyf({
-  types: [
-    {
-      type: 'custom',
-      backgroundColor: 'linear-gradient(45deg, rgb(239, 253, 33), rgb(255, 0, 0))'
-    }
-  ]
-});
+let notyf;
 
 const NotyfPage = () => {
 
   const { register, handleSubmit, setValue } = useForm();
 
   useEffect(() => {
-    console.log('resetting');
+    const isSSR = typeof window === "undefined";
+    if (isSSR) return;
+    notyf = new Notyf({
+      types: [
+        {
+          type: 'custom',
+          backgroundColor: 'linear-gradient(45deg, rgb(239, 253, 33), rgb(255, 0, 0))'
+        }
+      ]
+    });
+
     setValue('message', 'Lorem ipsum is lame');
     setValue('duration', 2000);
     setValue('positionX', 'right');
@@ -38,7 +40,6 @@ const NotyfPage = () => {
 
   const fireNotyf = data => {
     const { type, message, duration, positionX, positionY, dismissible, ripple } = data;
-    console.log(type);
     notyf.open({
       type, message, duration, dismissible, ripple,
       position: {

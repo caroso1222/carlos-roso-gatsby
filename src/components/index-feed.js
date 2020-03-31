@@ -33,8 +33,6 @@ const IndexFeed = () => {
   const hasBlaclistedTag = edge => (edge.node.frontmatter.tags || []).some(tag => TAG_BLACKLIST.indexOf(tag) !== -1);
   const isDraft = edge => edge.node.frontmatter.draft;
 
-  console.log(posts);
-
   const filteredPosts = posts
                         .filter(not(hasBlaclistedTag))
                         .filter(not(isDraft));

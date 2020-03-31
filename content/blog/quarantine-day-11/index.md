@@ -35,7 +35,7 @@ Time log (public): [Google Doc](https://docs.google.com/document/d/1h1eGly40sAf9
 * **Personal growth**: Yes. Kept reading Before you know it - John Bargh.
 * **Wake up 5:00 am**: Yes
 * **Workout**: No
-* **Help someone**: Yes
+* **Help someone**: No
 * **Time wasted < 90 mins**: Yes
 
 ## Finances
