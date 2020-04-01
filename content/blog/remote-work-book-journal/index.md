@@ -9,6 +9,10 @@ draft: true
 
 <div class="divider"></div>
 
+## Wed Apr 1 2020
+
+No tangible progress was made today. Been drafting some ideas on how to better communicate the purpose of the book. I'm thinking I should employ a more progressive strategy rather than writing a full blown book that no one actually finds it helpful in the end. Still running through ideas.
+
 ## Tue Mar 31 2020
 
 Finished writing the introduction. This will take a lot more than I initially expected. I have no rush, though, I'm focused on the process for now, not the end result.

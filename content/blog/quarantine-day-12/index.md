@@ -30,7 +30,7 @@ Even when I didn't fall prey to distractions, I'm identifying destructive patter
 
 * **Avoid news**: Yes
 * **Write blog**: Yes
-* **Personal growth**: Yes. Kept reading Before you know it - John Bargh.
+* **Personal growth**: No
 * **Wake up 5:00 am**: No
 * **Workout**: No
 * **Help someone**: Yes
