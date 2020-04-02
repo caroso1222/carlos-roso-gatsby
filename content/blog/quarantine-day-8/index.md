@@ -21,11 +21,6 @@ Let's see what the next week brings on me.
 
 # Data Report
 
-## Time management
-
-Time log (public): [Google Doc](https://docs.google.com/document/d/1h1eGly40sAf9gdJMXhKgoB20zqzsJeECZAJvDkgM8Ik/edit#).
-
-
 ## Highlights
 
 * **Avoid news**: Yes

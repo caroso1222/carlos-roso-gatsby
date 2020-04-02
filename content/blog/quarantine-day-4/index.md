@@ -23,8 +23,6 @@ Moving forward, I feel no panic for being unemployed now. I still have a small c
 
 ## Time management
 
-Time log (public): [Google Doc](https://docs.google.com/document/d/1h1eGly40sAf9gdJMXhKgoB20zqzsJeECZAJvDkgM8Ik/edit#).
-
 Ever since I started logging my web consumption habits, I've grown more aware of where my time was slowly draining. As a consequence, I've managed to avoid a lot of distractions through the day. In retrospective, I reckon it's always been ridiculous to watch 20 minutes of dumb YouTube videos and steal them from my sleep, time with wife, call with family, helping someone with my blog, or being productive at work.
 
 ## Highlights 

@@ -9,6 +9,10 @@ draft: true
 
 <div class="divider"></div>
 
+## Wed Apr 2 2020
+
+Gathered the most relevant comments people have made on my Medium post about remote work. I think this will give me the right starting point to write the appropriate book, moving forward. I can already recognize patterns. I want to write some follow up articles to get more people engaged and link them to my site, where I can capture more info. Just a rough initial idea. In the meanwhile, I'll keep making progress on the book.
+
 ## Wed Apr 1 2020
 
 No tangible progress was made today. Been drafting some ideas on how to better communicate the purpose of the book. I'm thinking I should employ a more progressive strategy rather than writing a full blown book that no one actually finds it helpful in the end. Still running through ideas.

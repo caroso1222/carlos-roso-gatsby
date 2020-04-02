@@ -20,10 +20,6 @@ I decided I'd read some news today just to avoid reading them tomorrow; there's 
 
 # Data Report
 
-## Time management
-
-Time log (public): [Google Doc](https://docs.google.com/document/d/1h1eGly40sAf9gdJMXhKgoB20zqzsJeECZAJvDkgM8Ik/edit#).
-
 ## Highlights
 
 * **Avoid news**: No

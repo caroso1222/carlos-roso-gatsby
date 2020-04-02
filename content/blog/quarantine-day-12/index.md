@@ -22,8 +22,6 @@ I keep committed to my working hours consistently: no work after 6:30pm. Making 
 
 ## Time management
 
-Time log (public): [Google Doc](https://docs.google.com/document/d/1h1eGly40sAf9gdJMXhKgoB20zqzsJeECZAJvDkgM8Ik/edit#).
-
 Even when I didn't fall prey to distractions, I'm identifying destructive patterns already like checking GitHub stars or Twitter likes. I want to remind myself every single hour I'm not doing any of these for the glory, but for the mere act of giving and helping.
 
 ## Highlights

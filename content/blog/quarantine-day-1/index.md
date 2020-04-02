@@ -66,8 +66,6 @@ I have an ideal roadmap of how I plan my days to go into quarantine. I might or 
 
 ## Time management
 
-I'm logging pretty much everything I do in this public [Google Doc](https://docs.google.com/document/d/1h1eGly40sAf9gdJMXhKgoB20zqzsJeECZAJvDkgM8Ik/edit#), almost in real-time. My goal is to be as transparent as possible.
-
 In summary, I spent a good chunk of my Friday reading news and I can only remember one important fact: President Duque declared quarantine for the whole country. That took me 1 minute, but I spent close to 3.5 hours mindlessly consuming news. This needs to change.
 
 Have you ever thought about how much life you waste reading news?

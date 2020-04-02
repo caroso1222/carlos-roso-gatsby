@@ -21,8 +21,6 @@ Not reading any news positively impacted the way I went through my day. I felt m
 
 ## Time management
 
-Time log (public): [Google Doc](https://docs.google.com/document/d/1h1eGly40sAf9gdJMXhKgoB20zqzsJeECZAJvDkgM8Ik/edit#).
-
 Sundays are for wife and family. I spent a lot of time watching Netflix with my wife. I don't always feel good watching that much TV, but I do appreciate every minute I get to spend with her.
 
 ## Highlights 

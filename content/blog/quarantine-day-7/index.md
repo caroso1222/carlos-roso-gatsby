@@ -15,8 +15,6 @@ It's not that I consider myself a workaholic. I get to spend a considerable amou
 
 ## Time management
 
-Time log (public): [Google Doc](https://docs.google.com/document/d/1h1eGly40sAf9gdJMXhKgoB20zqzsJeECZAJvDkgM8Ik/edit#).
-
 Feeling pretty solid on time management. Quarantine doesn't feel as hard as it did 1 week ago.
 
 ## Highlights 

@@ -24,8 +24,6 @@ Overall feeling good. This is just getting started.
 
 ## Time management
 
-Time log (public): [Google Doc](https://docs.google.com/document/d/1h1eGly40sAf9gdJMXhKgoB20zqzsJeECZAJvDkgM8Ik/edit#).
-
 I put a lot of time on my Saturday to work on this blog. It was totally worth it as I'd been working in the redesign for quite a few months - finally launched.
 
 I spent no more than 15 mins reading news on Twitter and that was enough. I learned nothing new besides reading rants against the president. Later on the day my wife told me the quarantine was extended. That's a important piece of news and I'm glad I got family keeping me up to date - that's enough for me.

@@ -21,8 +21,6 @@ Transitioning from being employed full-time to working on my projects is hard fo
 
 ## Time management
 
-Time log (public): [Google Doc](https://docs.google.com/document/d/1h1eGly40sAf9gdJMXhKgoB20zqzsJeECZAJvDkgM8Ik/edit#).
-
 Terrible time management. Spending +2.5 hours in Twitter was certainly a waste of time I could've used to call my family, to read, write or code.
 
 ## Highlights 

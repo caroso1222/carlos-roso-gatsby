@@ -23,8 +23,6 @@ Mental health is 100%. I'm enjoying my time at home and I'm very much looking fo
 
 ## Time management
 
-Time log (public): [Google Doc](https://docs.google.com/document/d/1h1eGly40sAf9gdJMXhKgoB20zqzsJeECZAJvDkgM8Ik/edit#).
-
 Productive, well balanced day. Had a good amount of open-source work, contract work and family time.
 
 ## Highlights 
