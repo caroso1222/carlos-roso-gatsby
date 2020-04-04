@@ -38,7 +38,7 @@ Overall, I feel it was a pretty good, productive day - full of learnings (learne
 
 ## Finances
 
-* **Spent**: 0 USD
+* **Spent**: 4 USD
 * **Stocks Portfolio (24h)**: +0.32%
 * **Stocks Portfolio (All time)**: +2.81%
 * **Cryptofolio (24h)**: +0.32%

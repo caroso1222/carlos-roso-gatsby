@@ -9,7 +9,11 @@ draft: true
 
 <div class="divider"></div>
 
-## Wed Apr 2 2020
+## Fri Apr 3 2020
+
+No progress. Shame on me.
+
+## Thu Apr 2 2020
 
 Gathered the most relevant comments people have made on my Medium post about remote work. I think this will give me the right starting point to write the appropriate book, moving forward. I can already recognize patterns. I want to write some follow up articles to get more people engaged and link them to my site, where I can capture more info. Just a rough initial idea. In the meanwhile, I'll keep making progress on the book.
 
