@@ -51,7 +51,7 @@ const NotyfPage = () => {
     });
   }
 
-  const title = 'Notyf: A dead-simple JavaScript library for toast notifications.';
+  const title = 'Notyf: A minimalistic JavaScript library for toast notifications.';
   const description = 'Notyf is a JavaScript library for toast notifications. Responsive, A11Y, dependency-free. Tiny (~3KB). Easy integration with React, Angular and Vue'
 
   return (
@@ -112,7 +112,7 @@ const NotyfPage = () => {
           <div className="col-sm-6 notyf-page__left">
             <h1>Notyf</h1>
             <h2>
-              <p>A dead-simple JavaScript library for toast notifications. Responsive, A11Y, dependency-free. Tiny (~3KB).</p>
+              <p>A minimalistic JavaScript library for toast notifications. Responsive, A11Y, dependency-free. Tiny (~3KB).</p>
               <p>Easy integration with React, Angular and Vue.</p>
             </h2>
 
