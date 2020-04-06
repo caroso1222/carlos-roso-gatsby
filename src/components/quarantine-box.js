@@ -26,11 +26,12 @@ const QuarantineBox = () => {
 
   const posts = data.allMarkdownRemark.edges;
 
-  // const numPosts = posts.length;
-  // const filteredPosts = [posts[0], {
-  //   node: { fields: { slug: '/covid-quarantine' }, frontmatter: { title: '...' } }
-  // }, ...posts.slice(Math.max(numPosts-6, 2), numPosts)];
-  const filteredPosts = posts;
+  const numPosts = posts.length;
+  const RENDERED_POSTS = 7;
+  const filteredPosts = [posts[0], {
+    node: { fields: { slug: '/tags/covid' }, frontmatter: { title: '...' } }
+  }, ...posts.slice(Math.max(numPosts - RENDERED_POSTS, 2), numPosts)];
+  // const filteredPosts = posts;
 
   return (
     <div className="qbox">

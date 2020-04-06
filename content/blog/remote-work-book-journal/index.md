@@ -9,29 +9,39 @@ draft: true
 
 <div class="divider"></div>
 
-## Fri Apr 3 2020
+## Sun Apr 5
 
-No progress. Shame on me.
+No progress
 
-## Thu Apr 2 2020
+## Sat Apr 4
+
+Designed the landing page waitlist where I'll gather emails to send the guide later on.
+
+![landing-ctti.png](landing-ctti.png)
+
+## Fri Apr 3
+
+I analyzed all the messages with my brother and came up with an strategy to increase my impact and help people. I decided I'll create a guide called Cracking the Toptal Interview as the first step to writing the book. This will give me a good foundation for my book.
+
+## Thu Apr 2
 
 Gathered the most relevant comments people have made on my Medium post about remote work. I think this will give me the right starting point to write the appropriate book, moving forward. I can already recognize patterns. I want to write some follow up articles to get more people engaged and link them to my site, where I can capture more info. Just a rough initial idea. In the meanwhile, I'll keep making progress on the book.
 
-## Wed Apr 1 2020
+## Wed Apr 1
 
 No tangible progress was made today. Been drafting some ideas on how to better communicate the purpose of the book. I'm thinking I should employ a more progressive strategy rather than writing a full blown book that no one actually finds it helpful in the end. Still running through ideas.
 
-## Tue Mar 31 2020
+## Tue Mar 31
 
 Finished writing the introduction. This will take a lot more than I initially expected. I have no rush, though, I'm focused on the process for now, not the end result.
 
-## Mon Mar 30 2020
+## Mon Mar 30
 
 Started writing the draft in this [Google Doc](https://docs.google.com/document/d/1caLcOkSg4Bti1YHWL6QDjmpHfyd6bFsQa83WGWKzS84/edit#heading=h.w1mlzdqdn8sc). Wrote some paragraphs for the introduction.
 
 Finding the right words for the right paragraph feels harder than I initially expected. Big learning journey ahead, for real.
 
-## Sun Mar 29 2020
+## Sun Mar 29
 
 Kickoff.
 
