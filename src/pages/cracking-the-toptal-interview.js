@@ -13,7 +13,7 @@ import { FaExclamation, FaCheck } from 'react-icons/fa'
 const CrackingTheToptalInterview = () => {
   const title = 'Cracking the Toptal Interview';
 
-  const description = 'The ultimate FREE guide to clear the interview at the most prestigious remote work marketplace, Toptal.';
+  const description = 'The ultimate FREE guide to clear the interview at the most prestigious remote work platform, Toptal.';
 
   const [email, setEmail] = useState('');
 
@@ -105,7 +105,7 @@ const CrackingTheToptalInterview = () => {
             </div>
             <h3 className="ctti__who-title as-body">Who am I?</h3>
             <hr className="ctti__hr" />
-            <p className="ctti__who-body m-0">My name is Carlos Roso. I’m a Software Engineer and digital nomad. Over the past years, I’ve worked as a talent on Toptal and CrossOver, both of which claim only accept 3% of the applicants. I’ve also aced interviews at Amazon and several more top talent marketplaces. I’ve helped hundreds of people go remote - <b>I think I can help you too</b>. <Link to="/about">Read more about me</Link>.</p>
+            <p className="ctti__who-body m-0">My name is Carlos Roso. I’m a Software Engineer and digital nomad. Over the past years, I’ve worked as a talent on Toptal and CrossOver, both of which claim only accept 3% of the applicants. I’ve also aced interviews at Amazon and several more top talent platforms. I’ve helped hundreds of people go remote - <b>I think I can help you too</b>. <Link to="/about">Read more about me</Link>.</p>
           </div>
           <Triangle className="ctti__triangle ctti__triangle--upper"/>
           <Triangle className="ctti__triangle ctti__triangle--mid"/>
@@ -117,7 +117,7 @@ const CrackingTheToptalInterview = () => {
             Cracking the Toptal Interview
             <Dots className="ctti__dots" />
           </h1>
-          <h2 className="ctti__subheader as-body">The ultimate FREE guide to clear the interview at the most prestigious remote work marketplace, <a href="https://www.toptal.com/#join-only-great-devs" target="_blank" rel="noopener noreferrer">Toptal</a>.</h2>
+          <h2 className="ctti__subheader as-body">The ultimate FREE guide to clear the interview at the most prestigious remote work platform, <a href="https://www.toptal.com/#join-only-great-devs" target="_blank" rel="noopener noreferrer">Toptal</a>.</h2>
           <hr className="ctti__hr" />
           <p className="ctti__body"> <b><i>"How can I get into <a href="https://www.toptal.com/#join-only-great-devs" target="_blank" rel="noopener noreferrer">Toptal</a>?"</i></b> I've been asked this question hundreds of times. This guide is my attempt to answer it. I give advice on everything from resume, online assessment, technical interview and test project. Mainly aimed at Software Developers.</p>
           <div className="d-flex justify-content-center">
