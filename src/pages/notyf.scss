@@ -4,6 +4,16 @@
   animation: notyf-page-fade-in-up cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.75s forwards;
 }
 
+
+.notyf-ctti-banner {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  @include initial-fade-in-state;
+  animation-delay: 1.2s;
+}
+
 .notyf-page {
   height: 100vh;
   width: 100vw;
@@ -12,6 +22,7 @@
   display: flex;
   align-items: center;
   overflow: hidden;
+  padding-top: 68px;
 
   h1 {
     @include initial-fade-in-state;
@@ -279,6 +290,13 @@
 }
 
 @media only screen and (max-width: 576px) {
+  .notyf-ctti-banner {
+    position: relative;
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+
   .notyf-page {
     height: initial;
     padding: 3em 0;

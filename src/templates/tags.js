@@ -19,7 +19,7 @@ const Tags = ({ pageContext, data }) => {
             description={tagHeader}/>
       <div className="container">
         <div className="col-sm-10 offset-sm-1 bg__container">
-          <h1 class="m-0 text-capitalize tag-header bg__main-title">{tag}</h1>
+          <h1 className="m-0 text-capitalize tag-header bg__main-title">{tag}</h1>
           {edges.map(({ node }) => {
             return (
               <article key={node.fields.slug} className="feed-article">

@@ -12,6 +12,7 @@ import Triangle from '../images/notyf/triangle.inline.svg';
 import TripleZigZag from '../images/notyf/triple-zigzag.inline.svg';
 import Helmet from "react-helmet"
 import { Link } from "gatsby"
+import CttiBanner from "../components/ctti-banner";
 
 let notyf;
 
@@ -105,7 +106,9 @@ const NotyfPage = () => {
         },
       ]}
     />
-
+    <div className="notyf-ctti-banner">
+      <CttiBanner />
+    </div>
     <div className="notyf-page">
       <div className="container p-relative">
         <div className="row">
