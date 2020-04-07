@@ -12,6 +12,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import Footer from "./footer"
 import "./layout.scss"
+import CttiBanner from "./ctti-banner"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -26,6 +27,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
+      <CttiBanner />
       <Header siteTitle={data.site.siteMetadata.title} />
       <main className="layout__main">{children}</main>
       <div className="container">
