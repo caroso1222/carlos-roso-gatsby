@@ -9,6 +9,10 @@ draft: true
 
 <div class="divider"></div>
 
+## Mon Apr 6
+
+I published the landing page to give away the Cracking the Toptal Interview guide. It's live here: https://carlosroso.com/cracking-the-toptal-interview/. With this I intend to share my knowledge and help people, while attracting subscribers to convert them later into a paid service.
+
 ## Sun Apr 5
 
 No progress

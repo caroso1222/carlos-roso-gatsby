@@ -105,7 +105,7 @@ const CrackingTheToptalInterview = () => {
             </div>
             <h3 className="ctti__who-title as-body">Who am I?</h3>
             <hr className="ctti__hr" />
-            <p className="ctti__who-body m-0">My name is Carlos Roso. I’m a Software Engineer and digital nomad. Over the past years, I’ve worked in the most prestigious remote work companies including Toptal and CrossOver. I’ve also aced interviews at Amazon and several more top talent marketplaces. I’ve helped hundreds of people go remote - <b>I think I can help you too</b>. <Link to="/about">Read more about me</Link>.</p>
+            <p className="ctti__who-body m-0">My name is Carlos Roso. I’m a Software Engineer and digital nomad. Over the past years, I’ve worked as a talent on Toptal and CrossOver, both of which claim only accept 3% of the applicants. I’ve also aced interviews at Amazon and several more top talent marketplaces. I’ve helped hundreds of people go remote - <b>I think I can help you too</b>. <Link to="/about">Read more about me</Link>.</p>
           </div>
           <Triangle className="ctti__triangle ctti__triangle--upper"/>
           <Triangle className="ctti__triangle ctti__triangle--mid"/>
