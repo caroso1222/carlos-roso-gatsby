@@ -1,7 +1,7 @@
 ---
 title: Quarantine — Day 18
 date: "2020-04-06T23:32:57.928Z"
-description: Let's all crack that Toptal interview.
+description: Let's all crack that Toptal interview!
 tags: ["covid"]
 draft: false
 ---
@@ -32,11 +32,11 @@ Wife told me we'll be on quarantine until April 27th. Sounds like I'll be able t
 
 ## Finances
 
-* **Spent**: 185 USD
+* **Spent**: 200 USD
 * **Stocks Portfolio (24h)**: 5.44% (weekend)
 * **Stocks Portfolio (All time)**: +5.10%
-* **Cryptofolio (24h)**: +30.76%
-* **Cryptofolio (All time)**: +71.09%
+* **Cryptofolio (24h)**: +20.76%
+* **Cryptofolio (All time)**: +58.09%
 
 <div class="divider"></div>
 

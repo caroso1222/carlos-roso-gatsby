@@ -9,6 +9,10 @@ draft: true
 
 <div class="divider"></div>
 
+## Mon Apr 7
+
+I created the book cover and added the banner on every page of my site. I have an appealing way to capture traffic - now I'll need to start writing content. I also wrote the same Medium article in DEV.to which I expect can get me a few more leads.
+
 ## Mon Apr 6
 
 I published the landing page to give away the Cracking the Toptal Interview guide. It's live here: https://carlosroso.com/cracking-the-toptal-interview/. With this I intend to share my knowledge and help people, while attracting subscribers to convert them later into a paid service.
