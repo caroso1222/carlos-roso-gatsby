@@ -9,7 +9,15 @@ draft: true
 
 <div class="divider"></div>
 
-## Mon Apr 7
+## Wed Apr 8
+
+Wrote a new blog post with more details on how to get into Toptal, it's here: [This is what I did to ace the Toptal interview](/this-is-what-i-did-to-ace-the-toptal-interview). I'll post it tomorrow at prime time (12PST) and hopefully get some more leads. 
+
+Got a new cover for the guide!
+
+![ctti-mockup.png](ctti-mockup.png)
+
+## Tue Apr 7
 
 I created the book cover and added the banner on every page of my site. I have an appealing way to capture traffic - now I'll need to start writing content. I also wrote the same Medium article in DEV.to which I expect can get me a few more leads.
 
