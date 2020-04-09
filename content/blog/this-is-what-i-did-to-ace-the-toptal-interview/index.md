@@ -6,11 +6,11 @@ tags: ["toptal", "interview", "career"]
 draft: false
 ---
 
-A few years ago, I wrote an article on [how I got into the most exclusive remote work platforms](/how-i-got-into-the-most-exclusive-remote-working-platforms) and it got a fair amount of attention. Since then, I've answered the same question all over years: *"How can I get into Toptal?"*. I'll try my best to give you some tips on what to expect and how to prepare.
+A few years ago, I wrote an article on [how I got into the most exclusive remote work platforms](/how-i-got-into-the-most-exclusive-remote-working-platforms) and it got a fair amount of attention. Since then, I've answered the same question all over the years: *"How can I get into Toptal?"*. I'll try my best to give you some tips on what to expect and how to prepare.
 
 <div class="divider"></div>
 
-> *I do not work for the company nor I'm being paid to write about this. There are some links which will get me a comission for referral, though. I will explicitly tell you which ones are referral links.*
+> *I do not work for the company nor I'm being paid to write about this. There are some links that will get me a commission for referral, though. I will explicitly tell you which ones are referral links.*
 
 <div class="divider"></div>
 
@@ -22,7 +22,7 @@ For starters, [Toptal](https://www.toptal.com/) is a remote work marketplace whi
 
 # I'm sold. How can I get in, then?
 
-Clearing the screening is exhaustive. It takes a lot of your time and energy but, in my experience, it's totally worth it. Apart from writing a killer resume, I'm going to layout the main points I'd recommend to anyone willing to apply.
+Clearing the screening process is exhaustive. It takes a lot of your time and energy but, in my experience, it's totally worth it. Apart from writing a killer resume, I'm going to lay out the main points I'd recommend to anyone willing to apply.
 
 ## Do your research
 
@@ -32,29 +32,29 @@ Toptal hires for roles in Software Engineering, Product and Project Management, 
 
 As of April 2020, I've referred short of 120 people into the platform and only 3 of them have passed. I'd say 75% of those who didn't clear the process were filtered out in the very first interview. They call it the "language and personality" interview. This is nothing else than just a screening phase to see how well you communicate in English. I've seen many of these interviews myself and the bar is pretty high.
 
-You definitely don't need to be native-fluent or have crystal clear pronunciation. The trick is to **communicate as clear as possible and be able to effortlessly talk about yourself and your experience**. Do not sound rushed. You **must practice your English speaking** skills regularly before taking your shot at Toptal, or in general at any of these top remote work companies. If you're not fluent in English, but you're dead serious about improving, you'd be spending by now 3 hours a day (from 5-8am) studying, practicing, speaking with yourself out loud, repeating everything you hear in movies, etc. This is definitely a very restrictive filter in the process.
+You definitely don't need to be native-fluent or have crystal clear pronunciation. The trick is to **communicate as clearly as possible and be able to effortlessly talk about yourself and your experience**. Do not sound rushed. You **must practice your English speaking** skills regularly before taking your shot at Toptal, or in general at any of these top remote work companies. If you're not fluent in English, but you're dead serious about improving, you'd be spending by now 3 hours a day (from 5-8am) studying, practicing, speaking with yourself out loud, repeating everything you hear in movies, etc. This is definitely a very restrictive filter in the process.
 
-One last thing: put up a smile, look friendly (even if you are not) and set up a good space for the interview. It's [scientifically proven](https://www.goodreads.com/book/show/35011639-before-you-know-it) we humans favor friendly people over serious, rude looking folks, regardless of the role.
+One last thing: put up a smile, look friendly (even if you are not) and set up a good space for the interview. It's been [scientifically proven](https://www.goodreads.com/book/show/35011639-before-you-know-it) we humans favor friendly people over serious, rude looking folks, regardless of the role.
 
 ## Let's get technical
 
-This section is mainly aimed at Software Developers. To put it down in simple words, **you need to be good at algorithms**. Sure you don't practice that in the job, sure you don't need it to create a React app or a Go backend, and sure you can be a great engineer without those skills. All of them valid points I also agree with. But, *"sadly"*, acing an algorithm interview is a very common requirement to get into these platforms (or any other big tech company). You either suck it up and accept it, or give up on the opportunity. It's like being good a sales, design or management - you can get through life without those skills, sure, but wouldn't you be better if you at least give them a try?
+This section is mainly aimed at Software Developers. To put it down in simple words, **you need to be good at algorithms**. Sure you don't practice that in the job, sure you don't need it to create a React app or a Go backend, and sure you can be a great engineer without those skills. All of them valid points I also agree with. But, *sadly*, acing an algorithm interview is a very common requirement to get into these platforms (or any other big tech company). You either suck it up and accept it or give up on the opportunity. It's like being good a sales, design or management - you can get through life without those skills, sure, but wouldn't you be better if you at least give them a try?
 
-Now, as with everything, you just need a lot of practice. Don't compare yourself with chess masters or mathematicians that can solve any coding problem in 10 seconds. Good for them, but that's probably not you, or me. I've put an insane amount of hours studying for technical interviews (Toptal, Amazon, Crossover). The recipe is simple: get yourself a copy of [Cracking the coding interview](https://www.amazon.com/-/es/Gayle-Laakmann-McDowell/dp/0984782850), sign up for [LeetCode](https://leetcode.com/) and [Hackerrank](https://www.hackerrank.com/), and **commit to put 2 hours a day, for 2 months, solving algorithms**.
+Now, as with everything, you just need a lot of practice. Don't compare yourself with chess masters or mathematicians that can solve any coding problem in 10 seconds. Good for them, but that's probably not you, or me. I've put an insane amount of hours studying for technical interviews (Toptal, Amazon, Crossover). The recipe is simple: get yourself a copy of [Cracking the coding interview](https://www.amazon.com/-/es/Gayle-Laakmann-McDowell/dp/0984782850), sign up for [LeetCode](https://leetcode.com/) and [Hackerrank](https://www.hackerrank.com/), and **commit to putting 2 hours a day, for 2 months, solving algorithms**.
 
 Now, let me be more specific. For Toptal you won't probably need to master graphs, linked lists or trees. I'd recommend you to focus on solving between 70 and 150 problems tagged as easy in Hackerrank and Leetcode. This will involve working on problems with strings, sorting, search and, why not, a bit of recursion.
 
 As a fun exercise, try solving [Repeated String](https://www.hackerrank.com/challenges/repeated-string/problem) and [Minimum Distances](https://www.hackerrank.com/challenges/minimum-distances/problem) in Hackerrank. That's somewhat similar to what you'll find in the interviews. **Don't apply to Toptal if you can't even solve these 2 problems - it'd be a missed shot for sure**. Don't be discouraged, though, it's all about practice, practice, practice.
 
-> <i>I explain this topic in depth my latest FREE guide: [Cracking the Toptal Interview](https://carlosroso.com/cracking-the-toptal-interview). Sign up for the waitlist.</i>
+> <i>I explain this topic in depth my latest FREE guide: [Cracking the Toptal Interview](https://carlosroso.com/cracking-the-toptal-interview). Sign up for the waitlist today.</i>
 
 ## Time to show off your true skills
 
-Let me be honest. If you clear the 2 algorithm filters, you're pretty much in already. The last step in the process is to build a project with the skills you need for the role. You'll have 2 weeks to solve a problem you'd normally find in your daily job. 
+Let me be honest. If you clear the 2 previous algorithm filters, you're pretty much in already. The last step in the process is to build a project with the skills you need for the role. You'll have 2 weeks to solve a problem you'd normally find in your daily job. 
 
 > For **designers** you'll probably be asked to deliver UI/UX sketches for an application; For **web developers** you're likely to submit a full-stack project with authentication, decently looking frontend UI, unit tests, good DB management; For **Machine Learning** be prepared to hand off, for instance, an end-to-end supervised learning project with data analysis, model implementation and perhaps deployment; and, for **Product Management**, I won't be surprised if you're asked to define the roadmap for a new product, evaluate pros and cons, design wireframes or even do team planning.
 
-This is your time to show off the experience you've built over the years. You'll need to demonstrate your expertise in the final interview as they will ask you a ton of things about your project. Most of the companies at Toptal are willing to pay very well for experts, but you need to believe and act as if you're one of them.
+This is the time to show off the experience you've built over the years. You'll need to demonstrate your expertise in the final interview as they will ask you a ton of things about your project. Most of the companies at Toptal are willing to pay very well for experts, but you need to believe and act as if you're one of them.
 
 ## Why only Toptal?
 
@@ -72,4 +72,4 @@ At this point, you've put a huge amount of work and study to get into Toptal. Le
 
 ![ctti.png](ctti.png)
 
-I think a blog post is not enough to teach everything I know. That's why I wrote [a FREE guide](https://carlosroso.com/cracking-the-toptal-interview) with an in-depth review on the topics I covered here: algorithm questions, exercises for test projects, tips for the technical screening, and much more. [Sign up for the waitlist now](https://carlosroso.com/cracking-the-toptal-interview) - I can tell you all the blood and sweat [will be worth it](https://www.instagram.com/carlosremote/) at the end.
+I think a blog post is not enough to teach everything I know. That's why I wrote [a FREE guide](https://carlosroso.com/cracking-the-toptal-interview) with an in-depth review of the topics I covered here: algorithm questions, exercises for test projects, tips for the technical screening, and much more. [Sign up for the waitlist now](https://carlosroso.com/cracking-the-toptal-interview) - I can tell you all the blood and sweat [will be worth it](https://www.instagram.com/carlosremote/) at the end.

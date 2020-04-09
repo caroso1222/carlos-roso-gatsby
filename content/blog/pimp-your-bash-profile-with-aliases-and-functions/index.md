@@ -1,9 +1,10 @@
 ---
-title: Pimp your bash_profile with these 3 simple tricks
+title: Pimp your bash_profile with aliases and functions
 date: "2020-04-08T20:12:52.135Z"
-description: How to set up alias, functions and some more
+description: How to set up bash_profile for real productivity
 draft: false
-tags: ["software", "bash"]
+tags: ["software", "bash", "productivity"]
+meta: In this post I'll show how to leverage alias and functions to set up a good and productive bash_profile. An alias lets you mask long commands with shorter, easy to remember shortcuts. Functions let you do the same but it allows you to easily interact with the user's input.
 ---
 
 I've been familiar with `.bash_profile` for a while now but little I knew all the things I could do with it. Here are some cool things I just learned.
@@ -22,7 +23,7 @@ $ chmod +x gmail
 $ gmail
 ```
 
-That works but it's way too overkill for that purpose. I could use an `alias` within `.bash_profile` instead. Let's see how it looks like now:
+That works but it's way too overkill for that purpose. I later discovered I could use an `alias` within `.bash_profile` instead. An alias lets you mask long commands with shorter, easy to remember shortcuts. Let's see how it looks like now:
 
 ```bash
 $ cat ~/.bash_profile
@@ -100,7 +101,7 @@ show_top_hn
 
 Now run `source ~/.bash_profile`. Open a terminal. **Lo and behold**.
 
-![terminal.png](terminal.png)
+![terminal with initial message](terminal.png)
 
 <div class="divider"></div>
 

@@ -11,7 +11,7 @@ export default ({ data }) => {
   return (
     <Layout>
       <SEO title={post.frontmatter.title}
-            description={post.frontmatter.description}/>
+            description={post.frontmatter.meta || post.frontmatter.description}/>
       <div className="container">
         <div className="col-sm-10 offset-sm-1 bg__container">
           <small className="bg__date as-header">{post.frontmatter.date}</small>
@@ -47,6 +47,7 @@ export const query = graphql`
       frontmatter {
         title
         description
+        meta
         date(formatString: "MMMM DD, YYYY")
       }
     }
