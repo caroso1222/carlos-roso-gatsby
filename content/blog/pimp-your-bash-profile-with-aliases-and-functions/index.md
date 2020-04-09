@@ -3,7 +3,7 @@ title: Pimp your bash_profile with aliases and functions
 date: "2020-04-08T20:12:52.135Z"
 description: How to set up bash_profile for real productivity
 draft: false
-tags: ["software", "bash", "productivity"]
+tags: ["programming", "bash", "productivity"]
 meta: In this post I'll show how to leverage alias and functions to set up a good and productive bash_profile. An alias lets you mask long commands with shorter, easy to remember shortcuts. Functions let you do the same but it allows you to easily interact with the user's input.
 ---
 
@@ -98,6 +98,8 @@ show_top_hn
 ```
 
 *Note: I'm using the official [HackerNews Firebase API](https://github.com/HackerNews/API). You'll need to [install jq](http://macappstore.org/jq/) to process the API JSON Response.*
+
+The code above pipes the result of curl into another curl. I talk about that in [this post](/how-to-run-multiple-curl-requests-sequentially).
 
 Now run `source ~/.bash_profile`. Open a terminal. **Lo and behold**.
 
