@@ -30,7 +30,7 @@ Oh, and we got a brand new cover for Cracking the Toptal Interview 😏.
 
 * **Avoid news**: Yes
 * **Write blog**: Yes
-* **Personal growth**: Yes. Kept reading Before you know it - John Bargh.
+* **Personal growth**: No
 * **Wake up 5:00 am**: Yes
 * **Workout**: No
 * **Help someone**: Yes

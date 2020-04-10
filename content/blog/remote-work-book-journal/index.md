@@ -9,6 +9,12 @@ draft: true
 
 <div class="divider"></div>
 
+## Thu Apr 9
+
+Published my post on [dev.to](https://dev.to/caroso1222/how-i-got-into-the-most-exclusive-remote-working-platforms-45dk) and got 50 people signed up for the free guide. Not bad for a day, in my view. Also wrote a Medium draft and got it peer-reviewed already, I'll work on it today and will publish next week on "The Startup" (biggest Medium publication).
+
+I'm thinking the landing page of Cracking the Toptal Interview truly needs an update. I need to write at least one page to get more people engaged - time to start making real progress on the guide.
+
 ## Wed Apr 8
 
 Wrote a new blog post with more details on how to get into Toptal, it's here: [This is what I did to ace the Toptal interview](/this-is-what-i-did-to-ace-the-toptal-interview). I'll post it tomorrow at prime time (12PST) and hopefully get some more leads. 
