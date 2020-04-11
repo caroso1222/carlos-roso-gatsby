@@ -9,6 +9,10 @@ draft: true
 
 <div class="divider"></div>
 
+## Fri Apr 10
+
+No progress
+
 ## Thu Apr 9
 
 Published my post on [dev.to](https://dev.to/caroso1222/how-i-got-into-the-most-exclusive-remote-working-platforms-45dk) and got 50 people signed up for the free guide. Not bad for a day, in my view. Also wrote a Medium draft and got it peer-reviewed already, I'll work on it today and will publish next week on "The Startup" (biggest Medium publication).

@@ -29,7 +29,7 @@ I [read the other day](https://www.goodreads.com/book/show/35011639-before-you-k
 * **Personal growth**: No
 * **Wake up 5:00 am**: No
 * **Workout**: No
-* **Help someone**: Yes
+* **Help someone**: No
 * **Time wasted < 90 mins**: Yes
 
 ## Finances
