@@ -27,8 +27,12 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <CttiBanner />
-      <Header siteTitle={data.site.siteMetadata.title} />
+      <div className="layout__ctti">
+        <CttiBanner />
+      </div>
+      <div className="layout__header">
+        <Header siteTitle={data.site.siteMetadata.title} />
+      </div>
       <main className="layout__main">{children}</main>
       <div className="container">
         <Footer/>

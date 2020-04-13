@@ -502,3 +502,17 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+.layout {
+  &__ctti {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+  }
+
+  &__header {
+    margin-top: 68px;
+  }
+}
