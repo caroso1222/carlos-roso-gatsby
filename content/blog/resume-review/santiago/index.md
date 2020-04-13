@@ -6,7 +6,7 @@ draft: true
 tags: ["resume"]
 ---
 
-# 60 seconds pitch
+# First impression - 60 seconds review
 
 - Too much info upfront. The sidebar is distracting. Recruiters want to read succinct info in just 60 seconds.
 - Candidate looks smart with relevant experience
