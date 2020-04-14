@@ -1,6 +1,6 @@
 ---
 title: Resume Review - Andrés
-date: "2020-04-12T21:53:04.131Z"
+date: "2020-04-13T21:53:04.131Z"
 description: Good experience. Needs to show himself as a more solid candidate.
 draft: true
 tags: ["resume"]

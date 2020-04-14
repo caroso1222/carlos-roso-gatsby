@@ -80,6 +80,8 @@ mkcdir () {
 }
 ```
 
+*Note: For Linux users, there's [this `mv` clever function](https://gist.github.com/premek/6e70446cfc913d3c929d7cdbfe896fef) that lets you rename a file without writing its name twice.*
+
 # Fun
 
 Your system runs or "sources" `~/.bash_profile` every time you open the terminal. This means you can do something fun by running functions (not only declaring it) in the `~/.bash_profile`. Think about getting tips on shell scripting, TypeScript, React, listing your reminders, etc. This time, I implemented a function to retrieve the most popular post in HackerNews every time I open a new terminal. Open your profile file `vim ~/.bash_profile` and paste the following code:

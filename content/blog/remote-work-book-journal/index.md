@@ -9,6 +9,20 @@ draft: true
 
 <div class="divider"></div>
 
+## Mon Apr 13
+
+Finally built a sketch on how Cracking the Toptal Interview will ultimately look like. I got short of 70 people subscribed to the newsletter, so I'm almost ready to send the first draft.
+
+![ctti layout](ctti-layout.png)
+
+## Sun Apr 12
+
+Wrote a few ideas on paper, nothing much, but better than no progress.
+
+## Sat Apr 11
+
+No progress
+
 ## Fri Apr 10
 
 No progress
