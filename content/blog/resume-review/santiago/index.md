@@ -1,5 +1,5 @@
 ---
-title: Resume Review - Santiago
+title: Resume Review - Mike
 date: "2020-04-12T21:53:04.131Z"
 description: Good experience. Needs adjustment.
 draft: true
@@ -32,15 +32,15 @@ Don't take it personal, though. I struggle with this problem myself too :/
 
 You need more specific data on those bullets. Wherever possible, try following the format "Accomplished X by implementing Y which led to Z" ([credits](https://www.amazon.com/-/es/Gayle-Laakmann-McDowell/dp/0984782850)). Let's run through some samples:
 
-* Ceiba Software:
+* Soylent Corp
   - Reduced deploy time 70% by implementing a CI/CD Jenkins pipeline which helped product managers validate features 2x faster.
   - Helped stakeholders iterate faster on new projects by developing POCs on React and NodeJS.
 
-* ADA S.A.
+* Initech
   - Lead a team of 3 developers and acted as the principal architect for the development of 5 mobile apps.
   - Saved 3x in development time by leveraging hybrid frameworks for mobile development (Ionic/Angular). This helped the team ship the same features 2x faster.
 
-* Digital Electronic Laboratory Manager
+* Umbrella Corporation
   - Trained 300 students in 3 workshops of VHDL and C++ development.
 
 Now, that's just something I came up with very quickly, you'll need to do your homework and work it out better. I guess you get the idea now.

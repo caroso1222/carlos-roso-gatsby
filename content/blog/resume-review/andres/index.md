@@ -1,5 +1,5 @@
 ---
-title: Resume Review - Andrés
+title: Resume Review - Jhon
 date: "2020-04-13T21:53:04.131Z"
 description: Good experience. Needs to show himself as a more solid candidate.
 draft: true
@@ -39,16 +39,16 @@ Don't take it personal, though. I struggle with this problem myself too :/
 
 # Work Experience
 
-I think you need to shape your oil experience to be more software related. Your GitHub projects are also very relevant now that you don't have too much professional experience, so they need to stand out even more. Your experience in Microverse needs to convey what you contributed rather than what you learned.
+I think you need to shape your oil experience to be more software related. Your GitHub projects are also very relevant now that you don't have too much professional experience, so they need to stand out even more. Your experience in Acme needs to convey what you contributed rather than what you learned.
 
 Wherever possible, try following the format "Accomplished X by implementing Y which led to Z" ([credits](https://www.amazon.com/-/es/Gayle-Laakmann-McDowell/dp/0984782850)). Let's run through some samples:
 
-* Microverse:
+* Acme Corporation
   - Helped customers run through data 2x faster by implementing paginated API responses in RoR and JavaScript.
   - Improved UX at sign up by configuring OAuth on Ruby and wired it up with React hooks. This resulted in a huge conversion increase.
   - Developed tens of screens with React as a team member of an international team spanned across 4 countries.
 
-* Petricore, Geolog International, National Oilwell Varco
+* Globex
   - Instrumented and optimized oil drilling operations by building data pipelines in SQL. This resulted in +20M USD savings from risk and fault prevention.
   - Participated as a data engineer in more than 50 highly critical drilling operations.
   - Influenced multimillionare product decisions by analyzing data and presenting data reports.
@@ -59,7 +59,7 @@ Now, that's just something I came up with very quickly, you'll need to do your h
 
 Put a lot of emphasis in this section. This is important as you're getting started in the software industry, make yourself look as you know what you're doing. Stop thinking about yourself as a junior dev "just learning"; you are more like a "senior dev" in the making :D
 
-I'd keep this section as is. Just try to hide the full GitHubs links and, instead, put a link like: ([source](https://github.com/AndresFMoya/ror-booking_cinema_frontend)).
+I'd keep this section as is. Just try to hide the full GitHubs links and, instead, put a link like: ([source](https://github.com/caroso1222)).
 
 # Education
 
