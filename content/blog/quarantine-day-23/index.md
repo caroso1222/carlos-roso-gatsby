@@ -1,6 +1,6 @@
 ---
 title: Quarantine — Day 23
-date: "2020-04-09T23:32:57.928Z"
+date: "2020-04-11T23:32:57.928Z"
 description: Let's practice them photoediting skills
 tags: ["covid"]
 draft: false

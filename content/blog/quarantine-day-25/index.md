@@ -1,6 +1,6 @@
 ---
 title: Quarantine — Day 25
-date: "2020-04-09T23:32:57.928Z"
+date: "2020-04-13T23:32:57.928Z"
 description: Implementation Intention
 tags: ["covid"]
 draft: false
