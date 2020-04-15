@@ -32,7 +32,7 @@ Oh, and I got my residence and permit to work in Spain! It came at a totally une
 
 ## Finances
 
-* **Spent**: 0 USD
+* **Spent**: 80 USD
 * **Stocks Portfolio (24h)**: +2.09%
 * **Stocks Portfolio (All time)**: +10.28%
 * **Cryptofolio (24h)**: -1.20%
