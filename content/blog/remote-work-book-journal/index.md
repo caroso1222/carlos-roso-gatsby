@@ -9,6 +9,14 @@ draft: true
 
 <div class="divider"></div>
 
+## Wed Apr 15
+
+Wrote a rough sketch on what the first entry will look like. I mean like writing specific paragraphs with information for the first newsletter. I'm sooo slowly getting there.
+
+## Tue Apr 14
+
+No progress
+
 ## Mon Apr 13
 
 Finally built a sketch on how Cracking the Toptal Interview will ultimately look like. I got short of 70 people subscribed to the newsletter, so I'm almost ready to send the first draft.

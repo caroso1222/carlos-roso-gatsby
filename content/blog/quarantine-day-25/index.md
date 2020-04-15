@@ -1,7 +1,7 @@
 ---
 title: Quarantine — Day 25
 date: "2020-04-13T23:32:57.928Z"
-description: Implementation Intention
+description: Deep introspection. Time to help.
 tags: ["covid"]
 draft: false
 ---

@@ -1,7 +1,7 @@
 ---
 title: Quarantine — Day 24
 date: "2020-04-12T23:32:57.928Z"
-description: Implementation Intention
+description: Netflix & chill
 tags: ["covid"]
 draft: false
 ---

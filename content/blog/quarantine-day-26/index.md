@@ -1,7 +1,7 @@
 ---
-title: Quarantine — Day 25
+title: Quarantine — Day 26
 date: "2020-04-14T23:32:57.928Z"
-description: 
+description: Unexpected surprise
 tags: ["covid"]
 draft: false
 ---
