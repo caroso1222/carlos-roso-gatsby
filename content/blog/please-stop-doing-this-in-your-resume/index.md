@@ -51,6 +51,8 @@ What can you tell about the first person? what about the second? If you're looki
 
 <div class="divider"></div>
 
+That's it. You're now set to write a simple but strong summary, right straight to the point.
+
 Don't feel bad if you're resume looks like everything I just called out. I've been in that position too but I've read books and watched a lot of YouTube to get better at it. Feel free to polish your resume and shoot it to me in a [DM on Twitter](https://twitter.com/caroso1222). I'd love to give you my opinionated review.
 
 <div class="divider"></div>
