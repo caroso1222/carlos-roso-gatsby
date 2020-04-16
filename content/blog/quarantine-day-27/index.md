@@ -1,7 +1,7 @@
 ---
-title: Quarantine — Day 26
-date: "2020-04-14T23:32:57.928Z"
-description: Unexpected surprise
+title: Quarantine — Day 27
+date: "2020-04-15T23:32:57.928Z"
+description: I think I have a passion for writing
 tags: ["covid"]
 draft: false
 ---
@@ -31,7 +31,7 @@ Can't feel happier about this quarantine. This has been an amazing time to grow 
 * **Personal growth**: Yes
 * **Wake up 5:00 am**: No
 * **Workout**: No
-* **Help someone**: Yes
+* **Help someone**: No
 * **Time wasted < 90 mins**: Yes
 
 ## Finances

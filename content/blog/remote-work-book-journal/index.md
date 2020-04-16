@@ -9,6 +9,10 @@ draft: true
 
 <div class="divider"></div>
 
+## Thu Apr 16
+
+I published a new blog post to [Dev.to](https://dev.to/caroso1222/please-stop-doing-this-in-your-resume-2mga) which landed me 20 more subscribers. Not bad. I need to keep consistency. I also wrote a plan to start sending out my newsletter early next week. It will have the first draft of the Cracking the Toptal Interview guide.
+
 ## Wed Apr 15
 
 Wrote a rough sketch on what the first entry will look like. I mean like writing specific paragraphs with information for the first newsletter. I'm sooo slowly getting there.
