@@ -79,4 +79,4 @@ Don't feel bad if you're resume looks like everything I just called out. I've be
 
 I've used this technique to land interviews (and job offers) at Amazon, Toptal and a few more top remote work platforms. Now I'm writing a [FREE guide](/cracking-the-toptal-interview) with a lot of **tips and tricks to ace remote tech interviews**. If you're curious, you can [sign up on the waitlist here](/cracking-the-toptal-interview) and be the first to get it.
 
-
+![cracking the toptal interview](ctti.jpg)
