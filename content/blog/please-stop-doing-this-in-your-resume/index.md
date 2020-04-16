@@ -13,9 +13,9 @@ Alright, **that's enough**, I think you got the point now.
 
 # The art of going straight to the point
 
-The one and only thing you should avoid in your resume is **not going straight to the point**. This applies to everything but, mostly, to your summary. That first line should be your 10 seconds aggressive pitch. 
+The one and only thing you should do in your resume is **going straight to the point**. This applies to everything but, mostly, to your summary. That first paragraph should be your 10 seconds aggressive pitch. 
 
-One thing you perhaps didn't know: In paper everyone is charismatic, everyone is a great *team player*, and everyone has great written skills (...god...). Everyone is efficient and organized. Every single developer likes to learn new things! You're wasting your recruiter's attention on useless verbosity which says nothing about **what makes you different**.
+One thing you perhaps didn't know: In paper everyone is charismatic, everyone is a great *team player*, and everyone has great written skills (eye roll). Everyone is efficient and organized. Every single developer likes to learn new things! You're wasting your recruiter's attention on useless verbosity which says nothing about **what makes you different**.
 
 *"Sure, but, they still have time to go over my soft skills, don't they?"*
 
@@ -33,27 +33,45 @@ So, by now you're sold. Or perhaps not. Maybe you still think your great verbal 
 
 Are you a good learner? cool, make me infer that by pointing me to your learning in Python, C++ and Svelte. Are you a strong leader? nice, make me see that in your work experience when you lead a team of 5 devs to ship 8 microservices serving 25k requests per day. Are you a charismatic, people-oriented person? great, then I should infer that when you tell me you're a speaker, a blogger, an online course teacher.
 
-In any case, this post would be incomplete if I don't show you an example of what to avoid and how to improve. Remember the Resume Golden Rule (which I just made up): **you have less than 30 seconds to convince your recruiter to keep reading your resume**.
+Let's practice. This post would be incomplete if I don't show you an example of what to avoid and how to improve. Remember the Resume Golden Rule (which I just made up): **you have less than 30 seconds to convince your recruiter to keep reading your resume**.
 
 ## Example 1: Frontend Developer
 
 ### Bad
 
-> Proactive Frontend developer with a passion for learning new things. Strong team player, highly proactive and very process oriented engineer. Experienced with Vue and React. Respectful and with great written and communication skills.
+> Proactive Frontend developer with a passion for learning new things. Strong team player, highly proactive and very process-oriented engineer. Experienced with Vue and React. Respectful and with great written and communication skills.
 
-## Better
+### Better
 
-> Frontend developer with experience building client-side webapps on React and Vue. Obssesed for impact, I've shipped under 10 robust React applications for thousands of users worldwide. Backend enthusiast with intermediate knowledge in API design (2 deployed APIs on NodeJS). Occasional tech blogger with more than 10k reads a month. Passionate for pixel perfect frontend apps.
+> Frontend developer with experience building client-side webapps on React and Vue. Obsessed for impact, I've shipped under 10 robust React applications for thousands of users worldwide. Backend enthusiast with intermediate knowledge in API design (2 deployed APIs on NodeJS). Occasional tech blogger with more than 10k reads a month. Passionate for pixel-perfect frontend apps.
 
-What can you tell about the first person? what about the second? If you're looking for a React developer, which one makes you want to keep reading?
+What can you tell about the first person? What about the second? If you're looking for a React developer, which one makes you want to keep reading?
 
-*Note: In case you want more ideas, I show you a [few more examples on my site](/).*
+## Example 2: Backend Developer
+
+### Bad
+
+> Experienced backend developer with great teamwork skills. Problem solver and decision maker with good verbal communication abilities. Experience building apps with Rust and Go. Self-motivated and passionate for making positive impact.
+
+### Better
+
+> Backend developer with 10 years of experience building applications in Rust and Go. Specialized in fault-tolerant, highly-reliable systems. I've deployed services in AWS and Azure which scaled to +10 million requests per month. Open source contributor with 300 stars across 6 repositories. Occasional speaker in tech conferences.
+
+## Example 3: Product Manager
+
+### Bad
+
+> Customer-oriented product manager with highly tuned problem solving skills. I combine my organizational and planning abilities to make great impact on organizations. Respectful and strong team player. Experience in planning tools and scrum master.
+
+### Better
+
+> Senior product manager with over 10 years of experience in product and project management. I've worked for fortune 500 companies in retail, manufacturing and energy. Experience leading teams of +20 developers and designers shipping products to +100k users worldwide. Passionate for customer-centric design and UX.
 
 <div class="divider"></div>
 
 That's it. You're now set to write a simple but strong summary, right straight to the point.
 
-Don't feel bad if you're resume looks like everything I just called out. I've been in that position too but I've read books and watched a lot of YouTube to get better at it. Feel free to polish your resume and shoot it to me in a [DM on Twitter](https://twitter.com/caroso1222). I'd love to give you my opinionated review.
+Don't feel bad if you're resume looks like everything I just called out. I've been in that position too but I've read books, watched a lot of YouTube and sent dozens of resumes to get better at it. Feel free to polish your resume and shoot it to me in a [DM on Twitter](https://twitter.com/caroso1222). I'd love to give you my opinionated review.
 
 <div class="divider"></div>
 
