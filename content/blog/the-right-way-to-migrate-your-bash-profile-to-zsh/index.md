@@ -34,9 +34,25 @@ To put it in layman's terms:
 
 # Bonus
 
+## Custom alias and functions
+
 I keep my alias and functions in a separate file so that it doesn't clutter `zshrc`. You can try to do the same:
 
 1. Copy your custom alias and functions from `~/.zshrc`
 1. Paste these commands in a file called `~/.custom-alias`
 2. Put this line at the end of your `.zshrc`: `source ~/.custom-alias`
+
+## VSCode migration
+
+VSCode will not catch up `zsh` as the default shell automatically. Adjust this with the following steps:
+
+1. Open VSCode settings. Mac users can do `CMD + Shift + P` and type "settings".
+2. Open the JSON view (top right button)
+3. Type this at the end of the file:
+```
+"terminal.integrated.shell.osx": "/bin/zsh"
+```
+4. Restart VSCode.
+
+Credits for VSCode migration: [Medium post](https://medium.com/fbdevclagos/updating-visual-studio-code-default-terminal-shell-from-bash-to-zsh-711c40d6f8dc).
 
