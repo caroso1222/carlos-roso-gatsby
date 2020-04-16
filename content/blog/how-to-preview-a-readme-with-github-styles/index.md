@@ -66,3 +66,20 @@ $ grip CONTRIBUTE.md
 Open your browser at `http://localhost:6419`. Profit.
 
 ![screenshot for reminders github readme](reminders.png)
+
+# API Limits
+
+Grip uses the Github API directly to render the markdown files. This is fine until you hit the 60 API requests / min limit. From there, you can use basic auth to increase the limit to 5000 requests / min:
+
+```
+$ grip --user johndoe --pass foobarbaz
+```
+
+Or, you can just use the VSCode markdown previewer for a while until you get access to Github again. Click on the top-right icon with the glass to preview the markdown.
+
+![Preview button in VSCode](preview-button.png)
+
+And this how it looks like:
+
+
+![VSCode preview](vscode-preview.png)
