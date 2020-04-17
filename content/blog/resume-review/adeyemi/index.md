@@ -1,5 +1,5 @@
 ---
-title: Resume Review - Adeyemi
+title: Resume Review - Sam
 date: "2020-04-14T21:53:04.131Z"
 description: Great resume. Needs a bit of polishing.
 draft: true
@@ -32,15 +32,15 @@ That's just an idea, you need to craft it as you see fit. For me, that looks a c
 
 You have great experience. You're good at communicating that to me. However, wherever possible, try following the format "Accomplished X by implementing Y which led to Z" ([credits](https://www.amazon.com/-/es/Gayle-Laakmann-McDowell/dp/0984782850)). Don't tell me what you did; tell me what you accomplished. Let's run through some samples:
 
-* Great Brand Nig Ltd
+* Vehement Capital Partners
   * Expanded the feature set of the main product in 300% by rebuilding the APIs on top of REST and ExpressJS. This led to an increase of 2x in frontend development time.
   * Lead a team of 6 backend and frontend engineers in developing a full-featured dashboard for admins. I contributed as the chief architect of the whole engagement.
 
-* Brainspace venture group
+* Massive Dynamic
   * Helped increase the scope of the main APIs in 5x by developing 50 endpoints across 8 microservices deployed on AWS Lambda. 
   * Increased the test coverage of the core APIs from 0% to 100% by designing a testing plan and implementing utilities in Jest and Mocha. This lead to a 7x reduction in faults and regressions.
 
-* Devcenter
+* Hooli
   * Wrote E2E tests and achieved 100% documentation coverage for every API endpoint which resulted in much better development experience.
 
 Now, that's just something I came up with very quickly, you'll need to do your homework and work it out better. I guess you get the idea now.
