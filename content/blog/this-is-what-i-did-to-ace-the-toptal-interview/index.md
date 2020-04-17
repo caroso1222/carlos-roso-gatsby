@@ -22,7 +22,7 @@ For starters, [Toptal](https://www.toptal.com/) is a remote work marketplace whi
 
 # I'm sold. How can I get in, then?
 
-Clearing the screening process is exhaustive. It takes a lot of your time and energy but, in my experience, it's totally worth it. Apart from writing a killer resume, I'm going to lay out the main points I'd recommend to anyone willing to apply.
+Clearing the screening process is exhaustive. It takes a lot of your time and energy but, believe me, it's totally worth it. Apart from writing a killer resume, I'm going to lay out the main points I'd recommend to anyone willing to apply.
 
 ## Do your research
 

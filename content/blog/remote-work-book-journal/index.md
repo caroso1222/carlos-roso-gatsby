@@ -9,6 +9,10 @@ draft: true
 
 <div class="divider"></div>
 
+## Fri Apr 17
+
+Wrote my first newsletter EVER. It's done but it's scheduled to launch next monday. Also, finally achieved **100 subscribers** in my newsletter! Time to move fast and ship. My next goal is not to get +100 more but, instead, to ship the Cracking the Toptal Interview guide.
+
 ## Thu Apr 16
 
 I published a new blog post to [Dev.to](https://dev.to/caroso1222/please-stop-doing-this-in-your-resume-2mga) which landed me 20 more subscribers. Not bad. I need to keep consistency. I also wrote a plan to start sending out my newsletter early next week. It will have the first draft of the Cracking the Toptal Interview guide.
