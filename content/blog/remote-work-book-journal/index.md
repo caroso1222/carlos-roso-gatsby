@@ -9,6 +9,18 @@ draft: true
 
 <div class="divider"></div>
 
+## Mon Apr 20
+
+Finally started writing the CTTI guide. I wrote almost all the English Interview section today. Progress [here](/ctti-draft). Also, we just crossed **135 subscribers** in the newsletter. I'll send the newsletter tomorrow.
+
+## Sun Apr 19
+
+No progress
+
+## Sat Apr 18
+
+No progress
+
 ## Fri Apr 17
 
 Wrote my first newsletter EVER. It's done but it's scheduled to launch next monday. Also, finally achieved **100 subscribers** in my newsletter! Time to move fast and ship. My next goal is not to get +100 more but, instead, to ship the Cracking the Toptal Interview guide.
