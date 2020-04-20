@@ -1,7 +1,8 @@
 ---
 title: Tracking Instagram followers like a true nerd
-date: "2020-03-15T21:00:00.000Z"
+date: "2020-04-20T21:00:00.000Z"
 description: How to track your Instagram followers with Google Sheets and Python
+meta: This post shows how to read the instagram followers of an account with web scrapping using Python and BeautifulSoup, and how to save it in Google Sheets.
 ---
 
 # Why?
@@ -38,7 +39,7 @@ _Note: I recommend running your pip commands within a virtualenv._
 
 ## Read followers
 
-As mentioned before, I decided to read the number of followers by doing basic web scrapping. I didn't want to bother setting up a Facebook account to use the Instagram API. It turns out Instagram uses [JSON-LD](https://developers.google.com/search/docs/guides/intro-structured-data) to _inject_ structured data into the page. This makes it easy to read the follower count:
+Instagram registers a JavaScript object in the window (aka a global) with the number of followers in the prop `edge_followed_by`. We'll use a regex capture group to get that number and send it to Google Sheets.
 
 ```python{numberLines: true}
 import requests
@@ -47,10 +48,9 @@ from bs4 import BeautifulSoup
 
 URL = 'https://www.instagram.com/linaestadeviaje/'
 page = requests.get(URL)
-soup = BeautifulSoup(page.content, 'html.parser')
-data = json.loads(soup.find('script', type='application/ld+json').text)
 
-followers = data['mainEntityofPage']['interactionStatistic']['userInteractionCount']
+soup = BeautifulSoup(page.content, 'html.parser')
+followers = re.search('"edge_followed_by":{"count":(\d*)}', soup.prettify()).group(1)
 ```
 
 ## Write to Google Sheets
@@ -108,9 +108,9 @@ def main():
     # Get the followers. You might probably want to move this to a function.
     URL = 'https://www.instagram.com/linaestadeviaje/'
     page = requests.get(URL)
+
     soup = BeautifulSoup(page.content, 'html.parser')
-    data = json.loads(soup.find('script', type='application/ld+json').text)
-    followers = data['mainEntityofPage']['interactionStatistic']['userInteractionCount']
+    followers = re.search('"edge_followed_by":{"count":(\d*)}', soup.prettify()).group(1)
 
     # A bit of sugar to get date and time
     now = datetime.now()
@@ -178,3 +178,26 @@ Here you can see a spike in the daily growth (giveway posts and trending pics) a
 # Final thoughts
 
 Above all, enjoy and have fun. Don't get so obsessed with numbers, growth and plain metrics. **Get obsessed with helping, creating and inspiring.**
+
+<div class="divider"></div>
+
+# Legacy remarks
+
+As of April 2020, Instagram changed the way to inject the number of followers. I'm leaving here the previous approach based on JSON-LD, just for future reference.
+
+### Legacy (< April 2020)
+
+As mentioned before, I decided to read the number of followers by doing basic web scrapping. I didn't want to bother setting up a Facebook account to use the Instagram API. It turns out Instagram uses [JSON-LD](https://developers.google.com/search/docs/guides/intro-structured-data) to _inject_ structured data into the page. This makes it easy to read the follower count:
+
+```python{numberLines: true}
+import requests
+import json
+from bs4 import BeautifulSoup
+
+URL = 'https://www.instagram.com/linaestadeviaje/'
+page = requests.get(URL)
+soup = BeautifulSoup(page.content, 'html.parser')
+data = json.loads(soup.find('script', type='application/ld+json').text)
+
+followers = data['mainEntityofPage']['interactionStatistic']['userInteractionCount']
+```
