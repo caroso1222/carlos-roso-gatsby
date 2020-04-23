@@ -9,6 +9,18 @@ draft: true
 
 <div class="divider"></div>
 
+## Fri Apr 23
+
+Lots of good progress on the [coding assessment](/ctti-draft) section of the guide.
+
+## Wed Apr 22
+
+Wrote article in [DEV](https://dev.to/caroso1222/this-is-how-much-you-can-really-make-in-the-top-remote-working-platforms-100k-32og). Got a few more subs.
+
+## Tue Apr 21
+
+No progress
+
 ## Mon Apr 20
 
 Finally started writing the CTTI guide. I wrote almost all the English Interview section today. Progress [here](/ctti-draft). Also, we just crossed **135 subscribers** in the newsletter. I'll send the newsletter tomorrow.
