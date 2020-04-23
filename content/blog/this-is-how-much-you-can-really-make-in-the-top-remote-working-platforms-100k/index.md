@@ -1,7 +1,7 @@
 ---
 title: This is how much you can really make in the top remote working platforms (100k)
 date: "2020-04-23T14:29:36.586Z"
-description: 
+description: Discover what you can make at Toptal, Crossover, BairesDev and some other top remote working marketplaces
 draft: false
 ---
 
@@ -74,3 +74,11 @@ This one is interesting. They vet applicants not by a rigorous interview but by 
 **TL;DR: Easily +100k.**
 
 I think this is the most promising one money wise. I got an invitation to apply but never finished the process. It's very standard, though. You'll go over an algorithm and system design interview. It's founded by Google and Facebook engineers so you can expect a whiteboard interview, just like the ones you hate. All in all, clearing the process should take you no more than 2-3 months of preparation. I would totally expect compensation to be between 90k - 120k/year. All of this working remotely.
+
+<div class="divider"></div>
+
+# Are you willing to put in the sweat?
+
+If you have relatively good English speaking skills, I dare to say you're **3 months away** from landing a high paying job in any of these platforms. I'm writing a [FREE guide](/cracking-the-toptal-interview/) with a lot of **tips and tricks to pass the interviews** at these places. If you're curious, you can [sign up on the waitlist here](/cracking-the-toptal-interview/) and be the first to get it.
+
+![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/l80v7dpgjapmv0l3aona.png)
