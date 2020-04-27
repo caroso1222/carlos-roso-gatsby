@@ -48,6 +48,9 @@
   "keywords": [
     "gatsby"
   ],
+  "prettier": {
+    "singleQuote": true
+  },
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",

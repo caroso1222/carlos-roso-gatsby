@@ -141,7 +141,9 @@ I credit some of this workflow to the book Cracking the Coding Interview.
 
 ### Instrospection
 
-Let's say you need to find the highest pair of numbers in a list. How do you solve this as a human? Your brain doesn't store anything in variables or even sort the list. Your brain sees the numbers and instantly know what are the top two numbers. But, is it really instant, though? Take a step back and think about it. How did you know the first number was not the highest? because you knew you had to see all the numbers. This means there's no better way to do it other than looping through all the numbers (in other words, it's O(n) at best). Now, you know there are bigger numbers than the one you're looking at. How? because your brain saw it and kept a reference as the biggest number. This could be translated into "storing the biggest in a variable". You can find the highest number, what about the second highest? What my brain did was to start all over again but ignoring the previous number. Great! we have a working algorithm now: we'll visit each number and keep reference of the highest. We remove that one from the list and loop again to find the next highest. 
+Let's say you need to find the highest pair of numbers in a list. How do you solve this as a human? Your brain doesn't store anything in variables or even sort the list. Your brain sees the numbers and instantly know what are the top two numbers. But, is it really instant, though?
+
+Take a step back and think about it. How did you know the first number was not the highest? because you knew you had to see all the numbers. This means there's no better way to do it other than looping through all the numbers (in other words, it's O(n) at best). Now, you know there are bigger numbers than the one you're looking at. How? because your brain saw it and kept a reference as the biggest number. This could be translated into "storing the biggest in a variable". You can find the highest number, what about the second highest? What my brain did was to start all over again but ignoring the previous number. Great! we have a working algorithm now: we'll visit each number and keep reference of the highest. We remove that one from the list and loop again to find the next highest. 
 
 Is that the best you can do? definitely not but, at least, it's a working solution. It got you unblocked. It got your neurons up and working - they're warmed now to optimize.
 
@@ -153,21 +155,113 @@ Is that the best you can do? definitely not but, at least, it's a working soluti
 
 Important: There's no value on reading the question and going straight to the answer. You'll lose your time. Put a lot of effort and try to solve the problem yourself. Try to come up, at least, with the worst possible and most inneficient algorithm. Bonus points if you manage to get the best solution.
 
-1. Poker chips. What's the lowest number of chips you can use to make up a number?
+1. **Poker Chips:** Luigy works in a Casino and he gives customers poker chips in exchange of money. Find the minimum number of chips Luigy can use to match the customer requests. He has chips worth 100, 50, 25, 10, 5, 1. For example, for 126 Luigy should give 3 chips (100, 25, 1).
 
-2. A palindrome is a word that reads equally backwards and forwards. Given a list of words, find all the palindromes.
+2. **The wedding:** A palindrome is a word that reads equally backwards and forwards. Given a list of words, find all the palindromes and group them by their containing letters. For example, list [aba, baa, acaca, cac, dda, b] should return the following groups [ aba ], [ acdca, cadac ], [ b ]. Notice that, in the second group, all of the words use the letter a, c, and d.
 
-3. Lina and Carlos are getting married. They both have an invitee list. Find out if they both want to invite the exact same people. 
+3. Lina and Carlos are getting married. They both have an invitee list. Find out if they both want to invite the exact same people.
 
 4. Given a mathematical operation. Find out if the brackets are placed such that the equation is valid. There are 3 types of brackets: (,[,{.
 
 ### Solutions
 
-Did 
+#### 1. Poker Chips
+
+This is a problem you are likely solving on a daily basis when handling money. If someone is paying you and you need to give change, you normally optimize and don't give all your coins. You probably find your biggest coins and see how many of them would sum up to a close number. Then you find your next biggest coins and add them to the previous coins so that they won't surpass the total change. It's almost unconcious, but this tells you something about how to solve this problem.
+
+Let's then follow that rationale to solve this problem:
+1. Say you want to add chips up to 273 USD. What you would do in a normal scenario is first to find the biggest coin you have because, otherwise, you'd end up using more coins than necessary. Now, how do you find how many of those coins you can max use? Let's divide 273USD over 100USD to find out. This is 2.73 which means you can use 2 chips of 100USD and you'd be left with 73USD to fill.
+
+2. So, what now? you start the problem again trying to fill 73USD but this time without the 100USD chip. You use the second best of your options which is the 50USD chip. 73USD/50USD yields to 1.46 which means you can only use 1 coin of 50USD. How much do we have left? it's not 46USD. It's just the same 73USD minus 1 chip of 50USD which means we're left with 23USD now. 
+
+3. The next big coin is 25USD. Divide 23USD into 25USD and you get 0.92. This means you can't even use a 25USD coin. It's straightforward as 25 > 23 and you don't want to give away your money.
+
+4. Let's try 10USD now. 23USD/10USD = 2.3. Use 2 coins of 10USD and you're left with 23 - 2*10 = 3USD.
+
+5. Your last coin is 1USD. 3USD/1USD = 3 coins.
+
+The answer for this problem would then be 8 (for chips 100, 100, 50, 10, 10, 1, 1, 1).
+
+##### Implementation
+
+```javascript
+function getNumChips(val) {
+  let chips = [100, 50, 25, 10, 5, 1]
+  let numChips = 0
+  for (chip of chips) {
+    let num = Math.floor(val / chip)
+    val -= chip * num
+    numChips += num
+  }
+  return numChips
+}
+```
+
+// TODO: edge cases?
+
+
+##### BigOn Analysis
+
+Think about this. For 273USD you solved the problem in 5 steps. Each one containing a mathematical operation. Mathematical operations are O(1) in time, it can computed immediately by the machine. Now, how many steps would you need if the amount was 60.520 USD? You would divide by 100, find the max number of 100USD chips and then continue with 50USD. You see where this is going, it's the same 5 steps, the same 5 computations. If small and large numbers need just 5 calculations to solve the problem, this means we have constant time of O(5). Now, as per the theory, for any k > 1, O(k*1) = O(1). With k=5 we have O(5) which means **our algorithm is O(1) in time**. 
+
+You might think, how come this is O(1) when you have a for cycle? Don't be confused about that. Space complexity only tells how the algorithm performs depending on the size of the input. We showed that it's the same for small and large inputs. Also, see that the loop is always constant over 5 elements. We could have easily do this without the loop, just did it for convenience.
+
+##### AHA moment
+
+You were asked to minimize the number of chips to fill a total amount but you end up maximizing the USD per chip in each step. This is your AHA moment: **minimizing globally means maximizing locally**. This is not true all the time but it's definitely a trick that can get you unblocked.
+
+#### 3. The wedding
+
+This might seem like an easy problem at first. Verifying if two lists are equal is something you might have done a few hundreds times before. But, are you doing it optimally?
+
+Let's see how your brain does this naturally. Take the first element from list 1 and find it in list 2. Now take the second element from list 1 and find it in list 2. Every time you find a matching pair, put a stroke over them. If you find an item that exists in list 1 but not in list 2, then you know they are not identical. If all the items in list 1 exist in list 2, but there are unstroked items in list 2, then both lists are not identical. If all items in list 1 are found in list 2 and there's no item unmarked, then you can say both lists are identical.
+
+We got it! We have a working algorithm, that's the first step. Do a first introspection to recognize how your brain works. Now, is that the best we could do? Let's get more technical and analyze the time complexity. For every item in list 1 we're looping in list 2 to find a matching pair. Be careful, this doesn't mean our algorithm is O(n^2). Indeed we have nested loops but, what does 'n' represent? both lists can grow indistinguishable. If n and m are the sizes of list 1 and 2, correspondingly, then our algorithm is O(n*m) in time.
+
+##### Optimization 1: Avoid rework
+
+Let's optimize a little bit. We're doing a lot of rework because we shouldn't visit the items in list 2 that have been found already. What if you skip them? You would then visit less elements each time you find a matching pair. Take an item from list 1, find it in list 2. Next time you won't look over m elements but instead over m - 1. Then, after that, you'll loop over m - 2, and so on. This means that the number of times you visit the elements in list 2 is m + (m-1) + (m-2) + .... + 1. This is known as a telescopic sum and can be expressed as m * (m + 1) / 2. If you open the parenthesis, this is (m^2 + m)/2. This means we're still dealing with quadratic times. In BigO notation you can ignore the least dominant term so our optimized algorithm is O(n^2). Now, is this really the best we can do? Do you not feel like we're still doing rework by looping the list again and again on every iteration?
+
+##### Optimization 2: Sort
+
+Now, we could also think about sorting both lists. If you sorted list 1 and list 2 then you could verify that all the values in the same indices are identical. Take an index 'i' from 0 to list 1 length and verify that list1[i] == list2[i]. Is this better than the previous alternative? Let's see. Sorting list 1 is O(nlogn) and sorting list 2 is O(mlogm). Then finally you loop over all the items one last time. This means the final complexity in time is O(nlogn + mlogm + n). 'n' is the least dominant term here so we can ignore it (why? because n multiplied by a non-constant term like logn is always greater than simply n). This means our algorithm is O(nlogn + mlogm). We went from n^2 to nlogn which means that, in fact, we did much better with this approach. But, do you not feel sorting is a bit overkill for such a simple task? let's see if we can do better.
+
+##### Optimization 3: Enter hashmaps
+
+Let's try what I call "the copper bullet". It's not a silver bullet as it won't work for every problem but it's definitely useful for a big chunk of them. Enter **hashmaps**. As reviewed in previous sections, a hashmap is a data structure that lets write and read in O(1) time. Let's see how to leverage this fact to improve our algorithm:
+
+1. Loop over all elements of list 1. Store each element in a hashmap.
+  - The key will be the invitee name and the value will be 1. 
+  - If a name already exists then increase the number by one.
+
+2. Loop over all elements of list 2. Treat each element as the key of the hashmap and try to find its value. 
+  - If a value is found, then decrease the value by 1.
+  - If no value is found, it means it wasn't put on the map, so both lists are not equal.
+
+3. Loop over the values in the hashmap.
+  - If some value is different than zero, it means one list has a value that appears more or less times than in the other list. This yields to both lists not being identical.
+  - If all values are zero, it means both lists are identical
+
+##### BigO Analysis
+
+We did BigO time complexity analysis for all the previous algorithms. We'll focus now on the last optimization. We first loop over all elements of list 1 and visit each element just once. This is O(n). When we finish that, we go over list 1 and do the same, this is O(m). Finally, we loop over the values in the hashmap which, in the worst case scenario with no duplicates, has n elements (i.e all values from list 1 stored in the map). This yields to another O(n). The time complexity is then O(n + m + n) => O(2n + m) => O(n + m). Now, notice that the second loop terminates quickly when no matching element is found in list 1. This means that, at most, you only loop through n elements in the second list, even when its length is 'm'. This would finally yield a time complexity of O(n + n) => O(2n). In BigO notation we only deal with the shape of the curve (constant, linear, quadratic, etc) so O(k * n) => O(n). Our algorithm is **O(n)** in time. 
+
+How do you know this is the best you can do? To know that both lists are equal you should, at least, know what are the elements in the list. How do you know them? by visiting them. This means should, at least, visit every element which is exactly O(n). You can't do better than that, because you can't leave any element unvisited.
+
+##### AHA moment
+
+We realized we were doing rework as we were visiting each element a lot of times. But, what really took us to the next level, was the **hashmap**. Hashmaps are really the copper bullet for most algorithms as the hashing power let you write and read in O(1).
+
+// TODO: is it really a telescopic sum?
+// TODO: put the specific section for "previous sections"
+
+
+
+
 
 todo: 
 - poner update del libro
 - how to find top 2 numbers
-- 
+- get quote about minko for BigO complexity
 
 
