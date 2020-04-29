@@ -1,11 +1,17 @@
 ---
-title: Ctti draft
+title: Cracking the Toptal Interview - Draft
 date: "2020-04-20T17:40:10.646Z"
-description: 
+description: Draft v1.0.
 draft: true
 ---
 
-# English
+# Changelog
+
+- **v1.0 - Apr 29**: First draft with in-depth review on the **English interview and the first online coding assessment**.
+
+<div class="divider"></div>
+
+# English Interview
 
 This section will help you hone your speaking skills and prepare for the interview. Its mostly directed for those who are already familiar with the language, who con understand and decently speak English at an intermediate level. It will help you hone your speaking skills and prepare for the interview. If you think you're still new to English I recommend taking professional lessons or finding expert language advice online before taking your chance at Toptal.
 
@@ -82,7 +88,7 @@ I recommend the following daily 2-hours practice routine. You can adjust it depe
 - Put up your best face. [Studies suggest](https://www.goodreads.com/book/show/35011639-before-you-know-it) humans are inclined to favor friendly, welcoming faces.
 
 
-# Coding Assessment
+# Online Coding Assessment
 
 In this section you'll learn what the second step of the Toptal interview looks like, what kind of problems you can expect from it and how to prepare. This is not the most difficult part of the interview but you'll need a lot of preparation to get through. 
 
@@ -251,17 +257,4 @@ How do you know this is the best you can do? To know that both lists are equal y
 ##### AHA moment
 
 We realized we were doing rework as we were visiting each element a lot of times. But, what really took us to the next level, was the **hashmap**. Hashmaps are really the copper bullet for most algorithms as the hashing power let you write and read in O(1).
-
-// TODO: is it really a telescopic sum?
-// TODO: put the specific section for "previous sections"
-
-
-
-
-
-todo: 
-- poner update del libro
-- how to find top 2 numbers
-- get quote about minko for BigO complexity
-
 
