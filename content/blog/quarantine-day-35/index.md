@@ -1,5 +1,5 @@
 ---
-title: Quarantine — Day 34
+title: Quarantine — Day 35
 date: "2020-04-23T23:32:57.928Z"
 description: New release
 tags: ["covid"]
