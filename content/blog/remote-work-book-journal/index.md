@@ -9,7 +9,27 @@ draft: true
 
 <div class="divider"></div>
 
-## Fri Apr 23
+## Wed Apr 29
+
+Launched [v1.0](https://mailchi.mp/155dcad64aca/career-boosthow-to-join-the-toptal-elite-4823430) of CTTI in the newsletter. Also wrote another coding example.
+
+## Tue Apr 28
+
+No progress
+
+## Mon Apr 27
+
+Did a lot of good progress on the Online Coding Assessment. Wrote two problems with solutions and many more resources
+
+## Sun Apr 26
+
+No progress
+
+## Sat Apr 25
+
+No progress
+
+## Fri Apr 24
 
 Lots of good progress on the [coding assessment](/ctti-draft) section of the guide.
 

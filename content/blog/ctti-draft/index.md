@@ -1,11 +1,13 @@
 ---
 title: Cracking the Toptal Interview - Draft
 date: "2020-04-20T17:40:10.646Z"
-description: Draft v1.0.
+description: Draft v1.1.
 draft: true
 ---
 
 # Changelog
+
+- **v1.1 - Apr 30**: Add a new problem with its solution to the online coding assessment.
 
 - **v1.0 - Apr 29**: First draft with in-depth review on the **English interview and the first online coding assessment**.
 
@@ -132,16 +134,17 @@ From my experience, there's just one way to study algorithms:
 1. Take out paper and pen
 2. Turn off your phone
 3. Stare at the problem for 30 minutes straight. Don't look the solution just yet.
-4. Start solving the problem as a human. Don't think abstract at first (see Instrospection section). 
-5. Write down the worst possible solution you can think of. Only pseudocode. No edge cases, no optimization.
-6. Stop and think. How do you feel about your solution? Do you intuit you can optimize?
-7. Optimize. Don't code just yet. These are my tricks to optimize:
+4. **Important:** Draw a base mock example to warm up your brain. If you need to deal with strings, write an example string. If the algorithm is about matrices, then draw a 3x3 mock matrix.
+5. Start solving the problem as a human. Don't think abstract at first (see Instrospection section). 
+6. Write down the worst possible solution you can think of. Only pseudocode. No edge cases, no optimization.
+7. Stop and think. How do you feel about your solution? Do you intuit you can optimize?
+8. Optimize. Don't code just yet. These are my tricks to optimize:
   a. Do you think you're doing unnecessary rework? are you visiting the data points a lot more than what you think?
   b. Are you missing some piece of information from the problem?
   c. Important: Can you use an auxiliar data structure, like a hash-table, to improve time performance?
-8. Cover edge cases. Online assessments are all about covering edge cases because they will be tested automatically. Are you including negative numbers in your reasoning? empty strings? base cases?
-9. Code! Don't write beautiful code. Online tools like Codility or the Toptal interviewers won't care if your code is beautiful or not. They will only evaluate if your algorithm works and is efficient.
-10. Record your AHA! moment. I'd say this is the most important step of the preparation. After you finish your algorithm, write down somewhere else your biggest realization. Something like "hashmaps took me from O(n^2) to O(n)" or "I can create a cache variable to avoid revisiting the list".
+9. Cover edge cases. Online assessments are all about covering edge cases because they will be tested automatically. Are you including negative numbers in your reasoning? empty strings? base cases?
+10. Code! Don't write beautiful code. Online tools like Codility or the Toptal interviewers won't care if your code is beautiful or not. They will only evaluate if your algorithm works and is efficient.
+11. Record your AHA! moment. I'd say this is the most important step of the preparation. After you finish your algorithm, write down somewhere else your biggest realization. Something like "hashmaps took me from O(n^2) to O(n)" or "I can create a cache variable to avoid revisiting the list".
 
 I credit some of this workflow to the book Cracking the Coding Interview.
 
@@ -163,11 +166,11 @@ Important: There's no value on reading the question and going straight to the an
 
 1. **Poker Chips:** Luigy works in a Casino and he gives customers poker chips in exchange of money. Find the minimum number of chips Luigy can use to match the customer requests. He has chips worth 100, 50, 25, 10, 5, 1. For example, for 126 Luigy should give 3 chips (100, 25, 1).
 
-2. **The wedding:** A palindrome is a word that reads equally backwards and forwards. Given a list of words, find all the palindromes and group them by their containing letters. For example, list [aba, baa, acaca, cac, dda, b] should return the following groups [ aba ], [ acdca, cadac ], [ b ]. Notice that, in the second group, all of the words use the letter a, c, and d.
+2. A palindrome is a word that reads equally backwards and forwards. Given a list of words, find all the palindromes and group them by their containing letters. For example, list [aba, baa, acaca, cac, dda, b] should return the following groups [ aba ], [ acdca, cadac ], [ b ]. Notice that, in the second group, all of the words use the letter a, c, and d.
 
-3. Lina and Carlos are getting married. They both have an invitee list. Find out if they both want to invite the exact same people.
+3. **The wedding:** Lina and Carlos are getting married. They both have an invitee list. Find out if they both want to invite the exact same people.
 
-4. Given a mathematical operation. Find out if the brackets are placed such that the equation is valid. There are 3 types of brackets: (,[,{.
+4. **Balanced Brackets:** Given a mathematical operation. Find out if the brackets are placed such that the equation is valid. There are 3 types of brackets: (,[,{.
 
 ### Solutions
 
@@ -258,3 +261,87 @@ How do you know this is the best you can do? To know that both lists are equal y
 
 We realized we were doing rework as we were visiting each element a lot of times. But, what really took us to the next level, was the **hashmap**. Hashmaps are really the copper bullet for most algorithms as the hashing power let you write and read in O(1).
 
+#### 4. Balanced Brackets
+
+Let's first draw two basic problem to get us warmed up.
+
+- **Balanced:** `(4+[1-(-2)])`
+- **Unbalanced:** `[{(5+2)]`
+
+We'll put names to the brackets just for convenience. () is type P, [] is type Q, and {} is type R.
+
+Right. Let's now try to solve the problem in our brains. Our+ eyes ignore all the opening brackets and focus only on the closing ones. I get to the first closing bracket of type P and think "ok, this one should close the last open bracket I saw". I keep moving and see another closing bracket, this time of type Q. "right, this one should close the last open bracket I saw, and that last bracket should be of type Q". **I also tend to skip those inner brackets that have already been closed,** because they are already resolved anyways.
+
+Let's try to implement this same algorithm in pseudocode. Notice we're somehow keeping a list in our memory. This means we need to add the brackets to a list. Also, notice we tend to skip the inner brackets that have been resolved. How do we translate this to code? well, "skipping" it means ignoring it, so we don't really need the open brackets that have been resolved; we'll remove resolved brackets.
+
+```
+brackets = []
+for every c in equation
+  if c is an open bracket
+    brackets.add(c)
+  if c is a closed bracket
+    if type of c == type of last(brackets)
+      brackets.remove_last()
+```
+
+For the equation to be valid, all brackets should have been resolved. Also, as you saw, we're removing resolved brackets from the list. This means that, for all the brackets to be balanced, we should expect our **list to have length 0 at the end of the algorithm**. Otherwise, there was a bracket that didn't get closed. This is a great start. It won't cover all the edge cases (like an equation with only closing brackets), but it'll be fine for a first iteration.
+
+Can we find out something more optimal? think about BigO time complexity for a minute. Our algorithm is looping through all the characters once. This means our algorithm is O(n). For someone to tell if an equation is valid or not, they need to look at the whole equation. No character should be skipped. This means there's nothing better than "looking at every character". Therefore, we can be confident there's no better way to do this than O(n).
+
+##### Enter Stacks
+
+This is a classic example to get you started with Stacks. A Stack is a FILO (first in, last out) data structure which lets you push and pop elements in O(1). The elements are pushed at the end of the list and are also popped from the end of the list. Think like a stack of poker chips. Remember we were pushing and removing brackets from the end of a list? Well, it seems like we can make it cleaner with a Stack.
+
+Let's assume we have a data structure called `Stack` with methods `push` and `pop` which will add and remove from the list tail, correspondingly. We'll also have a `last` method which will give us the last element without removing it from the list. Assume we have aux function like `isOpeningBracket` and `isClosingBracket` which will validate if a character is opening or closing, correspondingly. Finally, we'll need a function `isValidPair` which takes two characters and validates if they are any of `()`, `{}` or `[]`. This is how our algorithm would look like in real code.
+
+
+```javascript
+function validateBrackets(equation) {
+  const stack = new Stack();
+  for (letter of equation) {
+    if (isOpeningBracket(letter)) {
+      stack.push(letter);
+    }
+    if (isClosingBracket(letter)) {
+      if (isValidPair(stack.last(), letter)) {
+        stack.pop();
+      }
+    }
+  }
+  return stack.length === 0;
+}
+```
+
+Note: JavaScript has `push` and `pop` methods in vanilla Arrays so we don't really need to implement the Stack data structure. This is just for explanation purposes.
+
+##### Edge case analysis
+
+After your write your first algorith, make sure to come up with contrived examples with weird edge cases. Let's look at this one, for instance: `]]]]]]`. How would our algorithm behave for such an unbalanced expression? There's no opening bracket so our stack will always be empty. Every time the loop lands on a closing bracket it will check if it's a valid pair with the last stack element, which is null. This will, of course, be false and therefore we pass on to the next iteration. At the end of the algorithm out stack length is indeed 0, so our algorithm will classify this as `true`.
+
+Let's fix this. Check this out: Every closing bracket is a decisive point in our algorithm. If it doesn't pass our test then we should terminate and return false right away. You got it? There's no point in looping any further if one closing bracket didn't match is opening counterpart. With this in mind, let's modify our algorithm to *fail early* when a valid pair is not found.
+
+```javascript
+function validateBrackets(equation) {
+  const stack = new Stack();
+  for (c of equation) {
+    if (isOpeningBracket(c)) {
+      stack.push(c);
+    }
+    if (isClosingBracket(c) && !isValidPair(stack.pop(), c)) {
+      return false;
+    }
+  }
+  return stack.length === 0;
+}
+```
+
+Notice how we don't need `last` anymore. We `pop` right away. If it's a valid bracket, we were going to remove it from the stack anyway; if it's not valid, we terminate the algorithm.
+
+
+##### BigO Analysis
+
+As analyzed earlier, our algorithm is O(n) in time because it visits each element exactly once. We also showed there's no better and more performant way to solve this problem. What's the space complexity? Worst case scenario is we find an equation with only opening brackets. This means we'd end up with a stack of n elements. Our algorithm is then O(n) in space.
+
+##### AHA moment
+
+The aha moment is realizing we don't need resolved pairs in the equation anymore. When don't need anything, we're effectively removing it. When you see yourself ignoring something in your brain, that probably means removing it all over. In our case, it all led to us using a Stack and popping elements all over.

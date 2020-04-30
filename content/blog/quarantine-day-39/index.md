@@ -1,7 +1,7 @@
 ---
 title: Quarantine — Day 39
 date: "2020-04-27T23:32:57.928Z"
-description: Introducing a new way to surf the web
+description: New book
 tags: ["covid"]
 draft: true
 ---
@@ -12,7 +12,11 @@ draft: true
 
 # Quick update
 
+I started doing something different this week. So I normally plan my day ahead in the mornings. It's proven to be effective, at least for me, but it was taking too much decision bandwidth. I'll start doing it at night and I'll force myself to do no more than 3 things on the day. 3 is actually a lot, I should strive for 2, but I'll stick with it. Today I made a lot of progress on the CTTI guide, reviewed resumes, worked on open source and contract work.
 
+Apart from that, I got myself a copy of "21 lessons for the 21st century" from Yuval Noah Harari. This author knows how to write good content. Sapiens is easily in my top 3 books I've read and this one looks very promising too.
+
+This quarantine has been a time for instrospection like no other. It's been amazing.
 
 <div class="divider"></div>
 
@@ -25,7 +29,7 @@ draft: true
 * **Personal growth**: Yes
 * **Wake up 5:00 am**: No
 * **Workout**: No
-* **Help someone**: Yes
+* **Help someone**: No
 * **Time wasted < 90 mins**: Yes
 
 ## Finances
