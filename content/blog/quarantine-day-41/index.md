@@ -3,7 +3,7 @@ title: Quarantine — Day 41
 date: "2020-04-29T23:32:57.928Z"
 description: Newsletter No 2
 tags: ["covid"]
-draft: true
+draft: false
 ---
 
 > *This post is part of an ongoing series in which I document my journey through the COVID-19 quarantine. See [Day 1](/quarantine-day-1) for full context.*

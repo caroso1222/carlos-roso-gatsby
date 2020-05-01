@@ -3,7 +3,7 @@ title: Quarantine — Day 39
 date: "2020-04-25T23:32:57.928Z"
 description: Photo editing
 tags: ["covid"]
-draft: true
+draft: false
 ---
 
 > *This post is part of an ongoing series in which I document my journey through the COVID-19 quarantine. See [Day 1](/quarantine-day-1) for full context.*
@@ -12,7 +12,9 @@ draft: true
 
 # Quick update
 
-Spent 
+Spent a good amount of time editing pics for my wife. Pushing out that creative juice.
+
+![pics](pics.png)
 
 <div class="divider"></div>
 
