@@ -28,10 +28,10 @@ I put all the [resources here](/talks/cypress-bogota/) from my talk.
 
 * **Avoid news**: Yes
 * **Write blog**: Yes
-* **Personal growth**: Yes
+* **Personal growth**: No
 * **Wake up 5:00 am**: Yes
 * **Workout**: No
-* **Help someone**: Yes
+* **Help someone**: No
 * **Time wasted < 90 mins**: Yes
 
 ## Finances
