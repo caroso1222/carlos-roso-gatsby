@@ -9,6 +9,10 @@ draft: true
 
 <div class="divider"></div>
 
+## Mon May 4
+
+Wrote a small update with a new algorithm. Still WIP.
+
 ## Wed Apr 29
 
 Launched [v1.0](https://mailchi.mp/155dcad64aca/career-boosthow-to-join-the-toptal-elite-4823430) of CTTI in the newsletter. Also wrote another coding example.

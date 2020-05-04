@@ -168,6 +168,8 @@ Important: There's no value on reading the question and going straight to the an
 
 2. A palindrome is a word that reads equally backwards and forwards. Given a list of words, find all the palindromes and group them by their containing letters. For example, list [aba, baa, acaca, cac, dda, b] should return the following groups [ aba ], [ acdca, cadac ], [ b ]. Notice that, in the second group, all of the words use the letter a, c, and d.
 
+2.1. Find all the duplicate characters in a string
+
 3. **The wedding:** Lina and Carlos are getting married. They both have an invitee list. Find out if they both want to invite the exact same people.
 
 4. **Balanced Brackets:** Given a mathematical operation. Find out if the brackets are placed such that the equation is valid. There are 3 types of brackets: (,[,{.
