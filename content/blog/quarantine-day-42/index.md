@@ -1,5 +1,5 @@
 ---
-title: Quarantine — Day 41
+title: Quarantine — Day 42
 date: "2020-04-30T23:32:57.928Z"
 description: Do one thing every week that scares you
 tags: ["covid"]
