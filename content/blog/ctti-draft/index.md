@@ -1,11 +1,13 @@
 ---
 title: Cracking the Toptal Interview - Draft
 date: "2020-04-20T17:40:10.646Z"
-description: Draft v1.1.
+description: Draft v1.2
 draft: true
 ---
 
 # Changelog
+
+- **v1.2 - May 4**: Add new coding problem: "repeated string"
 
 - **v1.1 - Apr 30**: Add a new problem with its solution to the online coding assessment.
 
@@ -166,9 +168,9 @@ Important: There's no value on reading the question and going straight to the an
 
 1. **Poker Chips:** Luigy works in a Casino and he gives customers poker chips in exchange of money. Find the minimum number of chips Luigy can use to match the customer requests. He has chips worth 100, 50, 25, 10, 5, 1. For example, for 126 Luigy should give 3 chips (100, 25, 1).
 
-2. A palindrome is a word that reads equally backwards and forwards. Given a list of words, find all the palindromes and group them by their containing letters. For example, list [aba, baa, acaca, cac, dda, b] should return the following groups [ aba ], [ acdca, cadac ], [ b ]. Notice that, in the second group, all of the words use the letter a, c, and d.
+2. **The wedding:** Lina and Carlos are getting married. They both have an invitee list. Find out if they both want to invite the exact same people.
 
-3. **The wedding:** Lina and Carlos are getting married. They both have an invitee list. Find out if they both want to invite the exact same people.
+3. **Duplicate characters:** Find the top most repeated character in a string. For instance, given a string 'hello world', the top most repeated character is 'l' because it can be found 3 times in the string.
 
 4. **Balanced Brackets:** Given a mathematical operation. Find out if the brackets are placed such that the equation is valid. There are 3 types of brackets: (,[,{.
 
@@ -219,7 +221,7 @@ You might think, how come this is O(1) when you have a for cycle? Don't be confu
 
 You were asked to minimize the number of chips to fill a total amount but you end up maximizing the USD per chip in each step. This is your AHA moment: **minimizing globally means maximizing locally**. This is not true all the time but it's definitely a trick that can get you unblocked.
 
-#### 3. The wedding
+#### 2. The wedding
 
 This might seem like an easy problem at first. Verifying if two lists are equal is something you might have done a few hundreds times before. But, are you doing it optimally?
 
@@ -260,6 +262,112 @@ How do you know this is the best you can do? To know that both lists are equal y
 ##### AHA moment
 
 We realized we were doing rework as we were visiting each element a lot of times. But, what really took us to the next level, was the **hashmap**. Hashmaps are really the copper bullet for most algorithms as the hashing power let you write and read in O(1).
+
+#### 3. Duplicate characters
+
+Almost anyone can solve this problem in their mind for short sentences. Let's see how our brain works, no algorithms involved. You start skimming through the words and get a feel of which characters are candidates for repetition. How do you know that? because your short memory helps you with retention until something becomes more and more familiar. But, still though, you can't easily tell if a character has been repeated 5 or 6 times, until you count them. You need to keep a record of what characters are repeated and how many times.
+
+Following the rationale above, we can outline a rough working algorithm:
+- For every character, visit the rest of the string and count how the number of times it's repeated.
+- Keep track of the characters and the number of visits
+- Finish the algorithm by finding the max of the counts
+
+For the last exercise, you already know you can use maps to store key-value pairs. We can then levarege this data structure to keep out character count. Let's see how this looks like in pseudo-code:
+
+```
+counter = map()
+
+# build counter
+for i = 0 and i < input.size # for every character...
+  char_i = input[i]
+  if !counter.has(char_i) # ...if we haven't seen this character before...
+    for j = i + 1 and j < input.size # ...visit the rest of the string...
+      char_j = input[j]
+      if char_i == char_j: # ...coincidence found? update counter...
+        counter.char_i++
+
+# find max
+top_repeated = ''
+for char in counter:
+  if counter.get(char) > counter.get(top_repeated):
+    top_repeated = char
+
+return top_repeated
+```
+
+##### Optimization 1: Avoid rework
+
+Our first would work just fine. Let's see how expensive it is. For every character, we loop through every other character. This means our first run will visit N elements. The next iteration will visit N-1. Next one will be N-2. You get it. Hence, the number of steps our algorithm need to terminate is: N + (N-1) + (N-2) + ... + 1. As showed in problem #2, this behaviour means our algorithm runs in quadratic time: O(n^2).
+
+Can we do better? Do you not feel like we're doing some rework over here? We're running an inner loop to count coincidences, is that necessary? Can't we just keep a counter map with the number of coincidences of each character? Think about it for a second. Your brain is implicitly keeping a map with the number of times it sees a letter. Can't we just do the same? We're effectively changing the problem from "find the most repeated char" to "count the number of ocurrences for each char".
+
+Let's see how our final algorithm looks like. Code snippet is shown in JavaScript.
+
+```javascript
+function findTopRepeated(sentence) {
+  // Build counter map
+  const counterMap = {}
+  for (const char of sentence) {
+    if (counterMap[char]) {
+      counterMap[char]++
+    } else {
+      counterMap[char] = 1
+    }
+  }
+
+  // Find max
+  let top = ''
+  for (const char in counterMap) {
+    if (!counterMap[top] || counterMap[char] > counterMap[top]) {
+      top = char
+    }
+  }
+  return top
+}
+```
+
+##### Optimization 2: Merging loops
+
+At this point you have the most performant solution in terms of BigO behaviour (we discuss this in depth later). Now, is it really necessary to run two separate loops? can we keep track of the top most repeated char while we count the coincidences? Yes, it makes no difference. You'll end up counting them all anyways. Let's see what it looks like now.
+
+```javascript
+function findTopRepeated(sentence) {
+  // Build counter map and keep a running max
+  const counterMap = {}
+  let top = ''
+
+  for (const char of sentence) {
+    if (counterMap[char]) {
+      counterMap[char]++
+    } else {
+      counterMap[char] = 1
+    }
+
+    if (!counterMap[top] || counterMap[char] > counterMap[top]) {
+      top = char
+    }
+  }
+
+  return top
+}
+```
+
+Now, this one feels much better. We went from 2 loops to just 1 in no time, it's almost free profit.
+
+**Edge cases:** This is an exercise for you. Think about what edge cases you can encounter and solve them. What happens if there's no character repeated? The problem didn't say anything about it, it's up to you how to solve it. What happens with blank spaces? will that count as a character? if not, then deal with it, make sure you don't count empty characters. You can even clean the sentence before the algorithm, it'll make it run faster.
+
+
+##### BigO Analysis
+
+Just by looking at the code, we can tell we're no longer in the quadratic realm because we got rid of the nested loops. We're looping through the sentence just once, char by char. At first we had 2 loops which, in the worst case scenario (no char repeated), would end up being O(2n). As per BigO properties, O(k*n) is equivalent to O(n) so we have linear time. Please remember BigO is a mere measure of how your algorithm performs relative to how the input grows. It doesn't imply anything about the absolute run time. If O(n) takes 100ms, O(2n) will take 200ms. This is irrelevant for performance analysis, though. After our second optimization we got rid of the second loop and got and effective and O(n) linear time.
+
+To find the space complexity we need to think about the data structures we introduced to solve the problem. In this case, we're saving a counter map which, in the worst case, would keep a copy of all the characters in the input string. This means we have O(n) space complexity.
+
+##### AHA moment
+
+You might think the AHA moment for this problem was using the hashmap, same as problem #2. But, it was actually when we switched the problem and have it paraphrased in a different way; that's when we found the most performant solution. We stopped thinking about "finding the top most repeated" and started thinking about "logging the number of ocurrences per character". Then we got ourselves in front of a well known problem: finding the max number in a list.
+
+Remember this: Always try to boil problems down to subproblems that you already know how to solve. In the future, you might find problems that requires you to find repeated elements in lists. You already know it can be done in O(n) with hashmaps. That's going to be familiar and will put you one step ahead.
 
 #### 4. Balanced Brackets
 
