@@ -1,11 +1,13 @@
 ---
 title: Cracking the Toptal Interview - Draft
 date: "2020-04-20T17:40:10.646Z"
-description: Draft v1.3
+description: Draft v1.4
 draft: true
 ---
 
 # Changelog
+
+- **v1.4 - May 7**: Add progress on section "Test Project"
 
 - **v1.3 - May 6**: Add resources on BigO complexity
 
@@ -533,3 +535,65 @@ As analyzed earlier, our algorithm is O(n) in time because it visits each elemen
 ##### AHA moment
 
 The aha moment is realizing we don't need resolved pairs in the equation anymore. When don't need anything, we're effectively removing it. When you see yourself ignoring something in your brain, that probably means removing it all over. In our case, it all led to us using a Stack and popping elements all over.
+
+# Test Project
+
+The general believe is that, when you get to this point, you're pretty much a Toptaler already. I've heard this should be a straightforward step for someone who just went through the full application and cleared all the filters. I, personally, don't think this is the case.
+
+The advantage, though, is that you have plenty of time to work on this by yourself. The drawback is you may not know it all and you'll need to research a lot. But that's fun too. Let's see what to expect and how to prepare for this step.
+
+## What
+
+This is the last step of the process. It consists of 2 parts. First, they will send you a problem statement of a project and you will have 2 weeks to build it as if it was for a client. Second, you'll interview real time with a toptaler to showcase your project and support all your decisions. They will ask you all kind of questions ranging from fundamentals to project-specific stuff.
+
+This step is supposed to filter out [0.2% more canditates](https://www.toptal.com/top-3-percent). This means 32 out of 1000 people get to this point, and 30 of them will pass. Now, I need to make emphasis on this: do not understimate this part. I myself have referred overconfident people who play hard to get to this point only to see them fail. Make sure you deliver world class work here.
+
+## Why
+
+This can easily be the most important, critical part of the process. This is where you show off all your experience and your true engineering skills. Solving a real world problem is the only way you have to demonstrate you can write good code. You'll be pushed to think about all aspects of an app in a clean, maintainable, and scalable way. It's ultimately very similar to what you'll be doing on a daily basis.
+
+## How to prepare
+
+It can be daunting at first to tackle a problem of this magnitude. You will probably feel unqualified from the very get go. You might be good at frontend development but not feel confident about building an API. Or, you might be strong on the backend but lack UI/UX skills to make something look decent. This is normal, you can't be good at everything. And, if you are, you're not trying enough different things.
+
+The key here is to know what to study and where to focus. In the next few sections, I'll point out the main key concepts you should study in order to deliver a great project. We'll start reviewing a sample project and we'll go piece by piece discussing what's expected from you and what you should learn.
+
+### Sample Exercise
+
+I'll focus here on what you'll probably be applying for: web development. The project you'll have to build is probably either a full-stack or a frontend only project. It depends on whether you use a backend-as-a-service to build your API (ie Firebase), o create your own backend using your preferred language. You'll probably be given a very vague definition of a problem and this will be on purpose: they want to test how well you adapt to uncertainty.
+
+Let's see what a problem statement looks like:
+
+You should build an application to rate books:
+
+- Users can add and remove books on their account
+- New users must sign up with email and password. Email confirmation is not mandatory.
+- Existing users log in via email and password
+- Every book consists of a name, author and a numeric rating (from 1 to 5)
+- Users can update the rating of a book on their account
+- Users can filter their books by rating
+- Create an admin role whose dashboard shows all the books from all users
+- Admins can only view ratins but not edit them
+- Admins can filter books by created date
+- Clean and good looking UI/UX is expected
+- The API must be Restful. All actions should be executed via API.
+- Optional. Use a backend-as-a-service, like Firebase, if you don't know how to implement a backend. In any case, your interviewer will probably assess your knowledge in APIs and make you test it via Postman or cURL.
+
+You should deliver a fully functional app as if it was for a client.
+
+We'll go over what you should focus on both in the frontend and the backend.
+
+### Frontend
+
+- It's expected that you build a SPA (Single Page Application) so you'll need to rely on some framework like Angular, React, or Vue.
+- Make sure to use a battle-tested, proven UI library like Material components. All the major frameworks have a library for this: Angular Material, Material-UI (React) and Vue Material.
+- ...
+
+
+## Backend
+
+- Use your favorite framework and programming language to build the API. I recommend to stick to the known ones: Python, Java, NodeJS, PHP, .NET, Go. 
+- No matter what you do, always go Restful. Research about how a truly Restful API should look like. Avoid having routes like `POST /api/add-book` or `GET /api/filter-by-rating?rating`.
+- Handle authentication properly. Do not store plain text passwords. Look for 'salt hashing', learn to manage secrets in the server. Study this over and over again until you understand how clean auth works.
+- Handle authorization properly. Look online how to best
+- ...

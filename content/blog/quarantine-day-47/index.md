@@ -31,7 +31,7 @@ Feeling on fire for whatever comes next.
 * **Personal growth**: Yes
 * **Wake up 5:00 am**: No
 * **Workout**: No
-* **Help someone**: Yes
+* **Help someone**: No
 * **Time wasted < 90 mins**: No
 
 ## Finances
