@@ -441,7 +441,7 @@ Now, this one feels much better. We went from 2 loops to just 1 in no time, it's
 
 Just by looking at the code, we can tell we're no longer in the quadratic realm because we got rid of the nested loops. We're looping through the sentence just once, char by char. At first we had 2 loops which, in the worst case scenario (no char repeated), would end up being O(2n). As per BigO properties, O(k*n) is equivalent to O(n) so we have linear time. Please remember BigO is a mere measure of how your algorithm performs relative to how the input grows. It doesn't imply anything about the absolute run time. If O(n) takes 100ms, O(2n) will take 200ms. This is irrelevant for performance analysis, though. After our second optimization we got rid of the second loop and got and effective and O(n) linear time.
 
-To find the space complexity we need to think about the data structures we introduced to solve the problem. In this case, we're saving a counter map which, in the worst case, would keep a copy of all the characters in the input string. This means we have O(n) space complexity.
+To find the space complexity we need to think about the data structures we introduced to solve the problem. In this case, we're saving a counter map which, in the worst case, would keep a copy of all the characters in the input string. Does this means we have O(n) space complexity? Not so fast. The maximum size of our map is the number of characters in the alphabet. Let's say it's 27. Therefore our map will have no more than 27 key-value pairs. The space complexity is then O(27), which is effectively equivalent to O(1).
 
 ##### AHA moment
 
