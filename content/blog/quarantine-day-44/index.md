@@ -1,7 +1,7 @@
 ---
 title: Quarantine — Day 44
-date: "2020-05-01T23:32:57.928Z"
-description: Releasing rmind
+date: "2020-05-02T23:32:57.928Z"
+description: Photo-editing
 tags: ["covid"]
 draft: false
 ---
@@ -12,7 +12,9 @@ draft: false
 
 # Quick update
 
-Photo-editing saturday, as usual. I feel I'm getting better and better at it. My wife is also getting good comments and growing her follower base, which feels nice as I think I'm part of her success, at least a very small.
+Photo-editing saturday, as usual. I feel I'm getting better and better at it. My wife is also getting good comments and growing her follower base, which feels nice as I think I'm part of her success, at least a very small part of it. She's the best.
+
+![pic](pic.png)
 
 <div class="divider"></div>
 
@@ -30,7 +32,7 @@ Photo-editing saturday, as usual. I feel I'm getting better and better at it. My
 
 ## Finances
 
-* **Spent**:
+* **Spent**: 80 USD
 * **Stocks Portfolio (24h)**: -2.14%
 * **Stocks Portfolio (All time)**: +11.57%
 * **Cryptofolio (24h)**: -0.45%

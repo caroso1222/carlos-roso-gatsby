@@ -1,7 +1,7 @@
 ---
 title: Quarantine — Day 45
-date: "2020-05-01T23:32:57.928Z"
-description: Releasing rmind
+date: "2020-05-03T23:32:57.928Z"
+description: They call me Gordon Ramsay now
 tags: ["covid"]
 draft: false
 ---
@@ -30,7 +30,7 @@ Cooked my first desert ever! This was a goal for the week and I managed to get t
 
 ## Finances
 
-* **Spent**:
+* **Spent**: 4USD
 * **Stocks Portfolio (24h)**: -2.14%
 * **Stocks Portfolio (All time)**: +11.57%
 * **Cryptofolio (24h)**: -0.45%

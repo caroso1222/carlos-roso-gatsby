@@ -1,7 +1,7 @@
 ---
 title: Quarantine — Day 46
-date: "2020-05-01T23:32:57.928Z"
-description: Releasing rmind
+date: "2020-05-04T23:32:57.928Z"
+description: Last day at work
 tags: ["covid"]
 draft: false
 ---
@@ -36,7 +36,7 @@ I need to listen more to the what the community needs, in terms of kickstarting 
 
 ## Finances
 
-* **Spent**:
+* **Spent**: 25USD
 * **Stocks Portfolio (24h)**: +0.44%
 * **Stocks Portfolio (All time)**: +12.09%
 * **Cryptofolio (24h)**: -0.68%

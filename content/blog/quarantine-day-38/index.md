@@ -1,5 +1,5 @@
 ---
-title: Quarantine — Day 39
+title: Quarantine — Day 38
 date: "2020-04-26T23:32:57.928Z"
 description: Netflix & chill
 tags: ["covid"]

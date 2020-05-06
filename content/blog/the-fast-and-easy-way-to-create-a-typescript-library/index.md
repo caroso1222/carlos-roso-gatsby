@@ -91,7 +91,3 @@ script:
   - npm run cov:send
   - npm run cov:check
 ```
-
-# TODO
-
-- adjust post url

@@ -1,5 +1,5 @@
 ---
-title: Quarantine — Day 39
+title: Quarantine — Day 37
 date: "2020-04-25T23:32:57.928Z"
 description: Photo editing
 tags: ["covid"]
