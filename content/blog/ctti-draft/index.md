@@ -1,11 +1,13 @@
 ---
 title: Cracking the Toptal Interview - Draft
 date: "2020-04-20T17:40:10.646Z"
-description: Draft v1.2
+description: Draft v1.3
 draft: true
 ---
 
 # Changelog
+
+- **v1.3 - May 6**: Add resources on BigO complexity
 
 - **v1.2 - May 4**: Add new coding problem: "repeated string"
 
@@ -112,9 +114,86 @@ The first thing you should know is you'll need to get an absurd amount of prepar
 
 You should first get familiar with the next 3 concepts.
 
-1. BigO Notation: To put it in layman terms, BigO is a standard to tell how efficient your algorithm is. It'll give an indication on how your algorithm performs in time and space. (TODO: find recommended literature)
+1. BigO Notation: To put it in layman terms, BigO is a standard to tell how efficient your algorithm is. It'll give an indication on how your algorithm performs in time and space.
 2. Hashmaps: This is by far the most important concept you should master. I've used hashmaps to pass a lot of coding interviews. Their superpower is they can store and fetch data in O(1) time. Think of an object in JavaScript or a Hashtable in Java. I expand on this in the section Hashmaps.
 3. Strings and lists: This might come off as a basic topic for you but it's mandatory that you're fluent manipulating strings and lists. Almost any problem will require you to loop over a list or strings. You don't want to be looking for syntax specific methods in the middle of an interview. Make sure you can instantly push an element at the beginning of a list, find the length of a string, reverse a list, map and reduce, and so on. Now, don't just practice the syntax. You need to be able to reason about the BigO time complexity of the algorithms. Interviewers will ask for that. Are you using .reverse? ok, what's the time cost of doing that?
+
+### Quick BigO Recap
+
+BigO is simply a notation that tells you how well or bad your algorithm performs as your input size grows. I've used the following tips to solve and analyze algorithms in all my coding interviews.
+
+#### 1. O(1)
+
+Means your algorithm will take roughly the same amount of time regardless of the input size. Applies normally to math operations and object lookups.
+
+```javascript
+// regardless of a or b, a sum is a math operation that takes just 
+// one clock cycle to complete
+const add = (a, b) => a + b;
+
+// no matter of how big your map is (e.g an object in JavaScript), 
+// a lookup will take 1 cycle to complete
+const lookup = (map, key) => map[key];
+```
+
+Accessing the `bar` prop from the `foo` object like `foo.bar` is an O(1) operation.
+
+*Note: Hashmap lookups are considered to be O(1) in theory regardless of how they solve collisions*
+
+#### 2. O(n)
+
+Means your algorithm run time will grow linearly with the input. Take, for instance, the algorithm to find the max number of a list. Your algorithm necessarily needs to visit every element to know which number is the max. If your list grows 2x, your algorithm will roughly take twice the time to complete.
+
+```javascript
+// you need to loop through all the elements to find the max.
+function findMax(list) {
+  let max = -Infinity;
+  for (obj of list) {
+    if (obj > max) max = obj
+  }
+}
+```
+
+#### 3. O(nlogn)
+
+This one is easier than what it looks like. Don't worry about the weird logarithm over there. Logs in BigO notation normally means you're dividing something into halves, and each half is divided again into halves. But, the only thing you need to remember is this: **O(nlogn) is mostly associated with sorting**. Sorting lists are not free operations, you're incurring in costs when using them. Let's see an example of a very inefficient way to get the max of a list:
+
+```javascript
+function getMax(list) {
+  return list.sort((a, b) => b - a)[0]
+}
+```
+
+O(n) is better than O(nlogn) because if you multiply 🦄 by logn, you get a bigger 🦄.
+
+Now you have good criteria to decide what's most efficient to find a max. Would you use the O(n)? or the O(nlogn) algorithm?
+
+#### 4. O(n<sup>2</sup>) 
+
+Means your input size affects the algorithm like crazy (not quite as bad as others). If your input size doubles, your run time grows 4x. If your input grows 4x, your run time grows 16x. This normally takes the shape of a nested loop. Let's write a very inefficient way to find if an array has a duplicate.
+
+```javascript
+function hasDuplicates(list) {
+  for (let [i, el_i] of list.entries()) {
+    for (let [j, el_j] of list.entries()) {
+      if (i !== j && el_i === el_j) return true;
+    }
+  }
+  return false;
+}
+```
+
+For every element in the list of size n, we're looping over the whole list of size n. That means we're visiting the elements n*n = n<sup>2</sup> times.
+
+*Can you come up with an O(n) algorithm for this task? one that only loops through the list once? let me know in the comments*
+
+#### Takeway
+
+No need to dig deeper into this topic to ace an easy to medium interview. Just know that some tasks cost more than others and why. Generally speaking, you can go easy with this rule:
+
+```
+O(1) < O(n) < O(nlogn) < O(n^2)
+```
 
 ### Recommended resources
 
@@ -128,6 +207,7 @@ You should first get familiar with the next 3 concepts.
 - LeetCode
 - Hackerrank
 - InterviewCake
+- BigO: Checkout the [BigO Cheatsheet](https://www.bigocheatsheet.com/) and [this great video](https://www.youtube.com/watch?v=v4cd1O4zkGw&t=11s).
 
 ### How to study
 
