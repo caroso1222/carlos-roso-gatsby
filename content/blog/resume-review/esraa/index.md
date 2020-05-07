@@ -1,5 +1,5 @@
 ---
-title: Resume Review - Esraa
+title: Resume Review - Leiha
 date: "2020-04-27T21:53:04.131Z"
 description: Great experience. Good communication. Needs to make her look a bit more impressive.
 draft: true
@@ -32,12 +32,12 @@ I personally know your work and your performance and you're much more awesome th
 
 Wherever possible, try to follow the format "Accomplished X by implementing Y which led to Z" ([credits](https://www.amazon.com/-/es/Gayle-Laakmann-McDowell/dp/0984782850)). Let's run through some samples:
 
-* DevFactory
+* Acme
   - Modernized +8 apps by moving from legacy technologies to state-of-the-art frontend frameworks like Angular and Ionic.
   - Helped +20 customers evaluate ideas in record time by building fast UI prototypes in Angular. This resulted in a time-to-market reduction of 400%.
   - Increased API wiring time in 2x for +30 developers by proposing a standard structure to implement Restful APIS with Java and Swagger.
 
-* Kenzi Marketing
+* Massive Dynamic
   - Helped more than 10 clients market their products to thousands of customers (+50k combined) by building WordPress themes with JavaScript, PHP, MySQL and AWS.
   - Improved development time in 4x by abstracting common code into WordPress plugins.
 

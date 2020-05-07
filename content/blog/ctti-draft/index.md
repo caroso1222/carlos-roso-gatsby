@@ -1,11 +1,13 @@
 ---
 title: Cracking the Toptal Interview - Draft
 date: "2020-04-20T17:40:10.646Z"
-description: Draft v1.4
+description: Draft v1.5
 draft: true
 ---
 
 # Changelog
+
+- **v1.5 - May 8**: Finish section "Test Project"
 
 - **v1.4 - May 7**: Add progress on section "Test Project"
 
@@ -544,9 +546,9 @@ The advantage, though, is that you have plenty of time to work on this by yourse
 
 ## What
 
-This is the last step of the process. It consists of 2 parts. First, they will send you a problem statement of a project and you will have 2 weeks to build it as if it was for a client. Second, you'll interview real time with a toptaler to showcase your project and support all your decisions. They will ask you all kind of questions ranging from fundamentals to project-specific stuff.
+This is the last step of the process. It consists of 2 parts. First, they will send you a project spec and you will have 2 weeks to build it as if it was for a client. Second, you'll interview real time with a toptaler to showcase your project and support all your decisions. They will ask you all kind of questions ranging from fundamentals to project-specific stuff.
 
-This step is supposed to filter out [0.2% more canditates](https://www.toptal.com/top-3-percent). This means 32 out of 1000 people get to this point, and 30 of them will pass. Now, I need to make emphasis on this: do not understimate this part. I myself have referred overconfident people who play hard to get to this point only to see them fail. Make sure you deliver world class work here.
+This step is supposed to filter out [0.2% more canditates](https://www.toptal.com/top-3-percent). This means 32 out of 1000 people get to this point, and 30 of them will pass. Now, I need to make emphasis on this: do not understimate this phase. I myself have referred overconfident people who play hard to get to this point only to see them fail. Make sure you deliver world class work here.
 
 ## Why
 
@@ -554,7 +556,7 @@ This can easily be the most important, critical part of the process. This is whe
 
 ## How to prepare
 
-It can be daunting at first to tackle a problem of this magnitude. You will probably feel unqualified from the very get go. You might be good at frontend development but not feel confident about building an API. Or, you might be strong on the backend but lack UI/UX skills to make something look decent. This is normal, you can't be good at everything. And, if you are, you're not trying enough different things.
+It can be daunting at first to tackle a problem of this magnitude. You will probably feel unqualified from the very get go. You might be good at frontend development but not feel confident about building an API. Or, you might be strong on the backend but lack UI/UX skills to make something look decent. This is normal, you can't excel at everything.
 
 The key here is to know what to study and where to focus. In the next few sections, I'll point out the main key concepts you should study in order to deliver a great project. We'll start reviewing a sample project and we'll go piece by piece discussing what's expected from you and what you should learn.
 
@@ -579,21 +581,42 @@ You should build an application to rate books:
 - The API must be Restful. All actions should be executed via API.
 - Optional. Use a backend-as-a-service, like Firebase, if you don't know how to implement a backend. In any case, your interviewer will probably assess your knowledge in APIs and make you test it via Postman or cURL.
 
-You should deliver a fully functional app as if it was for a client.
+You must deliver a fully functional app as if it was for a client. You'll probably be given a Gitlab repo with access to push your code. They won't review your commit messages but I recommend to be professional with that. It's the little details that count.
 
-We'll go over what you should focus on both in the frontend and the backend.
+We'll go over what you should focus on both the frontend and the backend.
 
 ### Frontend
 
 - It's expected that you build a SPA (Single Page Application) so you'll need to rely on some framework like Angular, React, or Vue.
 - Make sure to use a battle-tested, proven UI library like Material components. All the major frameworks have a library for this: Angular Material, Material-UI (React) and Vue Material.
-- ...
+- Use a common CSS framework. This is not the time to build your own framework. Just use whatever works like Bootstrap or Tailwind.
+- Implement good routing. I recommend every page in your app to have an individual reachable URL, even login and signup.
+- Write authentication guards. They should automatically route your users to login/signup when accessing forbidden routes. Make sure you understand this concept and talk about it in the interview.
+- Built E2E tests. At least 2 or 3, they are not normally mandatory but will show you think about maintainable code. I hugely recommend doing this with Cypress. It's the fastest and easiest way to write E2E tests.
+- Implement network interceptors to add your auth tokens in a clean way. You can achive this with HTTP intercetors (Angular), Axios interceptors (React) for `VueResource` (Vue).
+- Make sure your app is responsive. This will tell your interviewer you think mobile first, which is critical in the web scene today.
+- Test in at least 3 major browsers. Leveraging a UI component library and a CSS framework is a great way to mitigate risks with this. I recommend testing in Chrome, Firefox and either Safari or Edge, depending on your OS.
+- Go modular. Make sure you build independent components with very clear inputs and outputs. If your component is growing too large, consider dividing it into smaller components. This is critical because your interviewer will ask you to add features in the live screening. If you have spaghetti code all over the codebase, you'll find it very hard to do this fast.
+- Good folder architecture. Make sure you show a clean codebase with well defined folders: models, utils, shared, components, assets.
+- Use TypeScript. It's first-class in Angular but, if you work on React or Vue, I highly recommend using the TypeScript starter. This will make your code look much cleaner. You can also tell your interviewer this makes it more maintainable in the long term.
+- Styling. Avoid inline styles in your HTML `<div style="color: red">`. Style classes only `.my-class { color: blue }`, not HTML tags directly. If using CSS-in-JS, use semantic names for your styles.
 
-
-## Backend
+### Backend
 
 - Use your favorite framework and programming language to build the API. I recommend to stick to the known ones: Python, Java, NodeJS, PHP, .NET, Go. 
 - No matter what you do, always go Restful. Research about how a truly Restful API should look like. Avoid having routes like `POST /api/add-book` or `GET /api/filter-by-rating?rating`.
 - Handle authentication properly. Do not store plain text passwords. Look for 'salt hashing', learn to manage secrets in the server. Study this over and over again until you understand how clean auth works.
-- Handle authorization properly. Look online how to best
-- ...
+- Handle authorization properly. Look online how to best organize roles in a database with an authorization scheme.
+- Choose your DB properly. You'll have to support your decision in the interview. Whether you go with SQL or NoSQL, make sure you read the differences beforehand and be ready to answer questions like "why MySQL and not Postgres? why is this app better for a NoSQL?"
+- Write unit tests. If working on NodeJS there are several resources online on how to test your Mongoose controllers with Mocha and Sinon. If working with Python/Django, there's a complete section on Testing in their docs. Remember: just do a few tests, don't spend too much here. You can say you focused on the critical components and you moved on. This will at least show you care about testing; it's critical in picturing you as an expert.
+- ORM. It's highly advised to leverage an ORM like Mongoose objects or Django models to manage DB objects. I wouldn't recommend having plain SQL statements on your codebase, at least for this project. You won't probably be asked to show off your SQL skills so having them can be detrimental.
+- Dev vs Prod settings. You won't be asked to deploy your project, don't spend time on it. However, make sure you understand what configs can be made public and which ones should be secrets. This typically involves DB passwords, API Keys, or any other credentials. This data should not be commited to your repo and should instead be kept secret in the prod server. Again, you don't have to do any of this, but it's critical to understand this concept.
+- Learn to use Postman. You'll be asked to open this, or cURL, in your interview. Be prepared to create a POST request with authorization headers, to create a JSON payload, or to analyze the headers of a GET request.
+- Use middlewares. When you use middlewares you show you understand the different layers of an app in the backend. You can use middlewares to verify authentication or authorization, manage sessions, append headers, write logs, cookie management, etc.
+- Headers. Using advanced headers will make you look ahead of the curve. Believe or not, most devs won't ever go into configuring security headers as they trust their framework so much. I'd stick with headers like CSP and disabling X-powered-by. Make sure to talk about this in your interview. 
+
+### Tips for the interview
+
+You can't build a great project and go unprepared to the call. I recommend these specific steps to prepare your screening:
+
+1. Make sure you can run the project right after the first git clone.

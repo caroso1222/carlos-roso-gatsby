@@ -5,23 +5,23 @@ description: Clear steps to build a job-winning Full Stack project
 draft: false
 ---
 
-Interview processes at top remote work platforms like Toptal, Crossover or any other applicant vetting marketplaces will normally ask you to develop a project to evalute your software engineering skills. I have cleared interviews at most of these places as well as reviewed dozens of projects myself.
+Interview processes at top remote work platforms like Toptal, Crossover or any other applicant vetting marketplaces will normally ask you to develop a project to evaluate your software engineering skills. I have cleared interviews at most of these places as well as reviewed dozens of projects myself.
 
-These projects will normally take you 10-15 work hours, depending on your experience. It's a ton of work but it pays off once you land the job. Play it intelligente and spend those hours doing what's absolutely necessary to ace the interview.
+These projects will normally take you 10-15 work hours, depending on your experience. It's a ton of work but it pays off once you land the job. Play it intelligently and spend those hours doing what's absolutely necessary to ace the interview.
 
 These are the 8 points I think you should consider when developing a full stack project for an interview test project.
 
 ## 1. Unit Testing
 
-Show your interviewer you're not just about building novel features. You think about maintainbility and long-term project health so you're concerned about unit testing. There's no time to be exhaustive not even get to 100% coverage. Add some tests to the most important features both in the frontend and the backend. You can consider shooting some integration tests with Cypress which is easy to setup and will show how you think about integration.
+Show your interviewer you're not just about building novel features. You think about maintainability and long-term project health so you're concerned about unit testing. There's no time to be exhaustive not even get to 100% coverage. Add some tests to the most important features both in the frontend and the backend. You can consider shooting some integration tests with Cypress which is easy to set up and will show how you think about integration.
 
 ## 2. Restful API
 
-This is a must. You'll probably be asked to implement a API which need to CRUD 2 or 3 entities. Think like a reminders manager. You'll have lists and reminders. Make sure you build your API following proper Restful principles. Having endpoints like `GET /lists/:id/reminders/:id` looks much more readable and maintainable than `POST /lists/:id/change-reminder-name?id=:id`. Please use the right HTTP verbs wherever appropriate. Without context, nothing is worse than seeing GET endpoints that mutate the DB state.
+This is a must. You'll probably be asked to implement an API that needs to [CRUD](https://es.wikipedia.org/wiki/CRUD) 2 or 3 entities. Say, for instance, you're implementing a reminders manager. You'll have lists and reminders. Make sure you build your API following proper Restful principles. Having endpoints like `GET /lists/:id/reminders/:id` looks much more readable and maintainable than `POST /lists/:id/change-reminder-name?id=:id`. Please use the right HTTP verbs wherever appropriate. Without context, nothing is worse than seeing GET endpoints that mutate the DB state.
 
 ## 3. Scalability
 
-With absolute certainty your interviewer will ask you to do add a new feature to your project. If you built your front and back in a scalable way then you will have no trouble doing this. What does this mean? In the frontend, it will probably mean you can create new router and pages easily, you can reuse existing models, easily put components behind the auth wall, etc. In the backend this will probably mean having a proper DB schema to add a new model, have a good roles and permission system in place, have a correct util/shared files architecture, etc.
+With absolute certainty, your interviewer will ask you to do add a new feature to your project. If you built your front and back in a scalable way then you will have no trouble doing this. What does this mean? In the frontend, it will probably mean you can create new router and pages easily, you can reuse existing models, easily put components behind the auth wall, etc. In the backend, this will probably mean having a proper DB schema to add a new model, have a good role and permission system in place, have a correct util/shared file architecture, etc.
 
 ## 4. Intelligent use of external libraries
 
@@ -33,7 +33,7 @@ Don't hide behind that comfort wall of "I'm an engineer so I suck at design, but
 
 ## 6. Authentication & User Management
 
-Auth is critical in 99% of the applications you'll create. If you're intervieweing for backend or full stack, make sure your auth game is strong. Study how to hash passwords with salts, how oauth2 works and what they offer in terms of security, how users are safely stored in the DB. If you don't know any of that, don't be intimidated. I learned all that in one day straight and put it into practice the next few days. Interviewers will probably ask you to add a new role or to guard an endpoint behind an auth wall.
+Auth is critical in 99% of the applications you'll create. If you're interviewing for backend or full stack, make sure your auth game is strong. Study how to hash passwords with salts, how oauth2 works and what they offer in terms of security, how users are safely stored in the DB. If you don't know any of that, don't be intimidated. I learned all that in one day straight and put it into practice the next few days. Interviewers will probably ask you to add a new role or to guard an endpoint behind an auth wall.
 
 ## 7. DB Management
 
@@ -41,7 +41,7 @@ You need to be confident supporting your decision to go with NoSQL or SQL databa
 
 ## 8. Route Guards
 
-This comes hand-to-hand with authentication. Make sure you know how to properly implement route guards both in the backend and the frontend. A route guard is a mechanism to protect your urls (client) and endpoints (server) from being accessed without authentication. Frontend frameworks come equipped with these mechanisms already and backend apps can leverage something like JWT to validate the user.
+This goes hand in hand with authentication. Make sure you know how to properly implement route guards both in the backend and the frontend. A route guard is a mechanism to protect your URLs (client) and endpoints (server) from being accessed without authentication. Frontend frameworks come equipped with these mechanisms already and backend apps can leverage something like JWT to validate the user.
 
 <div class="divider"></div>
 
@@ -49,6 +49,6 @@ Now, keep in mind this might be opinionated. It's based on my experience both as
 
 <div class="divider"></div>
 
-Let me know in Twitter if you have been asked more things in these kind of interviews.
+Let me know on [Twitter](https://twitter.com/caroso1222) if you have gone through these interviews.
 
 
