@@ -9,6 +9,14 @@ draft: true
 
 <div class="divider"></div>
 
+## Mon May 11
+
+Small update on the intro.
+
+## Tue May 5 - Sun May 10
+
+Good progress on the guide. I'm almost 90% done. Will finish writing soon and then I'll start working on graphic design.
+
 ## Mon May 4
 
 Wrote a small update with a new algorithm. Still WIP.

@@ -21,6 +21,22 @@ draft: true
 
 <div class="divider"></div>
 
+# Intro
+
+## What's Toptal?
+
+For starters, Toptal is a remote work marketplace which claims to accept only 3% of the applicants. As such, the work quality and rates are much, much higher than other non-vetting platforms like Upwork, Freelancer, Freeeup, you name it. Toptal connects you with client all over the world in engagements that can be full-time, part-time or hourly. Most of the jobs are likely to be long term. Once you get into the marketplace, you'll probably find your first job in 3 or 4 weeks, given you put good time into polishing your profile.
+
+## Why Toptal?
+
+I've gone through tough interviews in most of these top remote platforms. All of them claiming to filter out the vast majority of applicants. However, even after taking jobs at some of these marketplaces, I can honestly say Toptal has been the best of them. The fact that you can set your own rate and your weekly availability makes it very flexible for a digital nomad like me. They filter out companies with a rigorous process too, so you're almost guaranteed to work with awesome teams. The cash is top; you get much more than what yo
+
+## How to prepare
+
+This guide contains practical tips to ace every step of the interview. First, I dive deep into the English test. This step of the process filters out ~76% of the applicants so it's critical to make it through. Then I go into the most daunting phase: the coding interviews. I cover everything from what to expect to preparation tips. You'll also be able to practice with a handful of exercises and understand the solutions right there. Finally, I talk about the Test Project, which is the last step of the screening. I'll go through a dummy exercise for full stack web and develop a strategy to deliver a job-winning project in the frontend and backend.
+
+Remember Toptal is not the only option you have. Once you go through all the preparation, you'll be ready to tackle on similar interviews in several other top-remote marketplaces. Big tech companies (Facebook, Amazon, Google) will also ask you to be good at english speaking and algorithms. Please keep that in mind, you're not preparing for just one interview, you're investing hard on your future as a developer.
+
 # English Interview
 
 This section will help you hone your speaking skills and prepare for the interview. Its mostly directed for those who are already familiar with the language, who con understand and decently speak English at an intermediate level. It will help you hone your speaking skills and prepare for the interview. If you think you're still new to English I recommend taking professional lessons or finding expert language advice online before taking your chance at Toptal.
@@ -600,11 +616,13 @@ We'll go over what you should focus on both the frontend and the backend.
 - Good folder architecture. Make sure you show a clean codebase with well defined folders: models, utils, shared, components, assets.
 - Use TypeScript. It's first-class in Angular but, if you work on React or Vue, I highly recommend using the TypeScript starter. This will make your code look much cleaner. You can also tell your interviewer this makes it more maintainable in the long term.
 - Styling. Avoid inline styles in your HTML `<div style="color: red">`. Style classes only `.my-class { color: blue }`, not HTML tags directly. If using CSS-in-JS, use semantic names for your styles.
+- Always aim to do sorting and filtering on the backend. Doing this in the frontend will probably tell your interviewer you don't think enough about scalability.
 
 ### Backend
 
 - Use your favorite framework and programming language to build the API. I recommend to stick to the known ones: Python, Java, NodeJS, PHP, .NET, Go. 
 - No matter what you do, always go Restful. Research about how a truly Restful API should look like. Avoid having routes like `POST /api/add-book` or `GET /api/filter-by-rating?rating`.
+- Make sure you understand the difference between URL parameters (`/users/:id`) and query strings (`/users?sortBy=:order`) and when to use them. 
 - Handle authentication properly. Do not store plain text passwords. Look for 'salt hashing', learn to manage secrets in the server. Study this over and over again until you understand how clean auth works.
 - Handle authorization properly. Look online how to best organize roles in a database with an authorization scheme.
 - Choose your DB properly. You'll have to support your decision in the interview. Whether you go with SQL or NoSQL, make sure you read the differences beforehand and be ready to answer questions like "why MySQL and not Postgres? why is this app better for a NoSQL?"
@@ -617,6 +635,11 @@ We'll go over what you should focus on both the frontend and the backend.
 
 ### Tips for the interview
 
-You can't build a great project and go unprepared to the call. I recommend these specific steps to prepare your screening:
+You can't just build a great project and go unprepared to the call. I recommend these specific steps to prepare your screening:
 
 1. Make sure you can run the project right after the first git clone.
+2. They will probably ask you to use the existing project on your local, so have it up and running for the call.
+3. Get Postman (or your favorite HTTP client) ready for the interview.
+4. Be confident and but also authentic. If you don't know a concept just say you know something about it, mention what you know, but be willing to say "I don't know at this time, I would just search for that".
+5. Practice some dummy questions before the interview: add a new role, add a new object to the DB, add a new filter, etc.
+6. 
