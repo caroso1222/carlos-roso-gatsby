@@ -9,7 +9,7 @@ const CttiBanner = () => {
         <div className="container">
           <div className="d-flex justify-content-between align-items-center w-100">
             <h5 className="ctti-banner__header">
-              Troubles with that coding <span>Interview</span>?
+              You can crack the tech <span>Interview</span> too!
             </h5>
             <Link to="/cracking-the-toptal-interview" className="ctti-banner__button as-header">
               Get my guide for free

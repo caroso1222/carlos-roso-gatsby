@@ -1,11 +1,21 @@
 ---
 title: Cracking the Toptal Interview - Draft
 date: "2020-04-20T17:40:10.646Z"
-description: Draft v1.5
+description: Draft v1.8
 draft: true
 ---
 
 # Changelog
+
+From May 12 moving forward, I'll publish updates to Google Docs. This link will become outdated.
+
+**You'll be able to view and make comments. [See draft here.](https://docs.google.com/document/d/1lCw1QnUjDc-mKTfIMRcTWZPTFk9KRPMjeXlK4tHwXks/edit?usp=sharing)**
+
+- **v1.8 - May 12**: Switched to GDocs
+
+- **v1.7 - May 11**: Add Interview tips for the "Test Project" chapter
+
+- **v1.6 - May 10**: Write Intro
 
 - **v1.5 - May 8**: Finish section "Test Project"
 
@@ -25,27 +35,27 @@ draft: true
 
 ## What's Toptal?
 
-For starters, Toptal is a remote work marketplace which claims to accept only 3% of the applicants. As such, the work quality and rates are much, much higher than other non-vetting platforms like Upwork, Freelancer, Freeeup, you name it. Toptal connects you with client all over the world in engagements that can be full-time, part-time or hourly. Most of the jobs are likely to be long term. Once you get into the marketplace, you'll probably find your first job in 3 or 4 weeks, given you put good time into polishing your profile.
+For starters, Toptal is a remote work marketplace which claims to accept only 3% of the applicants. As such, the work quality and rates are much, much higher than other non-vetting platforms like Upwork, Freelancer, Freeeup, you name it. Toptal connects you with clients all over the world in engagements that can be full-time, part-time or hourly. Most of the jobs are likely to be long term. Once you get into the marketplace, you'll probably find your first job in 3 or 4 weeks, given you put good time into polishing your profile.
 
 ## Why Toptal?
 
-I've gone through tough interviews in most of these top remote platforms. All of them claiming to filter out the vast majority of applicants. However, even after taking jobs at some of these marketplaces, I can honestly say Toptal has been the best of them. The fact that you can set your own rate and your weekly availability makes it very flexible for a digital nomad like me. They filter out companies with a rigorous process too, so you're almost guaranteed to work with awesome teams. The cash is top; you get much more than what yo
+I've gone through tough interviews in most of these top remote platforms. All of them claim to filter out the vast majority of applicants. However, even after taking jobs at some of these marketplaces, I can honestly say Toptal has been the best of them. The fact that you can set your own rate and your weekly availability makes it very flexible for a digital nomad like me. They filter out companies with a rigorous process too, so you're almost guaranteed to work with awesome teams. The cash is top; you get much more than what yo
 
 ## How to prepare
 
 This guide contains practical tips to ace every step of the interview. First, I dive deep into the English test. This step of the process filters out ~76% of the applicants so it's critical to make it through. Then I go into the most daunting phase: the coding interviews. I cover everything from what to expect to preparation tips. You'll also be able to practice with a handful of exercises and understand the solutions right there. Finally, I talk about the Test Project, which is the last step of the screening. I'll go through a dummy exercise for full stack web and develop a strategy to deliver a job-winning project in the frontend and backend.
 
-Remember Toptal is not the only option you have. Once you go through all the preparation, you'll be ready to tackle on similar interviews in several other top-remote marketplaces. Big tech companies (Facebook, Amazon, Google) will also ask you to be good at english speaking and algorithms. Please keep that in mind, you're not preparing for just one interview, you're investing hard on your future as a developer.
+Remember Toptal is not the only option you have. Once you go through all the preparation, you'll be ready to tackle similar interviews in several other top-remote marketplaces. Big tech companies (Facebook, Amazon, Google) will also ask you to be good at english speaking and algorithms. Please keep that in mind, you're not preparing for just one interview, you're investing hard on your future as a developer.
 
 # English Interview
 
-This section will help you hone your speaking skills and prepare for the interview. Its mostly directed for those who are already familiar with the language, who con understand and decently speak English at an intermediate level. It will help you hone your speaking skills and prepare for the interview. If you think you're still new to English I recommend taking professional lessons or finding expert language advice online before taking your chance at Toptal.
+This section will help you hone your speaking skills and prepare for the interview. It's mostly directed for those who are already familiar with the language, who can understand and decently speak English at an intermediate level. It will help you hone your speaking skills and prepare for the interview. If you think you're still new to English I recommend taking professional lessons or finding expert language advice online before taking your chance at Toptal.
 
 ## What 
 
 The english interview is the first phase of the screening process and will assess how well you communicate in speaking English. Toptal calls this the "Language and Personality" test. I've witnessed several of this interviews myself and can confidently say the interviewers are very strict with grammatics and your ability to communicate well formed thoughts. It's not so much about fluency as it is about conveying thoughts in a good way. 
 
-As for the personality test goes, I haven't seen candidates being rejected for this reason. Based on the description on their website, though, they say they assess "personality traits and look for candidates who are passionate and fully engaged in their work". Keep that in mind but remember the most important part of this interview is how well you can communicate in English.
+As for the personality test, I haven't seen candidates being rejected for this reason. Based on the description on their website, though, they say they assess "personality traits and look for candidates who are passionate and fully engaged in their work". Keep that in mind but remember the most important part of this interview is how well you can communicate in English.
 
 If you fail this interview you'll probably be put on hold for 3-6 months, depending on how good or bad you do. Don't miss your shot and prepare.
 
@@ -61,11 +71,11 @@ Preparing for an interview in english is not only about practicing speaking. It 
 
 - Reading: Avoid reading any literature (either online or physical) that's not written in English. Google everything in English. I recommend subscribing to a collection in Medium or Dev with a topic you're interested in. Read only the most upvoted as those will normally be written much better. Pick up a non-fiction book on Kindle or your bookstore and read it. Become comfortable reading content in English.
 
-- Listening: This is critical to your success as a Toptal talent and, in general, as a remote worker for top companies. I recommend watching YouTube videos on TED talks. Put it first with subtitles, and repeat it without subtitles. You should be able to understand 80-90% of what you listen. Keep doing this, every single day, and you'll greatly improve your listening. I recommend avoiding practicing with songs: it's much harder to understand (I was told it was a good idea, I picked Eminem, it didn't work) and it doesn't depict a formal environment as a remote work setup
+- Listening: This is critical to your success as a Toptal talent and, in general, as a remote worker for top companies. I recommend watching YouTube videos on TED talks. Put it first with subtitles, and repeat it without subtitles. You should be able to understand 80-90% of what you listen to. Keep doing this, every single day, and you'll greatly improve your listening. I recommend avoiding practicing with songs: it's much harder to understand (I was told it was a good idea, I picked Eminem, it didn't work) and it doesn't depict a formal environment as a remote work setup
 
 - Writing: Practice answering any of the sample questions on a piece of paper. See section below.
 
-- Speaking: Personally, I find self-talking to be the most effective way to practice speaking fluency. You won't probably improve pronunciation but you will surely get better at your fluency. Read your answers outloud (from writing) to yourself. Do this over and over again. You'll see how, over the weeks, your brain form neural connections that allow you to think and speak much more fluently.
+- Speaking: Personally, I find self-talking to be the most effective way to practice speaking fluency. You won't probably improve pronunciation but you will surely get better at your fluency. Read your answers out loud (from writing) to yourself. Do this over and over again. You'll see how, over the weeks, your brain form neural connections that allow you to think and speak much more fluently.
 
 ### Sample questions
 
@@ -76,7 +86,7 @@ Write down the answers to the following questions and memorize them. Practice th
 
 - Tell me about yourself
 - How long have you been programming?
-- Why would you like to work as talent in Toptal?
+- Why would you like to work as a talent in Toptal?
 - What have you heard about Toptal?
 - What are the technologies you're most passionate about?
 - Tell me about a time when you made a mistake and how you handled it
@@ -99,7 +109,7 @@ I recommend the following daily 2-hours practice routine. You can adjust it depe
 
 - 00:00 - 00:30: Listen to english podcasts or watch YouTube videos in English without subtitles
 - 00:30 - 01:00: Write down a full paragraph answering any of the sample questions. Paste it on Hemingway. Correct it and revisit again.
-- 1:00 - 1:30: Repeat the answers to your questions outloud. Practice fluency and speak outloud to yourself.
+- 1:00 - 1:30: Repeat the answers to your questions out loud. Practice fluency and speak to to yourself.
 - 1:30 - 2:00: Get yourself a 30 mins session with any of the free online apps I recommend in the previous section
 
 ## Useful resources
@@ -120,11 +130,11 @@ In this section you'll learn what the second step of the Toptal interview looks 
 
 ## What
 
-The coding assessment is an online exam which generally consist of 3 algorithm problems. It's normally conducted in [Codility](https://www.codility.com/) where you'll have a 90 minutes to solve 3 problems: easy, medium and hard. This step will filter out [19% more applicants](https://www.toptal.com/top-3-percent) which will make you on the top 3.6% percentile. This means you'll be very close to the top 3% if you make it through this filter.
+The coding assessment is an online exam which generally consists of 3 algorithm problems. It's normally conducted in [Codility](https://www.codility.com/) where you'll have 90 minutes to solve 3 problems: easy, medium and hard. This step will filter out [19% more applicants](https://www.toptal.com/top-3-percent) which will make you on the top 3.6% percentile. This means you'll be very close to the top 3% if you make it through this filter.
 
 ## Why
 
-You may wonder what's the value in assessing how you solve algorithms when, in fact, you don't do any of that in your day job. The general conception among high tech companies is that, if you're smart to solve logical, abstract problems, then you're smart enough to pick up any language or framework. Whether you love it or hate it, it is what it is and you need to be comfortable with these type of problems. It's an inconvenience but it's yet another gate you need to open to get where you want to be. It's a means to an end.
+You may wonder what's the value in assessing how you solve algorithms when, in fact, you don't do any of that in your day job. The general conception among high tech companies is that, if you're smart to solve logical, abstract problems, then you're smart enough to pick up any language or framework. Whether you love it or hate it, it is what it is and you need to be comfortable with these types of problems. It's an inconvenience but it's yet another gate you need to open to get where you want to be. It's a means to an end.
 
 ## How to prepare
 
@@ -217,7 +227,7 @@ O(1) < O(n) < O(nlogn) < O(n^2)
 
 ### Recommended resources
 
-- Cracking the Coding Interview: This is the bible for coding interviews. Now, I'd be irresponsible if I just name the book and not explain you how to study it. This is my advice:
+- Cracking the Coding Interview: This is the bible for coding interviews. Now, I'd be irresponsible if I just name the book and not explain to you how to study it. This is my advice:
   - Introduction: Read all of it but **put special emphasis on the section for BigO (section VI on my version).**
   - Data Structures: Read all of it but **put special emphasis on Arrays and Strings**. Safely skip over Stacks and Queues, you won't need it. You won't probably need Trees and Graphs either, but I want you to become familiar with recursion and how to think in a *recursive way*.
   - Concepts and Algorithms: Go over the chapters
@@ -235,26 +245,26 @@ From my experience, there's just one way to study algorithms:
 
 1. Take out paper and pen
 2. Turn off your phone
-3. Stare at the problem for 30 minutes straight. Don't look the solution just yet.
+3. Stare at the problem for 30 minutes straight. Don't look at the solution just yet.
 4. **Important:** Draw a base mock example to warm up your brain. If you need to deal with strings, write an example string. If the algorithm is about matrices, then draw a 3x3 mock matrix.
-5. Start solving the problem as a human. Don't think abstract at first (see Instrospection section). 
+5. Start solving the problem as a human. Don't think abstract at first (see Introspection section). 
 6. Write down the worst possible solution you can think of. Only pseudocode. No edge cases, no optimization.
-7. Stop and think. How do you feel about your solution? Do you intuit you can optimize?
+7. Stop and think. How do you feel about your solution? Do you intuit what you can optimize?
 8. Optimize. Don't code just yet. These are my tricks to optimize:
-  a. Do you think you're doing unnecessary rework? are you visiting the data points a lot more than what you think?
-  b. Are you missing some piece of information from the problem?
-  c. Important: Can you use an auxiliar data structure, like a hash-table, to improve time performance?
+    - Do you think you're doing unnecessary rework? Are you visiting the data points a lot more than what you think?
+    - Are you missing some piece of information from the problem?
+    - Important: Can you use an auxiliary data structure, like a hash table, to improve time performance?
 9. Cover edge cases. Online assessments are all about covering edge cases because they will be tested automatically. Are you including negative numbers in your reasoning? empty strings? base cases?
 10. Code! Don't write beautiful code. Online tools like Codility or the Toptal interviewers won't care if your code is beautiful or not. They will only evaluate if your algorithm works and is efficient.
 11. Record your AHA! moment. I'd say this is the most important step of the preparation. After you finish your algorithm, write down somewhere else your biggest realization. Something like "hashmaps took me from O(n^2) to O(n)" or "I can create a cache variable to avoid revisiting the list".
 
 I credit some of this workflow to the book Cracking the Coding Interview.
 
-### Instrospection
+### Introspection
 
-Let's say you need to find the highest pair of numbers in a list. How do you solve this as a human? Your brain doesn't store anything in variables or even sort the list. Your brain sees the numbers and instantly know what are the top two numbers. But, is it really instant, though?
+Let's say you need to find the highest pair of numbers in a list. How do you solve this as a human? Your brain doesn't store anything in variables or even sort the list. Your brain sees the numbers and instantly knows what are the top two numbers. But, is it really instant, though?
 
-Take a step back and think about it. How did you know the first number was not the highest? because you knew you had to see all the numbers. This means there's no better way to do it other than looping through all the numbers (in other words, it's O(n) at best). Now, you know there are bigger numbers than the one you're looking at. How? because your brain saw it and kept a reference as the biggest number. This could be translated into "storing the biggest in a variable". You can find the highest number, what about the second highest? What my brain did was to start all over again but ignoring the previous number. Great! we have a working algorithm now: we'll visit each number and keep reference of the highest. We remove that one from the list and loop again to find the next highest. 
+Take a step back and think about it. How did you know the first number was not the highest? because you knew you had to see all the numbers before taking a decision. This means there's no better way to do it other than looping through all the numbers (in other words, it's O(n) at best). Now, you know there are bigger numbers than the one you're looking at. How? because your brain saw it and kept a reference as the biggest number. This could be translated into "storing the biggest in a variable". You can find the highest number, what about the second highest? What my brain did was to start all over again but ignoring the previous number. Great! we have a working algorithm now: we'll visit each number and keep reference of the highest. We remove that one from the list and loop again to find the next highest. 
 
 Is that the best you can do? definitely not but, at least, it's a working solution. It got you unblocked. It got your neurons up and working - they're warmed now to optimize.
 
@@ -264,7 +274,7 @@ Is that the best you can do? definitely not but, at least, it's a working soluti
 
 ### Sample exercises
 
-Important: There's no value on reading the question and going straight to the answer. You'll lose your time. Put a lot of effort and try to solve the problem yourself. Try to come up, at least, with the worst possible and most inneficient algorithm. Bonus points if you manage to get the best solution.
+Important: There's no value on reading the question and going straight to the answer. You'll lose your time. Put a lot of effort and try to solve the problem yourself. Try to come up, at least, with the worst possible and most inefficient algorithm. Bonus points if you manage to get the best solution.
 
 1. **Poker Chips:** Luigy works in a Casino and he gives customers poker chips in exchange of money. Find the minimum number of chips Luigy can use to match the customer requests. He has chips worth 100, 50, 25, 10, 5, 1. For example, for 126 Luigy should give 3 chips (100, 25, 1).
 
@@ -278,7 +288,7 @@ Important: There's no value on reading the question and going straight to the an
 
 #### 1. Poker Chips
 
-This is a problem you are likely solving on a daily basis when handling money. If someone is paying you and you need to give change, you normally optimize and don't give all your coins. You probably find your biggest coins and see how many of them would sum up to a close number. Then you find your next biggest coins and add them to the previous coins so that they won't surpass the total change. It's almost unconcious, but this tells you something about how to solve this problem.
+This is a problem you are likely solving on a daily basis when handling money. If someone is paying you and you need to give change, you normally optimize and don't give all your coins. You probably find your biggest coins and see how many of them would sum up to a close number. Then you find your next biggest coins and add them to the previous coins so that they won't surpass the total change. It's almost unconscious, but this tells you something about how to solve this problem.
 
 Let's then follow that rationale to solve this problem:
 1. Say you want to add chips up to 273 USD. What you would do in a normal scenario is first to find the biggest coin you have because, otherwise, you'd end up using more coins than necessary. Now, how do you find how many of those coins you can max use? Let's divide 273USD over 100USD to find out. This is 2.73 which means you can use 2 chips of 100USD and you'd be left with 73USD to fill.
@@ -308,12 +318,16 @@ function getNumChips(val) {
 }
 ```
 
-// TODO: edge cases?
+##### Edge cases
 
+After you have a working solution, think about some edge cases. This will help you polish the algorithm. We'll go through some of them, implementing them in code is left as an exercise for the reader.
+
+- Negative values: ask your interviewer what you should do in this case as it totally depends on the spec. I'd go with an exception, as returning 0 is not quite accurate - not even with 0 coins you can fulfill a negative number.
+- Decimals: ask your interviewer if the input range is only integers or if doubles are allowed too. You might want to round the number before going into the loop.
 
 ##### BigOn Analysis
 
-Think about this. For 273USD you solved the problem in 5 steps. Each one containing a mathematical operation. Mathematical operations are O(1) in time, it can computed immediately by the machine. Now, how many steps would you need if the amount was 60.520 USD? You would divide by 100, find the max number of 100USD chips and then continue with 50USD. You see where this is going, it's the same 5 steps, the same 5 computations. If small and large numbers need just 5 calculations to solve the problem, this means we have constant time of O(5). Now, as per the theory, for any k > 1, O(k*1) = O(1). With k=5 we have O(5) which means **our algorithm is O(1) in time**. 
+Think about this. For 273USD you solved the problem in 5 steps. Each one involved a mathematical operation. Mathematical operations are O(1) in time, it can be computed immediately by the machine. Now, how many steps would you need if the amount was 60.520 USD? You would divide by 100, find the max number of 100USD chips and then continue with 50USD. You see where this is going, it's the same 5 steps, the same 5 computations. If small and large numbers need just 5 calculations to solve the problem, this means we have constant time of O(5). Now, as per the theory, for any k > 1, O(k*1) = O(1). With k=5 we have O(5) which means **our algorithm is O(1) in time**. 
 
 You might think, how come this is O(1) when you have a for cycle? Don't be confused about that. Space complexity only tells how the algorithm performs depending on the size of the input. We showed that it's the same for small and large inputs. Also, see that the loop is always constant over 5 elements. We could have easily do this without the loop, just did it for convenience.
 
@@ -339,25 +353,65 @@ Now, we could also think about sorting both lists. If you sorted list 1 and list
 
 ##### Optimization 3: Enter hashmaps
 
-Let's try what I call "the copper bullet". It's not a silver bullet as it won't work for every problem but it's definitely useful for a big chunk of them. Enter **hashmaps**. As reviewed in previous sections, a hashmap is a data structure that lets write and read in O(1) time. Let's see how to leverage this fact to improve our algorithm:
+Let's try what I call "the copper bullet". It's not a silver bullet as it won't work for every problem but it's definitely useful for a big chunk of them. Enter **hashmaps**. As reviewed in previous sections, a hashmap is a data structure that lets you write and read in O(1) time. Let's see how to leverage this fact to improve our algorithm:
 
 1. Loop over all elements of list 1. Store each element in a hashmap.
-  - The key will be the invitee name and the value will be 1. 
-  - If a name already exists then increase the number by one.
+    - The key will be the invitee name and the value will be 1. 
+    - If a name already exists then increase the number by one.
 
 2. Loop over all elements of list 2. Treat each element as the key of the hashmap and try to find its value. 
-  - If a value is found, then decrease the value by 1.
-  - If no value is found, it means it wasn't put on the map, so both lists are not equal.
+    - If a value is found, then decrease the value by 1.
+    - If no value is found, it means it wasn't put on the map, so both lists are not equal.
 
 3. Loop over the values in the hashmap.
-  - If some value is different than zero, it means one list has a value that appears more or less times than in the other list. This yields to both lists not being identical.
-  - If all values are zero, it means both lists are identical
+    - If some value is different than zero, it means one list has a value that appears more or less times than in the other list. This yields to both lists not being identical.
+    - If all values are zero, it means both lists are identical
+
+Let's put all this into code and see how our algorithm looks like:
+
+```javascript
+function verifyAllEqual(list1, list2) {
+  // fail fast if both lists are not the same length
+  if (list1.length !== list2.length) return false;
+
+  let map = {};
+
+  // loop through list 1, fill the hashmap, count characters
+  for (num of list1) {
+    if (map[num] == null) {
+      map[num] = 1;
+    } else {
+      map[num]++;
+    }
+  }
+
+  // loop through list 2, decrease character count on hashmap
+  for (num of list2) {
+    if (map[num] == null) return false;
+    map[num]--;
+  }
+
+  // if any count is greater than 0, both lists are not identical, abort
+  for (val in map) {
+    if (map[val] !== 0) return false;
+  }
+
+  return true;
+}
+```
+
+##### Edge cases
+
+After you have a working solution, think about some edge cases. This will help you polish the algorithm. We'll go through some of them, implementing them in code is left as an exercise for the reader.
+
+- How well does your algorithm handle empty lists? what if both lists are empty?
+- What if one of the lists is much bigger than the other? would you find it better to start looping over the short one? or the large one?
 
 ##### BigO Analysis
 
 We did BigO time complexity analysis for all the previous algorithms. We'll focus now on the last optimization. We first loop over all elements of list 1 and visit each element just once. This is O(n). When we finish that, we go over list 1 and do the same, this is O(m). Finally, we loop over the values in the hashmap which, in the worst case scenario with no duplicates, has n elements (i.e all values from list 1 stored in the map). This yields to another O(n). The time complexity is then O(n + m + n) => O(2n + m) => O(n + m). Now, notice that the second loop terminates quickly when no matching element is found in list 1. This means that, at most, you only loop through n elements in the second list, even when its length is 'm'. This would finally yield a time complexity of O(n + n) => O(2n). In BigO notation we only deal with the shape of the curve (constant, linear, quadratic, etc) so O(k * n) => O(n). Our algorithm is **O(n)** in time. 
 
-How do you know this is the best you can do? To know that both lists are equal you should, at least, know what are the elements in the list. How do you know them? by visiting them. This means should, at least, visit every element which is exactly O(n). You can't do better than that, because you can't leave any element unvisited.
+How do you know this is the best you can do? To know that both lists are equal you should, at least, know what are the elements in the list. How do you know them? by visiting them. This means you should, at least, visit every element which is exactly O(n). You can't do better than that, because you can't leave any element unvisited.
 
 ##### AHA moment
 
@@ -372,7 +426,7 @@ Following the rationale above, we can outline a rough working algorithm:
 - Keep track of the characters and the number of visits
 - Finish the algorithm by finding the max of the counts
 
-For the last exercise, you already know you can use maps to store key-value pairs. We can then levarege this data structure to keep out character count. Let's see how this looks like in pseudo-code:
+For the last exercise, you already know you can use maps to store key-value pairs. We can then leverage this data structure to keep out character count. Let's see how this looks like in pseudo-code:
 
 ```
 counter = map()
@@ -397,9 +451,9 @@ return top_repeated
 
 ##### Optimization 1: Avoid rework
 
-Our first would work just fine. Let's see how expensive it is. For every character, we loop through every other character. This means our first run will visit N elements. The next iteration will visit N-1. Next one will be N-2. You get it. Hence, the number of steps our algorithm need to terminate is: N + (N-1) + (N-2) + ... + 1. As showed in problem #2, this behaviour means our algorithm runs in quadratic time: O(n^2).
+Our first would work just fine. Let's see how expensive it is. For every character, we loop through every other character. This means our first run will visit N elements. The next iteration will visit N-1. Next one will be N-2. You get it. Hence, the number of steps our algorithm needs to terminate is: N + (N-1) + (N-2) + ... + 1. As shown in problem #2, this behaviour means our algorithm runs in quadratic time: O(n^2).
 
-Can we do better? Do you not feel like we're doing some rework over here? We're running an inner loop to count coincidences, is that necessary? Can't we just keep a counter map with the number of coincidences of each character? Think about it for a second. Your brain is implicitly keeping a map with the number of times it sees a letter. Can't we just do the same? We're effectively changing the problem from "find the most repeated char" to "count the number of ocurrences for each char".
+Can we do better? Do you not feel like we're doing some rework over here? We're running an inner loop to count coincidences, is that necessary? Can't we just keep a counter map with the number of coincidences of each character? Think about it for a second. Your brain is implicitly keeping a map with the number of times it sees a letter. Can't we just do the same? We're effectively changing the problem from "find the most repeated char" to "count the number of occurrences for each char".
 
 Let's see how our final algorithm looks like. Code snippet is shown in JavaScript.
 
@@ -454,33 +508,37 @@ function findTopRepeated(sentence) {
 
 Now, this one feels much better. We went from 2 loops to just 1 in no time, it's almost free profit.
 
-**Edge cases:** This is an exercise for you. Think about what edge cases you can encounter and solve them. What happens if there's no character repeated? The problem didn't say anything about it, it's up to you how to solve it. What happens with blank spaces? will that count as a character? if not, then deal with it, make sure you don't count empty characters. You can even clean the sentence before the algorithm, it'll make it run faster.
+
+
+##### Edge cases
+
+This is an exercise for you. Think about what edge cases you can encounter and solve them. What happens if there's no character repeated? The problem didn't say anything about it, it's up to you how to solve it. What happens with blank spaces? will that count as a character? if not, then deal with it, make sure you don't count empty characters. You can even clean the sentence before the algorithm, it'll make it run faster.
 
 
 ##### BigO Analysis
 
-Just by looking at the code, we can tell we're no longer in the quadratic realm because we got rid of the nested loops. We're looping through the sentence just once, char by char. At first we had 2 loops which, in the worst case scenario (no char repeated), would end up being O(2n). As per BigO properties, O(k*n) is equivalent to O(n) so we have linear time. Please remember BigO is a mere measure of how your algorithm performs relative to how the input grows. It doesn't imply anything about the absolute run time. If O(n) takes 100ms, O(2n) will take 200ms. This is irrelevant for performance analysis, though. After our second optimization we got rid of the second loop and got and effective and O(n) linear time.
+Just by looking at the code, we can tell we're no longer in the quadratic realm because we got rid of the nested loops. We're looping through the sentence just once, char by char. At first we had 2 loops which, in the worst case scenario (no char repeated), would end up being O(2n). As per BigO properties, O(k*n) is equivalent to O(n) so we have linear time. Please remember BigO is a mere measure of how your algorithm performs relative to how the input grows. It doesn't imply anything about the absolute run time. If O(n) takes 100ms, O(2n) will take 200ms. This is irrelevant for performance analysis, though. After our second optimization we got rid of the second loop and got an effective, O(n) linear time.
 
-To find the space complexity we need to think about the data structures we introduced to solve the problem. In this case, we're saving a counter map which, in the worst case, would keep a copy of all the characters in the input string. Does this means we have O(n) space complexity? Not so fast. The maximum size of our map is the number of characters in the alphabet. Let's say it's 27. Therefore our map will have no more than 27 key-value pairs. The space complexity is then O(27), which is effectively equivalent to O(1).
+To find the space complexity we need to think about the data structures we introduced to solve the problem. In this case, we're saving a counter map which, in the worst case, would keep a copy of all the characters in the input string. Does this mean we have O(n) space complexity? Not so fast. The maximum size of our map is the number of characters in the alphabet. Let's say it's 27. Therefore our map will have no more than 27 key-value pairs. The space complexity is then O(27), which is effectively equivalent to O(1).
 
 ##### AHA moment
 
-You might think the AHA moment for this problem was using the hashmap, same as problem #2. But, it was actually when we switched the problem and have it paraphrased in a different way; that's when we found the most performant solution. We stopped thinking about "finding the top most repeated" and started thinking about "logging the number of ocurrences per character". Then we got ourselves in front of a well known problem: finding the max number in a list.
+You might think the AHA moment for this problem was using the hashmap, same as problem #2. But, it was actually when we switched the problem and paraphrased it in a different way; that's when we found the most performant solution. We stopped thinking about "finding the top most repeated" and started thinking about "logging the number of occurrences per character". Then we got ourselves in front of a well known problem: finding the max number in a list.
 
-Remember this: Always try to boil problems down to subproblems that you already know how to solve. In the future, you might find problems that requires you to find repeated elements in lists. You already know it can be done in O(n) with hashmaps. That's going to be familiar and will put you one step ahead.
+Remember this: Always try to boil problems down to subproblems that you already know how to solve. In the future, you might find problems that require you to find repeated elements in lists. You already know it can be done in O(n) with hashmaps. That's going to be familiar and will put you one step ahead.
 
 #### 4. Balanced Brackets
 
-Let's first draw two basic problem to get us warmed up.
+Let's first draw two basic problems to get us warmed up.
 
 - **Balanced:** `(4+[1-(-2)])`
 - **Unbalanced:** `[{(5+2)]`
 
 We'll put names to the brackets just for convenience. () is type P, [] is type Q, and {} is type R.
 
-Right. Let's now try to solve the problem in our brains. Our+ eyes ignore all the opening brackets and focus only on the closing ones. I get to the first closing bracket of type P and think "ok, this one should close the last open bracket I saw". I keep moving and see another closing bracket, this time of type Q. "right, this one should close the last open bracket I saw, and that last bracket should be of type Q". **I also tend to skip those inner brackets that have already been closed,** because they are already resolved anyways.
+Right. Let's now try to solve the problem in our brains. Our eyes ignore all the opening brackets and focus only on the closing ones. I get to the first closing bracket of type P and think "ok, this one should close the last open bracket I saw". I keep moving and see another closing bracket, this time of type Q. "right, this one should close the last open bracket I saw, and that last bracket should be of type Q". **I also tend to skip those inner brackets that have already been closed,** because they are already resolved anyways.
 
-Let's try to implement this same algorithm in pseudocode. Notice we're somehow keeping a list in our memory. This means we need to add the brackets to a list. Also, notice we tend to skip the inner brackets that have been resolved. How do we translate this to code? well, "skipping" it means ignoring it, so we don't really need the open brackets that have been resolved; we'll remove resolved brackets.
+Let's try to implement this same algorithm in pseudocode. Notice we're somehow keeping a list in our memory. This means we need to add the brackets to a list. Also, notice we tend to skip the inner brackets that have been resolved. How do we translate this to code? well, "skipping it" means ignoring it, so we don't really need the open brackets that have been resolved; we'll remove resolved brackets.
 
 ```
 brackets = []
@@ -522,9 +580,9 @@ function validateBrackets(equation) {
 
 Note: JavaScript has `push` and `pop` methods in vanilla Arrays so we don't really need to implement the Stack data structure. This is just for explanation purposes.
 
-##### Edge case analysis
+##### Edge cases
 
-After your write your first algorith, make sure to come up with contrived examples with weird edge cases. Let's look at this one, for instance: `]]]]]]`. How would our algorithm behave for such an unbalanced expression? There's no opening bracket so our stack will always be empty. Every time the loop lands on a closing bracket it will check if it's a valid pair with the last stack element, which is null. This will, of course, be false and therefore we pass on to the next iteration. At the end of the algorithm out stack length is indeed 0, so our algorithm will classify this as `true`.
+After you write your first algorithm, make sure to come up with contrived examples with weird edge cases. Let's look at this one, for instance: `]]]]]]`. How would our algorithm behave for such an unbalanced expression? There's no opening bracket so our stack will always be empty. Every time the loop lands on a closing bracket it will check if it's a valid pair with the last stack element, which is null. This will, of course, be false and therefore we pass on to the next iteration. At the end of the algorithm out stack length is indeed 0, so our algorithm will classify this as `true`.
 
 Let's fix this. Check this out: Every closing bracket is a decisive point in our algorithm. If it doesn't pass our test then we should terminate and return false right away. You got it? There's no point in looping any further if one closing bracket didn't match is opening counterpart. With this in mind, let's modify our algorithm to *fail early* when a valid pair is not found.
 
@@ -552,19 +610,19 @@ As analyzed earlier, our algorithm is O(n) in time because it visits each elemen
 
 ##### AHA moment
 
-The aha moment is realizing we don't need resolved pairs in the equation anymore. When don't need anything, we're effectively removing it. When you see yourself ignoring something in your brain, that probably means removing it all over. In our case, it all led to us using a Stack and popping elements all over.
+The aha moment is realizing we don't need resolved pairs in the equation anymore. When we don't need anything, we're effectively removing it. When you see yourself ignoring something in your brain, that probably means removing it all over. In our case, it all led to us using a Stack and popping elements all over.
 
 # Test Project
 
-The general believe is that, when you get to this point, you're pretty much a Toptaler already. I've heard this should be a straightforward step for someone who just went through the full application and cleared all the filters. I, personally, don't think this is the case.
+The general belief is that, when you get to this point, you're pretty much a Toptaler already. I've heard this should be a straightforward step for someone who just went through the full application and cleared all the filters. I, personally, don't think this is the case.
 
 The advantage, though, is that you have plenty of time to work on this by yourself. The drawback is you may not know it all and you'll need to research a lot. But that's fun too. Let's see what to expect and how to prepare for this step.
 
 ## What
 
-This is the last step of the process. It consists of 2 parts. First, they will send you a project spec and you will have 2 weeks to build it as if it was for a client. Second, you'll interview real time with a toptaler to showcase your project and support all your decisions. They will ask you all kind of questions ranging from fundamentals to project-specific stuff.
+This is the last step of the process. It consists of 2 parts. First, they will send you a project spec and you will have 2 weeks to build it as if it was for a client. Second, you'll interview real time with a toptaler to showcase your project and support all your decisions. They will ask you all kinds of questions ranging from fundamentals to project-specific stuff.
 
-This step is supposed to filter out [0.2% more canditates](https://www.toptal.com/top-3-percent). This means 32 out of 1000 people get to this point, and 30 of them will pass. Now, I need to make emphasis on this: do not understimate this phase. I myself have referred overconfident people who play hard to get to this point only to see them fail. Make sure you deliver world class work here.
+This step is supposed to filter out [0.2% more candidates](https://www.toptal.com/top-3-percent). This means 32 out of 1000 people get to this point, and 30 of them will pass. Now, I need to make emphasis on this: do not underestimate this phase. I myself have referred overconfident people who play hard to get to this point only to see them fail. Make sure you deliver world class work here.
 
 ## Why
 
@@ -578,7 +636,7 @@ The key here is to know what to study and where to focus. In the next few sectio
 
 ### Sample Exercise
 
-I'll focus here on what you'll probably be applying for: web development. The project you'll have to build is probably either a full-stack or a frontend only project. It depends on whether you use a backend-as-a-service to build your API (ie Firebase), o create your own backend using your preferred language. You'll probably be given a very vague definition of a problem and this will be on purpose: they want to test how well you adapt to uncertainty.
+I'll focus here on what you'll probably be applying for: web development. The project you'll have to build is probably either a full-stack or a frontend only project. It depends on whether you use a backend-as-a-service to build your API (ie Firebase), or create your own backend using your preferred language. You'll probably be given a very vague definition of a problem and this will be on purpose: they want to test how well you adapt to uncertainty.
 
 Let's see what a problem statement looks like:
 
@@ -591,7 +649,7 @@ You should build an application to rate books:
 - Users can update the rating of a book on their account
 - Users can filter their books by rating
 - Create an admin role whose dashboard shows all the books from all users
-- Admins can only view ratins but not edit them
+- Admins can only view ratings but not edit them
 - Admins can filter books by created date
 - Clean and good looking UI/UX is expected
 - The API must be Restful. All actions should be executed via API.
@@ -609,7 +667,7 @@ We'll go over what you should focus on both the frontend and the backend.
 - Implement good routing. I recommend every page in your app to have an individual reachable URL, even login and signup.
 - Write authentication guards. They should automatically route your users to login/signup when accessing forbidden routes. Make sure you understand this concept and talk about it in the interview.
 - Built E2E tests. At least 2 or 3, they are not normally mandatory but will show you think about maintainable code. I hugely recommend doing this with Cypress. It's the fastest and easiest way to write E2E tests.
-- Implement network interceptors to add your auth tokens in a clean way. You can achive this with HTTP intercetors (Angular), Axios interceptors (React) for `VueResource` (Vue).
+- Implement network interceptors to add your auth tokens in a clean way. You can achieve this with HTTP interceptors (Angular), Axios interceptors (React) for `VueResource` (Vue).
 - Make sure your app is responsive. This will tell your interviewer you think mobile first, which is critical in the web scene today.
 - Test in at least 3 major browsers. Leveraging a UI component library and a CSS framework is a great way to mitigate risks with this. I recommend testing in Chrome, Firefox and either Safari or Edge, depending on your OS.
 - Go modular. Make sure you build independent components with very clear inputs and outputs. If your component is growing too large, consider dividing it into smaller components. This is critical because your interviewer will ask you to add features in the live screening. If you have spaghetti code all over the codebase, you'll find it very hard to do this fast.
@@ -620,7 +678,7 @@ We'll go over what you should focus on both the frontend and the backend.
 
 ### Backend
 
-- Use your favorite framework and programming language to build the API. I recommend to stick to the known ones: Python, Java, NodeJS, PHP, .NET, Go. 
+- Use your favorite framework and programming language to build the API. I recommend sticking to the known ones: Python, Java, NodeJS, PHP, .NET, Go. 
 - No matter what you do, always go Restful. Research about how a truly Restful API should look like. Avoid having routes like `POST /api/add-book` or `GET /api/filter-by-rating?rating`.
 - Make sure you understand the difference between URL parameters (`/users/:id`) and query strings (`/users?sortBy=:order`) and when to use them. 
 - Handle authentication properly. Do not store plain text passwords. Look for 'salt hashing', learn to manage secrets in the server. Study this over and over again until you understand how clean auth works.
@@ -628,7 +686,7 @@ We'll go over what you should focus on both the frontend and the backend.
 - Choose your DB properly. You'll have to support your decision in the interview. Whether you go with SQL or NoSQL, make sure you read the differences beforehand and be ready to answer questions like "why MySQL and not Postgres? why is this app better for a NoSQL?"
 - Write unit tests. If working on NodeJS there are several resources online on how to test your Mongoose controllers with Mocha and Sinon. If working with Python/Django, there's a complete section on Testing in their docs. Remember: just do a few tests, don't spend too much here. You can say you focused on the critical components and you moved on. This will at least show you care about testing; it's critical in picturing you as an expert.
 - ORM. It's highly advised to leverage an ORM like Mongoose objects or Django models to manage DB objects. I wouldn't recommend having plain SQL statements on your codebase, at least for this project. You won't probably be asked to show off your SQL skills so having them can be detrimental.
-- Dev vs Prod settings. You won't be asked to deploy your project, don't spend time on it. However, make sure you understand what configs can be made public and which ones should be secrets. This typically involves DB passwords, API Keys, or any other credentials. This data should not be commited to your repo and should instead be kept secret in the prod server. Again, you don't have to do any of this, but it's critical to understand this concept.
+- Dev vs Prod settings. You won't be asked to deploy your project, don't spend time on it. However, make sure you understand what configs can be made public and which ones should be secrets. This typically involves DB passwords, API Keys, or any other credentials. This data should not be committed to your repo and should instead be kept secret in the prod server. Again, you don't have to do any of this, but it's critical to understand this concept.
 - Learn to use Postman. You'll be asked to open this, or cURL, in your interview. Be prepared to create a POST request with authorization headers, to create a JSON payload, or to analyze the headers of a GET request.
 - Use middlewares. When you use middlewares you show you understand the different layers of an app in the backend. You can use middlewares to verify authentication or authorization, manage sessions, append headers, write logs, cookie management, etc.
 - Headers. Using advanced headers will make you look ahead of the curve. Believe or not, most devs won't ever go into configuring security headers as they trust their framework so much. I'd stick with headers like CSP and disabling X-powered-by. Make sure to talk about this in your interview. 
@@ -640,6 +698,6 @@ You can't just build a great project and go unprepared to the call. I recommend 
 1. Make sure you can run the project right after the first git clone.
 2. They will probably ask you to use the existing project on your local, so have it up and running for the call.
 3. Get Postman (or your favorite HTTP client) ready for the interview.
-4. Be confident and but also authentic. If you don't know a concept just say you know something about it, mention what you know, but be willing to say "I don't know at this time, I would just search for that".
-5. Practice some dummy questions before the interview: add a new role, add a new object to the DB, add a new filter, etc.
-6. 
+4. Be confident but also authentic. If you don't know a concept just say you know something about it, mention what you know, but be willing to say "I don't know at this time, I would just search for that".
+5. Practice some dummy questions before the interview: add a new role, add a new object to the DB, add a new data filter, add a new dialog on the frontend, etc.
+6. Always think you're presenting to a customer. Don't take it as yet another interview but as a demo to a real client.
