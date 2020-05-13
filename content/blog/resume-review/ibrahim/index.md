@@ -3,6 +3,7 @@ title: Resume review - Ibrahim
 date: "2020-05-13T20:33:07.709Z"
 description: Great experience, strong candidate, needs more formality
 draft: true
+tags: ["resume"]
 ---
 
 # First impression - 60 seconds review
