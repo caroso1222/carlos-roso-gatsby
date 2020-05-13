@@ -1,6 +1,6 @@
 ---
 title: Quarantine — Day 49
-date: "2020-05-08T23:24:26.111Z"
+date: "2020-05-07T23:24:26.111Z"
 description: Not so much
 tags: ["covid"]
 draft: false

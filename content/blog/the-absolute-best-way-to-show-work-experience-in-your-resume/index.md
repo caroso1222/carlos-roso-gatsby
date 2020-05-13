@@ -17,13 +17,13 @@ What about this one?
 1. Created presentations based on data for company stakeholders.
 2. Helped stakeholders take decisions worth +50k USD by analyzing big data (+2000GB) and building reports in PowerBI.
 
-I personally find alternative #2 to be more engaging and interesting. As a recruiter, I will easily remember the girl with experience mangling +2TB data or the dude with a ton of views on his blog post. **But, why does it work?**
+I personally find alternative #2 to be more engaging and interesting. As a recruiter, I will easily remember the girl with experience mangling +2TB of data or the dude with a ton of views on his blog. **But, why does it work?**
 
 *Note: if you still think there's no difference, that's fine. This is just an oppinionated approach that has worked for me (see section below).*
 
 <div class="divider"></div>
 
-# Stick these 2 rules to heart
+# Stick to these 2 rules
 
 Having a [strong resume](https://dev.to/caroso1222/please-stop-doing-this-in-your-resume-2mga) helped me land interviews at Amazon, [Toptal](https://www.toptal.com/#join-only-great-devs), Crossover and many more [top remote work platforms](https://carlosroso.com/how-i-got-into-the-most-exclusive-remote-working-platforms/). I credit most of my CV success to the way I showcase my work experience. Let's see how it works.
 
@@ -36,7 +36,7 @@ The trick here is to follow 2 simple rules:
 
 ## 1. Show your accomplishments
 
-If you find it hard to remember two rules, then stick with this one: **don't tell me what you did, tell me what you accomplished**.
+If you find it hard to remember two rules, then stick to this one: **don't tell me what you did, tell me what you accomplished**.
 
 ![implement](implement.png)
 
@@ -46,15 +46,21 @@ Writing Angular apps, PHP backends or wiring Firebase APIs are very common thing
 
 If a bullet in you work experience was a title for a blog post, would you read it? When you think about it that way, you realize how important numbers are. The use of numbers [has proven to be highly effective](https://problogger.com/use-numbers-effectively/) when engaging with your audience; your audience just happens to be your recruiter.
 
+![example](example.png)
+
 If you don't have numbers to show on your resume you're not thinking deep enough. Remember that time when you integrated OAuth in your app? Can you recall any conversion increase? Use that number here. Did you create an architecture guide for React apps in your company? how much discussions do you think that document helped reduce? I'd say more than 3x. Use that metric in this section.
 
 If you definitely don't have any metric, then start measuring today! Coding is just a means to an end, and that end can surely be measured.
 
+<div class="divider"></div>
+
 # Examples
 
-I *partnered* with my friend [Juan](https://twitter.com/jdjuan), a Google Dev Expert, to review resumes from the community. After reviewing several of these and giving a lot of advice, I gathered a handful of examples that you can use as a guideline to improve your CV today.
+I *partnered* with my friend and Google Dev Expert, [Juan](https://twitter.com/jdjuan), to review resumes from the community. After reviewing several of these and giving a lot of advice, I gathered a handful of examples that you can use as a guideline to improve your CV today.
 
 https://twitter.com/caroso1222/status/1248958395819921408
+
+Keep in mind these are real life examples for real life devs.
 
 ## Frontend Dev
 
@@ -80,3 +86,11 @@ https://twitter.com/caroso1222/status/1248958395819921408
 
 - Trained 300 students in 3 workshops of VHDL and C++ development.
 - Instructed +300 undergrad students on topics such as advanced Business Analytics and Machine Learning.
+
+<div class="divider"></div>
+
+I hope you got some inspiration and learned something new. Remember, when it comes to showing off work experience, **it's not so much about what you did, but about what you accomplished**.
+
+If you liked this, you might want to get more advice on [what **not** to do in your resume](https://dev.to/caroso1222/please-stop-doing-this-in-your-resume-2mga). You can also ping me anytime on [Twitter](https://twitter.com/caroso1222), I can take a look at your resume and give feedback (if I'm not super busy at the time).
+
+Let me know in the comments, what other strategies do you use to show your work experience? what has or hasn't worked so far?
