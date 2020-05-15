@@ -1,6 +1,6 @@
 ---
 title: Quarantine — Day 54
-date: "2020-05-11T23:24:26.111Z"
+date: "2020-05-12T23:24:26.111Z"
 description: All about those clacks
 tags: ["covid"]
 draft: false
