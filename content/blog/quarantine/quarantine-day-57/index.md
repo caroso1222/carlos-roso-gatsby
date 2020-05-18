@@ -20,7 +20,6 @@ Here's what logo quiz is supposed to look like in the future.
 ![2](2.jpg)
 ![3](3.jpg)
 
-
 <div class="divider"></div>
 
 # Data Report

@@ -9,6 +9,12 @@ draft: true
 
 <div class="divider"></div>
 
+## Mon May 18
+
+Awesome milestone. I finally finished the Cracking the Toptal Interview guide! So proud to have been able to pull this off. I first thought about this on Apr 3 so it took me like 6 weeks to complete. It's definitely much more than I initially expected but it was totally worth it. What I thought was going to be 15 pages initially turned out to be 50. I really hope this helps a lot of people.
+
+I now have a new idea. I'll write a paid mini-course with learnings for BigO complexity and algorithms. I want to bring this topic closer to devs who are not familiar with this topic in a very friendly way.
+
 ## Mon May 11
 
 Small update on the intro.
