@@ -25,7 +25,7 @@ I have a new project I want to pursue now. I'll write/record a paid mini-course 
 * **Avoid news**: Yes
 * **Write blog**: Yes
 * **Personal growth**: Yes
-* **Wake up 5:00 am**: No
+* **Wake up 5:00 am**: Yes
 * **Workout**: No
 * **Help someone**: No
 * **Time wasted < 90 mins**: No
