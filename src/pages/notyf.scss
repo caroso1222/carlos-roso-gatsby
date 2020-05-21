@@ -22,7 +22,7 @@
   display: flex;
   align-items: center;
   overflow: hidden;
-  padding-top: 68px;
+  // padding-top: 68px; for ctti banner
 
   h1 {
     @include initial-fade-in-state;
