@@ -1,61 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import './rmind.scss';
 import Helmet from 'react-helmet';
-import ReactDOM from 'react-dom';
 import { Link } from 'gatsby';
 
 const RmindPage = () => {
   const [code, setCode] = useState('');
   const [numReminders, setNumReminders] = useState(0);
   const [reminderList, setReminderList] = useState([]);
-
-  useEffect(() => {
-    const isSSR = typeof window === 'undefined';
-    if (isSSR) return;
-    let idx = 0;
-    const lines = FINAL_CODE.split('\n');
-    async function printLines() {
-      for (const line of lines) {
-        let timeout = /^\$/g.test(line) ? 50 : 5;
-        await printLine(line, timeout);
-        if (/^</g.test(line)) {
-          setNumReminders(num => num + 1);
-          setReminderList(reminders => {
-            const len = reminders.length;
-            return [...reminders, FINAL_REMINDERS[len]];
-          });
-        } else {
-          await wait(1500);
-        }
-        setCode(code => code + '\n');
-      }
-    }
-    printLines();
-  }, [FINAL_CODE, FINAL_REMINDERS]);
-
-  async function printLine(line, timeout) {
-    return new Promise(resolve => {
-      let idx = 0;
-      const interval = setInterval(() => {
-        if (idx < line.length) {
-          setCode(code => code + line[idx++]);
-        } else {
-          clearInterval(interval);
-          resolve();
-        }
-      }, timeout);
-    });
-  }
-
-  async function wait(ms) {
-    return new Promise(resolve => {
-      setTimeout(resolve, ms);
-    });
-  }
-
-  const title = 'rmind: A minimalist CLI for the macOS Reminders app';
-  const description =
-    'rmind is a CLI that lets you add macOS reminders from the terminal using natural language';
 
   const FINAL_CODE = `$ rmind clean crontab in 1 month
 <span class="console__check">✔︎</span> I'll remind you to "clean crontab” (Sunday Jun 21st at 12:00 PM)
@@ -80,6 +31,54 @@ $ rmind call mom tonight
       date: 'Today, 10:00 PM'
     }
   ];
+
+  useEffect(() => {
+    const isSSR = typeof window === 'undefined';
+    if (isSSR) return;
+
+    const lines = FINAL_CODE.split('\n');
+    async function printLines() {
+      for (const line of lines) {
+        let timeout = /^\$/g.test(line) ? 50 : 5;
+        await printLine(line, timeout);
+        if (/^</g.test(line)) {
+          setNumReminders(num => num + 1);
+          setReminderList(reminders => {
+            const len = reminders.length;
+            return [...reminders, FINAL_REMINDERS[len]];
+          });
+        } else {
+          await wait(1500);
+        }
+        setCode(code => code + '\n');
+      }
+    }
+    printLines();
+  }, [FINAL_CODE]);
+
+  async function printLine(line, timeout) {
+    return new Promise(resolve => {
+      let idx = 0;
+      const interval = setInterval(() => {
+        if (idx < line.length) {
+          setCode(code => code + line[idx++]);
+        } else {
+          clearInterval(interval);
+          resolve();
+        }
+      }, timeout);
+    });
+  }
+
+  async function wait(ms) {
+    return new Promise(resolve => {
+      setTimeout(resolve, ms);
+    });
+  }
+
+  const title = 'rmind: A minimalist CLI for the macOS Reminders app';
+  const description =
+    'rmind is a CLI that lets you add macOS reminders from the terminal using natural language';
 
   return (
     <>
@@ -183,7 +182,7 @@ $ rmind call mom tonight
             </div>
           </div>
           <div className="rmind__links">
-            <p class="rmind-code rmind-code--star">
+            <p className="rmind-code rmind-code--star">
               rmind <a href="https://github.com/caroso1222/rmind">star rmind on GitHub</a> in 1 min
             </p>
             <Link className="rmind__credits as-header d-block" to="/">
