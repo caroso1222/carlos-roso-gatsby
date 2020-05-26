@@ -1,7 +1,7 @@
 ---
-title: Quarantine — Day 62
-date: "2020-05-20T23:24:26.111Z"
-description: TypeScript Bytes
+title: Quarantine — Day 63
+date: "2020-05-21T23:24:26.111Z"
+description: Plain day, just showing up
 tags: ["covid"]
 draft: false
 ---
@@ -12,13 +12,7 @@ draft: false
 
 # Quick update
 
-Lost of things. Better to shoot bullets
-
-- Finished newsletter
-- Finished new post in DEV
-- Finished typescript byte format
-- Helped someone in twitter
-- Cooked a cool fancy lunch
+Worked on finishing rmind. Everything's ready for the release tomorrow.
 
 ![content](content.png)
 
@@ -31,18 +25,18 @@ Lost of things. Better to shoot bullets
 * **Avoid news**: Yes
 * **Write blog**: Yes
 * **Personal growth**: Yes
-* **Wake up 5:00 am**: No
+* **Wake up 5:00 am**: Yes
 * **Workout**: No
 * **Help someone**: Yes
 * **Time wasted < 90 mins**: No
 
 ## Finances
 
-* **Spent**: 150 USD
-* **Stocks Portfolio (24h)**: -0.32%
-* **Stocks Portfolio (All time)**: +14.38%
-* **Cryptofolio (24h)**: -0.6%
-* **Cryptofolio (All time)**: +107.85%
+* **Spent**: 0 USD
+* **Stocks Portfolio (24h)**: -0.09%
+* **Stocks Portfolio (All time)**: +15.39%
+* **Cryptofolio (24h)**: -5.2%
+* **Cryptofolio (All time)**: +93.20%
 
 <div class="divider"></div>
 
