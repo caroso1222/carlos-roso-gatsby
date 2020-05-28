@@ -18,7 +18,7 @@ For didactic purposes, we'll create a useless library that exposes a method to c
 $ npx typescript-starter
 ```
 
-It'll make you run through a series of questions.
+It'll make you run through a series of questions. Write the name of your library and choose whether you want this to be a browser or Node library. We'll choose "Node.js application" for our example. Also, I normally prefer TravisCI over CircleCI.
 
 ![starter](starter.gif)
 
@@ -28,13 +28,13 @@ It'll make you run through a series of questions.
 $ rm -rf src/lib/* && touch src/lib/tswordcount.ts
 ```
 
-3. Edit `index.ts` to configure your public API.
+3. Edit `src/index.ts` to configure your public API.
 
 ```typescript
 export * from './lib/tswordcount';
 ```
 
-4. Write your function in the file created in step 2. Our file is `tswordcount.ts`.
+4. Write your function in the file created in step 2. Our file is `src/lib/tswordcount.ts`.
 
 ```typescript
 export function countWords(sentence: string): number {
@@ -43,6 +43,44 @@ export function countWords(sentence: string): number {
 ```
 
 *Note: Notice we're not doing `.split(' ')` as this would fail at inputs with long spaces in between the words. We use regex to separate words regardless of the spaces that divide them.*
+
+5. Create a file to write your unit tests. Let's name it `tswordcount.spec.ts`. It should live in the same folder where our source file is.
+
+```
+$ touch src/lib/tswordcount.spec.ts
+```
+
+6. This starter uses [AVA](https://github.com/avajs/ava) for unit tests. The syntax is similar to every other testing library out there. Let's write a simple test for our function.
+
+```typescript
+// tslint:disable:no-expression-statement
+import test from 'ava';
+import { countWords } from './tswordcount';
+
+test('should count words', t => {
+  const testString = 'hello world';
+  t.is(countWords(testString), 3);
+});
+
+test('should count words with long spaces', t => {
+  const testString = 'hello     world this is carlos    ';
+  t.is(countWords(testString), 6);
+});
+```
+
+7. Test and build the library in one command.
+
+```
+$ npm run test
+```
+
+8. If everything goes well you should have a `/build` folder with folders `/main` and `/module`. The former is configured for [CommonJS and the latter for ES6 module system](https://github.com/bitjson/typescript-starter#why-are-there-two-builds-main-and-module). Now you're all set to publish your library.
+
+```
+$ npm publish
+```
+
+9. Bonus: Documentation
 
 <div class="divider"></div>
 
@@ -91,3 +129,5 @@ script:
   - npm run cov:send
   - npm run cov:check
 ```
+
+5. It never hurts to do a clean install again `rm -rf node_modules && npm i`
