@@ -9,6 +9,10 @@ draft: true
 
 <div class="divider"></div>
 
+## Mon Jun 1
+
+Last week I had what I call a *mental breakdown*. I focused on doing so much these months that I barely took time to reflect and it took a toll on me. I'm taking a few weeks off to rethink my priorities. Stay tuned.
+
 ## Mon May 18
 
 Awesome milestone. I finally finished the Cracking the Toptal Interview guide! So proud to have been able to pull this off. I first thought about this on Apr 3 so it took me like 6 weeks to complete. It's definitely much more than I initially expected but it was totally worth it. What I thought was going to be 15 pages initially turned out to be 50. I really hope this helps a lot of people.
