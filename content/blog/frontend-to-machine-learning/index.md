@@ -5,11 +5,11 @@ description: My path from zero to not-so-zero in Machine Learning
 draft: false
 ---
 
-This is my story of how I went from zero to do real client work on Machine Learning. 
+This is the story of how I went from zero to do real client work on Machine Learning. 
 
-I do frontend development for a living and I'm very proud of it. But, for some silly reason, I started to get stressed out to see so many web devs raising so fast. These days you can become a competitive developer in less than a year. I was immature enough to see that as a terrifying, rather than amazing, fact.
+I do frontend development for a living and I'm very proud of it. But, for some silly reason, I started to get stressed out to see so many web devs raising so fast. These days you can become a competitive developer in less than a year. I was immature enough to see that as a terrifying, rather than an amazing, fact.
 
-I started telling myself *"I need to learn something harder, something like Machine Learning, so that I can get paid a lot more than a web dev"*. Dumb enough, that was my thinking. Only focused on competition and money - all things wrong. In any case, I decided to pursue a journey to learn Machine Learning. All this while working 10hrs/day and traveling full-time. My morning were going to be my ally, so most of this happened every day from 5-8 am (my wife is witness).
+I started telling myself *"I need to learn something harder, something like Machine Learning, so that I get paid a lot more than a web dev"*. Dumb enough, that was my thinking. Only focused on competition and money - all things wrong. In any case, I decided to pursue a journey to learn Machine Learning. All this while working 10hrs/day and traveling full-time. My morning were going to be my ally, so most of this happened every day from 5-8 am (my wife can confirm).
 
 > *I hate overnight success stories like "how I reached X in 3 months", I don't think real progress comes like that, and it's just stressful for the reader. Therefore, I'm just going to say this all happened in the span of a year or so.*
 
@@ -37,12 +37,11 @@ I didn't pay for this as I got access via a referral from Microsoft Visual Studi
 
 # 3. Second book
 
-I remember I watched [this YouTube video](https://www.youtube.com/watch?v=1RiFIYwuwHM) which instantly got me into buying the book [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1491962291). It was a terrific investment. Not only I could understand the maths behind the learning algorithms but I could also dig into the code and practice. By the second chapter, you have already created your first machine learning project. The author also has a GitHub repo with all the exercises for you to cross-check your solutions.
+I remember I watched [this YouTube video](https://www.youtube.com/watch?v=1RiFIYwuwHM) which instantly got me into buying the book [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1491962291). It was a terrific investment. Not only I could understand the maths behind the *learning algorithms* but I could also dig into the code and practice. By the second chapter, you have already created your first machine learning project. The author also has a GitHub repo with all the exercises for you to cross-check your solutions.
 
-This book is great to learn supervised and non-supervised learning with Scikit-Learn as well as deep neural networks with Tensorflow. In my view, you'll need to have at least some basis in algebra and calculus to understand the math.
+This book is great to learn *supervised* and *non-supervised* learning with Scikit-Learn as well as deep neural networks with Tensorflow. In my view, you'll need to have at least some foundation in algebra and calculus to understand the math.
 
 ![hands-on machine learning](book-2.png)
-
 
 # 4. First competition
 
