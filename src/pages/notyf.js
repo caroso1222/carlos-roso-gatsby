@@ -42,7 +42,7 @@ const NotyfPage = () => {
 
   const fireNotyf = data => {
     const { type, message, duration, positionX, positionY, dismissible, ripple } = data;
-    notyf.open({
+    const el = notyf.open({
       type,
       message,
       duration,
@@ -52,6 +52,9 @@ const NotyfPage = () => {
         x: positionX,
         y: positionY
       }
+    });
+    el.on('dismiss', () => {
+      console.log('dismissed!');
     });
   };
 
