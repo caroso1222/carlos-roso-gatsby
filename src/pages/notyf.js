@@ -54,7 +54,7 @@ const NotyfPage = () => {
       }
     });
     el.on('dismiss', () => {
-      console.log('dismissed!');
+      console.log('dismissed!!');
     });
   };
 
