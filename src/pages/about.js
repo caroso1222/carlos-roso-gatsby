@@ -13,8 +13,8 @@ const About = () => (
         <div className="row">
           <div className="col-sm-7">
             <p>
-              I’m an experienced Software Engineer and digital nomad. I work as a Full Stack Developer for
-              several companies at{' '}
+              I’m a Software Engineer and digital nomad. I work as a Full Stack Developer for several
+              companies at{' '}
               <a
                 href="https://www.toptal.com/#join-only-great-devs"
                 target="_blank"
@@ -76,6 +76,9 @@ const About = () => (
         <p>
           Whether or not I’m nomading, I am and will always be a big advocate of remote work. You’ll find a
           lot of writings and recommendations on this topic here.
+        </p>
+        <p>
+          Want to say hi? <a href="/contact">Let's get in touch!</a>
         </p>
       </div>
     </div>
