@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Helmet from 'react-helmet';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
@@ -7,10 +7,12 @@ const Contact = () => {
   const [addressV, setAddressV] = useState(false);
   const [foo, setFoo] = useState('');
 
-  window.captchaSuccess = () => {
-    setAddressV(true);
-    setFoo('ce.roso398');
-  };
+  useEffect(() => {
+    window.captchaSuccess = () => {
+      setAddressV(true);
+      setFoo('ce.roso398');
+    };
+  });
 
   return (
     <>
