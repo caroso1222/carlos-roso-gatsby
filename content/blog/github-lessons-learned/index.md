@@ -43,7 +43,7 @@ Use the Github's [Dependency Graph](https://github.com/caroso1222/notyf/network/
 
 #### Use a GIF
 
-You have just a few seconds to convince users to try your library. Put a GIF in the top of your README to help them quickly jump in. You can use [terminal screencasts](https://asciinema.org/), [GIF recordings](https://github.com/caroso1222/amazon-autocomplete/blob/master/README.md) or [screenshot sequences](https://github.com/sindresorhus/Gifski#screenshots).
+You have just a few seconds to convince users to try your library. Put a GIF at the top of your README to help them quickly jump in. You can use [terminal screencasts](https://asciinema.org/), [GIF recordings](https://github.com/caroso1222/amazon-autocomplete/blob/master/README.md) or [screenshot sequences](https://github.com/sindresorhus/Gifski#screenshots).
 
 #### Yes, build it again
 
@@ -51,7 +51,7 @@ Unless you're a seasoned OSS developer, you need to build *yet another version* 
 
 #### Redifine success
 
-I have [unpopular](https://github.com/caroso1222/rmind) [projects](https://github.com/caroso1222/node-reminders) with little to no installs. I'm proud of them, though. I learned a lot building them. I use them myself. I'm getting better and enjoying my projects. That's my ultimate bar for success.
+I have [unpopular](https://github.com/caroso1222/rmind) [projects](https://github.com/caroso1222/node-reminders) with little to no installs. I'm proud of them, though. I learned a lot from building them. I use them myself. I'm getting better and enjoying my projects. That's my ultimate bar for success.
 
 #### Be aware of moniker naming rules
 
