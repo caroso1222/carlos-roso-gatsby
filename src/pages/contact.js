@@ -44,7 +44,7 @@ const Contact = () => {
             </>
           ) : (
             <p>
-              Send me an email at <b>ce.ros</b>... wait, can you please first confirm you're not a robot?
+              Send me an email to <b>ce.ros</b>... wait, can you please first confirm you're not a robot?
             </p>
           )}
 
