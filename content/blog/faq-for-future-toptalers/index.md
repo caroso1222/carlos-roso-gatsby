@@ -27,7 +27,7 @@ Assuming you're a developer, you basically need English proficiency and fluency 
 
 #### How much does Toptal pay?
 
-You can set your own rate. However, it's unlikely for a client to pay you $100 USD/hour, unless you're very special. I'm under NDA so I can't disclose my rate but Toptal show some average numbers [here](https://www.toptal.com/developers/front-end/hourly-rate) and [here](https://www.toptal.com/developers/back-end/hourly-rate).
+You can set your own rate. However, it's unlikely for a client to pay you $100 USD/hour, unless you're very special. I'm under NDA so I can't disclose my rate but Toptal shows some average numbers [here](https://www.toptal.com/developers/front-end/hourly-rate) and [here](https://www.toptal.com/developers/back-end/hourly-rate).
 
 #### Should I learn X language to get into Toptal?
 
