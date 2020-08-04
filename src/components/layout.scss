@@ -505,14 +505,15 @@ pre tt:after {
 
 .layout {
   &__ctti {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 2;
+    // position: fixed;
+    // top: 0;
+    // left: 0;
+    // right: 0;
+    // z-index: 2;
   }
 
   &__header {
-    margin-top: 68px;
+    // margin-top: 68px;
+    margin-top: 0;
   }
 }

@@ -1,8 +1,8 @@
-import { useStaticQuery, graphql } from "gatsby"
-import React from "react"
-import { Link } from "gatsby"
-import QuarantineBox from "./quarantine-box"
-import "./index-feed.scss"
+import { useStaticQuery, graphql } from 'gatsby';
+import React from 'react';
+import { Link } from 'gatsby';
+// import QuarantineBox from './quarantine-box';
+import './index-feed.scss';
 
 const IndexFeed = () => {
   const data = useStaticQuery(graphql`
@@ -24,44 +24,40 @@ const IndexFeed = () => {
         }
       }
     }
-  `)
+  `);
   const posts = data.allMarkdownRemark.edges;
 
   const TAG_BLACKLIST = ['covid'];
 
   const not = fn => args => !fn(args);
-  const hasBlaclistedTag = edge => (edge.node.frontmatter.tags || []).some(tag => TAG_BLACKLIST.indexOf(tag) !== -1);
+  const hasBlaclistedTag = edge =>
+    (edge.node.frontmatter.tags || []).some(tag => TAG_BLACKLIST.indexOf(tag) !== -1);
   const isDraft = edge => edge.node.frontmatter.draft;
 
-  const filteredPosts = posts
-                        .filter(not(hasBlaclistedTag))
-                        .filter(not(isDraft));
+  const filteredPosts = posts.filter(not(hasBlaclistedTag)).filter(not(isDraft));
   return (
     <div>
-      <QuarantineBox />
+      {/* <QuarantineBox /> */}
       {filteredPosts.map(({ node }) => {
         return (
           <article key={node.fields.slug} className="feed-article">
             <header>
               <small className="feed-article__date as-header">{node.frontmatter.date}</small>
               <h3 className="feed-article__header">
-                <Link to={node.fields.slug}>
-                  {node.frontmatter.title}
-                </Link>
+                <Link to={node.fields.slug}>{node.frontmatter.title}</Link>
               </h3>
             </header>
-            <p className="feed-article__description"
+            <p
+              className="feed-article__description"
               dangerouslySetInnerHTML={{
-                __html: node.frontmatter.description,
+                __html: node.frontmatter.description
               }}
             />
           </article>
-        )
-      })
-
-      }
+        );
+      })}
     </div>
   );
-}
+};
 
-export default IndexFeed
+export default IndexFeed;
