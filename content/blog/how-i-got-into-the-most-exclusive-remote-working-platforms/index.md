@@ -71,6 +71,6 @@ If you liked this please show some love and share. Feel free to hit me at Twitte
 
 <div class="divider"></div>
 
-**Update mid-2019:** I'm traveling the world while doing remote work and I'm documenting some of it on Instagram. Check me out and follow me if you feel inspired!
+<!-- **Update mid-2019:** I'm traveling the world while doing remote work and I'm documenting some of it on Instagram. Check me out and follow me if you feel inspired!
 
-https://www.instagram.com/p/ByrGvjoFtLw/
+https://www.instagram.com/p/ByrGvjoFtLw/ -->

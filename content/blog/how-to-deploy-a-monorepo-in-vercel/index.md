@@ -17,7 +17,7 @@ We need to deploy a monorepo in Vercel which holds a frontend app (React) and a 
 
 # The constrain
 
-We can configure Vercel to automatically deploy your project on `git push`. We'd need then to configure two projects in Vercel: one for the frontend and another one for the backend.  However, **we can't link 2 projects to the same repo in Vercel**. This means we won't do continuous deployment in Vercel.
+We can configure Vercel to automatically deploy our project on `git push`. We'd need then to configure two projects in Vercel: one for the frontend and another one for the backend.  However, **we can't link 2 projects to the same repo in Vercel**. This means we won't do continuous deployment using this tool.
 
 # The solution
 
