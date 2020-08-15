@@ -36,7 +36,7 @@ const Contact = () => {
                   Twitter
                 </a>{' '}
                 or{' '}
-                <a href="https://www.linkedin.com/in/carlos-edinson-roso-espinosa-41577886/" target="_blank">
+                <a href="https://www.linkedin.com/in/carlos-roso-41577886/" target="_blank">
                   LinkedIn
                 </a>
                 .
