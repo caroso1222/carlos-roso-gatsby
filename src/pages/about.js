@@ -13,8 +13,7 @@ const About = () => (
         <div className="row">
           <div className="col-sm-7">
             <p>
-              I’m a Software Engineer and digital nomad. I work as a Full Stack Developer for several
-              companies at{' '}
+              I’m a Software Engineer at Amazon. Former digital nomad writing code at{' '}
               <a
                 href="https://www.toptal.com/#join-only-great-devs"
                 target="_blank"
@@ -26,7 +25,7 @@ const About = () => (
               <a href="https://github.com/caroso1222/" target="_blank" rel="noopener noreferrer">
                 open source
               </a>{' '}
-              (+2200 stars) and{' '}
+              (+2.5K stars &amp; 4M installs) and{' '}
               <a href="https://logoquiz.dev/" target="_blank" rel="noopener noreferrer">
                 personal projects
               </a>{' '}

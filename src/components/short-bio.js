@@ -1,7 +1,7 @@
-import React from 'react'
-import "./short-bio.scss"
-import profilePicSm from '../images/profile-pic-sm.jpg'
-import { Link } from "gatsby"
+import React from 'react';
+import './short-bio.scss';
+import profilePicSm from '../images/profile-pic-sm.jpg';
+import { Link } from 'gatsby';
 
 const ShortBio = () => {
   return (
@@ -15,12 +15,36 @@ const ShortBio = () => {
           </div>
         </div>
         <div className="col-sm-10">
-          <p className="short-bio__content"><b>I'm Carlos Roso.</b> I'm a Software Engineer and digital nomad at <a href="https://www.toptal.com#join-only-great-devs" target="_blank" rel="noopener noreferrer">Toptal</a>. Previously Software Architect at <a href="https://www.crossover.com/crossover-stories-carlosr" target="_blank" rel="noopener noreferrer">Crossover</a>. In love with <a href="https://github.com/caroso1222" target="_blank" rel="noopener noreferrer">open source</a> and <a href="https://dribbble.com/caroso1222" target="_blank" rel="noopener noreferrer">design</a>.</p>
-          <Link to="/about" className="as-header short-bio__link">More about me</Link>
+          <p className="short-bio__content">
+            <b>I'm Carlos Roso.</b> I'm a Software Engineer at Amazon. Former digital nomad at{' '}
+            <a href="https://www.toptal.com#join-only-great-devs" target="_blank" rel="noopener noreferrer">
+              Toptal
+            </a>{' '}
+            and{' '}
+            <a
+              href="https://www.crossover.com/crossover-stories-carlosr"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Crossover
+            </a>
+            . In love with{' '}
+            <a href="https://github.com/caroso1222" target="_blank" rel="noopener noreferrer">
+              open source
+            </a>{' '}
+            and{' '}
+            <a href="https://dribbble.com/caroso1222" target="_blank" rel="noopener noreferrer">
+              design
+            </a>
+            .
+          </p>
+          <Link to="/about" className="as-header short-bio__link">
+            More about me
+          </Link>
         </div>
       </div>
     </div>
   );
-}
+};
 
-export default ShortBio
+export default ShortBio;
