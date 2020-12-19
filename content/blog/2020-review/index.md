@@ -55,7 +55,7 @@ I migrated my personal site from vanilla HTML to this Gatsby blog. It was a grea
 
 I wrote a book to help people prepare for the Toptal interview. Alongside with this, I started a mailing list which is now at 2.3k subscribers. I feel like I'm helping people, and that's satisfying.
 
-<div class="divider"></div>
+<div class="divider"> </div>
 
 2020 was a year of change, a year to learn. I learned that I have many undeserved priviledges. Many suffered through 2020; I, in contrast, had a great time. I enjoyed solitude, lock down, introspection, and freedom. I even landed an awesome job and moved to Europe.
 
