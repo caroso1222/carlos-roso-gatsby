@@ -158,7 +158,19 @@ const CrackingTheToptalInterview = () => {
               <div className="d-flex justify-content-center">
                 <div className="ctti-sub">
                   <p className="ctti-sub__punch">
-                    Subscribe and get the eBook for <b>FREE</b> now.
+                    <s>
+                      Subscribe and get the eBook for <b>FREE</b> now.
+                    </s>
+                    <br />I surpassed the 2k free subs in Mailchimp. Feel free to download the eBook directly
+                    from<span>&nbsp;</span>
+                    <a
+                      href="https://carlos-temp-public.s3.amazonaws.com/Cracking+the+Toptal+Interview+v2.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      here
+                    </a>
+                    .
                   </p>
                   {!emailSuccess && !isSubscribed && (
                     <form onSubmit={handleSubmit} className="m-0">
