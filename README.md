@@ -16,6 +16,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
 1. Install deps `npm i`
 2. Run `npm run develop` (do not attempt to do it with the global `gatsby develop`)
+3. When installing a dependency, use flag `--legacy-peer-deps`. 
 
 ## 🚀 Quick start
 
