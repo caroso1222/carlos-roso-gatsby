@@ -23,7 +23,6 @@ const CrackingTheToptalInterview = () => {
   const [isSubscribed, setIsSubscribed] = useState('');
 
   const handleSubmit = e => {
-    console.log('handling submit');
     e.preventDefault();
     addToMailchimp(email)
       .then(data => {
