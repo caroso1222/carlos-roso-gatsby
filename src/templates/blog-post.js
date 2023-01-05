@@ -1,17 +1,19 @@
-import React from "react"
-import { graphql } from "gatsby"
-import Layout from "../components/layout"
-import "./blog-post.scss"
-import SEO from "../components/seo"
-import NewsletterSubscribe from "../components/newsletter-subscribe"
-import ShortBio from "../components/short-bio"
+import React from 'react';
+import { graphql } from 'gatsby';
+import Layout from '../components/layout';
+import './blog-post.scss';
+import SEO from '../components/seo';
+import NewsletterSubscribe from '../components/newsletter-subscribe';
+import ShortBio from '../components/short-bio';
 
-export default ({ data }) => {
-  const post = data.markdownRemark
+const BlogPost = ({ data }) => {
+  const post = data.markdownRemark;
   return (
     <Layout>
-      <SEO title={post.frontmatter.title}
-            description={post.frontmatter.meta || post.frontmatter.description}/>
+      <SEO
+        title={post.frontmatter.title}
+        description={post.frontmatter.meta || post.frontmatter.description}
+      />
       <div className="container">
         <div className="col-sm-10 offset-sm-1 bg__container">
           <small className="bg__date as-header">{post.frontmatter.date}</small>
@@ -29,7 +31,10 @@ export default ({ data }) => {
         <div className="container">
           <div className="col-sm-10 offset-sm-1 bg__container">
             <h5 className="post-promo__header">Join the newsletter</h5>
-            <p>I write about remote work, software and personal growth. Subscribe to enjoy my articles every once in a while.</p>
+            <p>
+              I write about remote work, software and personal growth. Subscribe to enjoy my articles every
+              once in a while.
+            </p>
             <div className="col-sm-8 p-0">
               <NewsletterSubscribe />
             </div>
@@ -37,8 +42,10 @@ export default ({ data }) => {
         </div>
       </div>
     </Layout>
-  )
-}
+  );
+};
+
+export default BlogPost;
 
 export const query = graphql`
   query($slug: String!) {
@@ -52,4 +59,4 @@ export const query = graphql`
       }
     }
   }
-`
+`;

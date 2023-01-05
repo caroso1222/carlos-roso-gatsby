@@ -32,11 +32,11 @@ const Contact = () => {
               </p>
               <p>
                 You can also shoot me a DM in{' '}
-                <a href="https://twitter.com/caroso1222" target="_blank">
+                <a href="https://twitter.com/caroso1222" target="_blank" rel="noreferrer">
                   Twitter
                 </a>{' '}
                 or{' '}
-                <a href="https://www.linkedin.com/in/carlos-roso-41577886/" target="_blank">
+                <a href="https://www.linkedin.com/in/carlos-roso-41577886/" target="_blank" rel="noreferrer">
                   LinkedIn
                 </a>
                 .
