@@ -1,4 +1,3 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
     <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
@@ -17,6 +16,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 1. Install deps `npm i`
 2. Run `npm run develop` (do not attempt to do it with the global `gatsby develop`)
 3. When installing a dependency, use flag `--legacy-peer-deps`. 
+4. When pulling changes from `main`, do `git pull --allow-unrelated-histories` because `gh-pages` pushes files to `main` branch without history
 
 ## 🚀 Quick start
 
