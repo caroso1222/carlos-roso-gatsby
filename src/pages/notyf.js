@@ -146,7 +146,7 @@ const NotyfPage = () => {
                 </a>
               </div>
               <Link className="notyf-page__credits only-desktop as-header" to="/">
-                Carlos Roso © 2020
+                Carlos Roso © 2022
               </Link>
               <Dots />
             </div>
@@ -331,7 +331,7 @@ const NotyfPage = () => {
                 </a>
               </div>
               <Link className="notyf-page__credits only-mobile as-header" to="/">
-                Carlos Roso © 2020
+                Carlos Roso © 2022
               </Link>
             </div>
           </div>

@@ -45,6 +45,7 @@
     "gatsby-remark-external-links": "0.0.4",
     "gh-pages": "^4.0.0",
     "prettier": "^1.18.2",
+    "slug": "^8.2.2",
     "ts-node": "^9.1.1",
     "typescript": "^4.1.3"
   },
@@ -63,7 +64,8 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "deploy": "gatsby build && gh-pages -f -d public -b main"
+    "deploy": "gatsby build && gh-pages -f -d public -b main",
+    "new-post": "node ./scripts/new-post.js"
   },
   "repository": {
     "type": "git",

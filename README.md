@@ -17,6 +17,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 2. Run `npm run develop` (do not attempt to do it with the global `gatsby develop`)
 3. When installing a dependency, use flag `--legacy-peer-deps`. 
 4. When pulling changes from `main`, do `git pull --allow-unrelated-histories` because `gh-pages` pushes files to `main` branch without history
+5. To create a post run `npm run new-post "the name of the post"`
 
 ## 🚀 Quick start
 

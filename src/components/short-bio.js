@@ -16,7 +16,7 @@ const ShortBio = () => {
         </div>
         <div className="col-sm-10">
           <p className="short-bio__content">
-            <b>I'm Carlos Roso.</b> I'm a Software Engineer at Amazon. Former digital nomad at{' '}
+            <b>I'm Carlos Roso.</b> I'm a Software Engineer at Meta. Former SDE at Amazon. Ex digital nomad at{' '}
             <a href="https://www.toptal.com#join-only-great-devs" target="_blank" rel="noopener noreferrer">
               Toptal
             </a>{' '}
