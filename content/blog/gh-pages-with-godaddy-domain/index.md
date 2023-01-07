@@ -1,7 +1,7 @@
 ---
 title: GitHub Pages with GoDaddy domain
 date: "2023-01-07T22:26:51.320Z"
-description: "Quick custom domain setup"
+description: "Quick custom domain setup for Gatsby blog"
 draft: false
 ---
 
@@ -16,6 +16,16 @@ In your repository, go to Settings > Pages > Custom domain. Write your domain **
 ## 2. Pull changes
 
 Step 1 will add a `CNAME` file to your deployment branch —e.g. `main`. Remember to pull those changes in your local: `git checkout main && git pull --allow-unrelated-histories`.
+
+### 2.1 (Optional) Additional step for Gatsby blogs
+
+If you publish with Gatsby, make sure to add a `CNAME` file to `/static`; it'll be copied verbatim to `/public` in your deployment branch.
+
+```
+$ cat <<EOF > ./static/CNAME
+mydomain.com
+EOF
+```
 
 ## 3. Configure DNS in GoDaddy
 
