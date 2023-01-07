@@ -47,12 +47,16 @@ Add your custom domain to your GitHub account —read **acount**, not repo. In G
 
 ## Bonus: Automate with Git Hooks
 
-Add a pre-push git hook to deploy your site before pushing changes. Assuming you have a `deploy` npm script, follow this:
+Add a pre-push git hook to deploy your site before pushing changes. Assuming you have a `deploy` npm script and your source branch is `master`, follow this:
 
 ```
 $ rm .git/hooks/pre-push.sample
 $ cat <<EOF > .git/hooks/pre-push
 #!/bin/sh
+BRANCH="$(git rev-parse --abbrev-ref HEAD)"
+if [[ "$BRANCH" != "master" ]]; then
+  exit 1;
+fi
 echo "deploying to gh pages..."
 npm run deploy
 EOF
