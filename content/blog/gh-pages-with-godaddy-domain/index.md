@@ -1,5 +1,5 @@
 ---
-title: GitHub Pages with GoDaddy domain
+title: Setup GitHub Pages with GoDaddy domain
 date: "2023-01-07T22:26:51.320Z"
 description: "Quick custom domain setup for Gatsby blog"
 draft: false
