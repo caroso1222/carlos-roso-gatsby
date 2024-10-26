@@ -186,7 +186,7 @@ $ rmind call mom tonight
               rmind <a href="https://github.com/caroso1222/rmind">star rmind on GitHub</a> in 1 min
             </p>
             <Link className="rmind__credits as-header d-block" to="/">
-              Carlos Roso © 2022
+              Carlos Roso © 2024
             </Link>
           </div>
         </div>

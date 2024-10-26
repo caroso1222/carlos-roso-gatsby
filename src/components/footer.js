@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => (
   <footer className="d-flex justify-content-between align-items-center footer">
-    <h6 className="footer__info m-0">Carlos Roso © 2022</h6>
+    <h6 className="footer__info m-0">Carlos Roso © 2024</h6>
     <div className="footer__icons">
       <a
         href="https://twitter.com/caroso1222"

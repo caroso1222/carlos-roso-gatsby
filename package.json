@@ -42,6 +42,7 @@
     "typography": "^0.16.19"
   },
   "devDependencies": {
+    "ajv": "^7.2.4",
     "gatsby-remark-external-links": "0.0.4",
     "gh-pages": "^4.0.0",
     "prettier": "^1.18.2",

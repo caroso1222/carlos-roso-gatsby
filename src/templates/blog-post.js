@@ -27,7 +27,8 @@ const BlogPost = ({ data }) => {
           </div>
         </div>
       </div>
-      <div className="post-promo">
+      {/* no plans to maintain the newsletter for now */}
+      {/* <div className="post-promo">
         <div className="container">
           <div className="col-sm-10 offset-sm-1 bg__container">
             <h5 className="post-promo__header">Join the newsletter</h5>
@@ -40,7 +41,7 @@ const BlogPost = ({ data }) => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </Layout>
   );
 };

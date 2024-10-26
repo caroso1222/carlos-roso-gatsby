@@ -13,19 +13,19 @@ const About = () => (
         <div className="row">
           <div className="col-sm-7">
             <p>
-              I'm a Software Engineer at Meta. Former SDE at Amazon. Ex digital nomad writing code at{' '}
+              I'm a Production Engineer at Meta. Former SDE at Amazon. Ex digital nomad writing code at{' '}
               <a
                 href="https://www.toptal.com/#join-only-great-devs"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                TopTal
+                Toptal
               </a>
               . I love doing{' '}
               <a href="https://github.com/caroso1222/" target="_blank" rel="noopener noreferrer">
                 open source
               </a>{' '}
-              (+3.1K stars &amp; 4M installs) and{' '}
+              (+3.5K stars, +4.5M npm downloads) and{' '}
               <a href="https://logoquiz.dev/" target="_blank" rel="noopener noreferrer">
                 personal projects
               </a>{' '}
