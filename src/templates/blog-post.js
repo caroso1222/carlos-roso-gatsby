@@ -10,10 +10,6 @@ const BlogPost = ({ data }) => {
   const post = data.markdownRemark;
   return (
     <Layout>
-      <SEO
-        title={post.frontmatter.title}
-        description={post.frontmatter.meta || post.frontmatter.description}
-      />
       <div className="container">
         <div className="col-sm-10 offset-sm-1 bg__container">
           <small className="bg__date as-header">{post.frontmatter.date}</small>
@@ -45,6 +41,13 @@ const BlogPost = ({ data }) => {
     </Layout>
   );
 };
+
+export const Head = ({ data }) => (
+  <SEO
+    title={data.markdownRemark.frontmatter.title}
+    description={data.markdownRemark.frontmatter.meta || data.markdownRemark.frontmatter.description}
+  />
+);
 
 export default BlogPost;
 

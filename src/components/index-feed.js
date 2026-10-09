@@ -7,7 +7,7 @@ import './index-feed.scss';
 const IndexFeed = () => {
   const data = useStaticQuery(graphql`
     {
-      allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+      allMarkdownRemark(sort: { frontmatter: { date: DESC } }) {
         edges {
           node {
             fields {

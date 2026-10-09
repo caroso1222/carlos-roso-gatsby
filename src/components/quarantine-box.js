@@ -7,7 +7,7 @@ const QuarantineBox = () => {
   const data = useStaticQuery(graphql`
   {
     allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: ASC }
+      sort: { frontmatter: { date: ASC } }
       filter: { frontmatter: { tags: { in: "covid" }, draft: {ne: true} } }
     ) {
       edges {

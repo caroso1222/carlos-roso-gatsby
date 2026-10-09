@@ -8,15 +8,10 @@ import PropTypes from "prop-types"
 
 const Tags = ({ pageContext, data }) => {
   const { tag } = pageContext
-  const { edges, totalCount } = data.allMarkdownRemark
-  const tagHeader = `${totalCount} post${
-    totalCount === 1 ? "" : "s"
-  } tagged with "${tag}"`
+  const { edges } = data.allMarkdownRemark
 
   return (
     <Layout>
-      <SEO title={tag}
-            description={tagHeader}/>
       <div className="container">
         <div className="col-sm-10 offset-sm-1 bg__container">
           <h1 className="m-0 text-capitalize tag-header bg__main-title">{tag}</h1>
@@ -68,13 +63,20 @@ Tags.propTypes = {
   }),
 }
 
+export const Head = ({ pageContext, data }) => {
+  const { tag } = pageContext
+  const { totalCount } = data.allMarkdownRemark
+  const tagHeader = `${totalCount} post${totalCount === 1 ? "" : "s"} tagged with "${tag}"`
+  return <SEO title={tag} description={tagHeader} />
+}
+
 export default Tags
 
 export const query = graphql`
   query($tag: String) {
     allMarkdownRemark(
       limit: 2000
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { frontmatter: { date: DESC } }
       filter: { frontmatter: { tags: { in: [$tag] } } }
     ) {
       totalCount

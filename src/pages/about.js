@@ -6,7 +6,6 @@ import './about.scss';
 
 const About = () => (
   <Layout>
-    <SEO title="About" />
     <div className="container main-container">
       <div className="about">
         <h1 className="as-body col-sm-12 p-0 headline">Hey there, I'm Carlos Roso</h1>
@@ -83,5 +82,7 @@ const About = () => (
     </div>
   </Layout>
 );
+
+export const Head = () => <SEO title="About" />;
 
 export default About;

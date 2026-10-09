@@ -61,13 +61,13 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-image`,
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingId: `UA-58505326-17`
+        trackingIds: [`G-CSXTTH9V6T`]
       }
     },
-    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-catch-links`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -96,7 +96,6 @@ module.exports = {
     },
     `gatsby-plugin-sass`,
     `gatsby-plugin-twitter`,
-    `gatsby-plugin-instagram-embed`,
     {
       resolve: 'gatsby-plugin-react-svg',
       options: {

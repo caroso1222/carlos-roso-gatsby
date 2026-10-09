@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './notyf.scss';
-import Helmet from 'react-helmet';
 import { Link } from 'gatsby';
 import './cracking-the-toptal-interview.scss';
 import profilePic from '../images/profile-pic.jpg';
@@ -10,12 +9,11 @@ import MiniDots from '../images/ctti/mini-dots.inline.svg';
 import addToMailchimp from 'gatsby-plugin-mailchimp';
 import { FaExclamation, FaCheck } from 'react-icons/fa';
 
+const title = 'Cracking the Toptal Interview';
+const description =
+  'The ultimate FREE guide to clear the interview at the most prestigious remote work platform, Toptal.';
+
 const CrackingTheToptalInterview = () => {
-  const title = 'Cracking the Toptal Interview';
-
-  const description =
-    'The ultimate FREE guide to clear the interview at the most prestigious remote work platform, Toptal.';
-
   const [email, setEmail] = useState('');
 
   const [emailSuccess, setEmailSuccess] = useState('');
@@ -44,55 +42,6 @@ const CrackingTheToptalInterview = () => {
 
   return (
     <>
-      <Helmet
-        htmlAttributes={{
-          lang: 'en'
-        }}
-        title={title}
-        titleTemplate={`%s`}
-        meta={[
-          {
-            name: `description`,
-            content: description
-          },
-          {
-            property: `og:title`,
-            content: title
-          },
-          {
-            property: `og:description`,
-            content: description
-          },
-          {
-            property: `og:type`,
-            content: `website`
-          },
-          {
-            property: `og:image`,
-            content: 'http://carlos-temp-public.s3.amazonaws.com/ogimage.jpg'
-          },
-          {
-            property: `og:image:secure_url`,
-            content: 'https://carlos-temp-public.s3.amazonaws.com/ogimage.jpg'
-          },
-          {
-            name: `twitter:card`,
-            content: `summary`
-          },
-          {
-            name: `twitter:creator`,
-            content: '@caroso1222'
-          },
-          {
-            name: `twitter:title`,
-            content: title
-          },
-          {
-            name: `twitter:description`,
-            content: description
-          }
-        ]}
-      />
       <div className="ctti-wrapper xy-center">
         <div className="container ctti">
           <div className="row h-100 m-0 ctti-main-row">
@@ -213,5 +162,25 @@ const CrackingTheToptalInterview = () => {
     </>
   );
 };
+
+export const Head = () => (
+  <>
+    <html lang="en" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="http://carlos-temp-public.s3.amazonaws.com/ogimage.jpg" />
+    <meta
+      property="og:image:secure_url"
+      content="https://carlos-temp-public.s3.amazonaws.com/ogimage.jpg"
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:creator" content="@caroso1222" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+  </>
+);
 
 export default CrackingTheToptalInterview;

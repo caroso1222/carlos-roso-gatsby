@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import Helmet from 'react-helmet';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 
@@ -16,12 +15,7 @@ const Contact = () => {
 
   return (
     <>
-      <Helmet>
-        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-      </Helmet>
-
       <Layout>
-        <SEO title="About" />
         <div className="container main-container">
           <h1 className="as-body col-sm-12 p-0 headline">Let's get in touch!</h1>
           {addressV ? (
@@ -63,4 +57,11 @@ const Contact = () => {
     </>
   );
 };
+export const Head = () => (
+  <>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <SEO title="About" />
+  </>
+);
+
 export default Contact;

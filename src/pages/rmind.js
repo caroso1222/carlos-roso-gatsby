@@ -1,7 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import './rmind.scss';
-import Helmet from 'react-helmet';
 import { Link } from 'gatsby';
+
+const title = 'rmind: A minimalist CLI for the macOS Reminders app';
+const description =
+  'rmind is a CLI that lets you add macOS reminders from the terminal using natural language';
 
 const RmindPage = () => {
   const [code, setCode] = useState('');
@@ -76,61 +79,8 @@ $ rmind call mom tonight
     });
   }
 
-  const title = 'rmind: A minimalist CLI for the macOS Reminders app';
-  const description =
-    'rmind is a CLI that lets you add macOS reminders from the terminal using natural language';
-
   return (
     <>
-      <Helmet
-        htmlAttributes={{
-          lang: 'en'
-        }}
-        title={title}
-        titleTemplate={`%s`}
-        meta={[
-          {
-            name: `description`,
-            content: description
-          },
-          {
-            property: `og:title`,
-            content: title
-          },
-          {
-            property: `og:description`,
-            content: description
-          },
-          {
-            property: `og:type`,
-            content: `website`
-          },
-          {
-            property: `og:image`,
-            content: 'http://carlos-temp-public.s3.amazonaws.com/rmindog.jpg'
-          },
-          {
-            property: `og:image:secure_url`,
-            content: 'https://carlos-temp-public.s3.amazonaws.com/rmindog.jpg'
-          },
-          {
-            name: `twitter:card`,
-            content: `summary`
-          },
-          {
-            name: `twitter:creator`,
-            content: '@caroso1222'
-          },
-          {
-            name: `twitter:title`,
-            content: title
-          },
-          {
-            name: `twitter:description`,
-            content: description
-          }
-        ]}
-      />
       <div className="rmind">
         <div className="container container--rmind p-relative">
           <h1 className="rmind__header">rmind</h1>
@@ -194,5 +144,25 @@ $ rmind call mom tonight
     </>
   );
 };
+
+export const Head = () => (
+  <>
+    <html lang="en" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="http://carlos-temp-public.s3.amazonaws.com/rmindog.jpg" />
+    <meta
+      property="og:image:secure_url"
+      content="https://carlos-temp-public.s3.amazonaws.com/rmindog.jpg"
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:creator" content="@caroso1222" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+  </>
+);
 
 export default RmindPage;

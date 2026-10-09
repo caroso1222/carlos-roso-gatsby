@@ -10,14 +10,27 @@ import DoubleZigZag from '../images/notyf/double-zigzag.inline.svg';
 import Line from '../images/notyf/line.inline.svg';
 import Triangle from '../images/notyf/triangle.inline.svg';
 import TripleZigZag from '../images/notyf/triple-zigzag.inline.svg';
-import Helmet from 'react-helmet';
 import { Link } from 'gatsby';
 // import CttiBanner from '../components/ctti-banner';
 
 let notyf;
 
+const title = 'Notyf: A minimalist JavaScript library for toast notifications.';
+const description =
+  'Notyf is a JavaScript library for toast notifications. Responsive, A11Y, dependency-free. Tiny (~3KB). Easy integration with React, Angular and Vue';
+
 const NotyfPage = () => {
-  const { register, handleSubmit, setValue } = useForm();
+  const { register, handleSubmit } = useForm({
+    defaultValues: {
+      message: 'They see me rolling',
+      duration: 2000,
+      positionX: 'right',
+      positionY: 'bottom',
+      ripple: true,
+      dismissible: false,
+      type: 'success'
+    }
+  });
 
   useEffect(() => {
     const isSSR = typeof window === 'undefined';
@@ -30,14 +43,6 @@ const NotyfPage = () => {
         }
       ]
     });
-
-    setValue('message', 'They see me rolling');
-    setValue('duration', 2000);
-    setValue('positionX', 'right');
-    setValue('positionY', 'bottom');
-    setValue('ripple', true);
-    setValue('dismissible', false);
-    setValue('type', 'success');
   }, []);
 
   const fireNotyf = data => {
@@ -58,61 +63,8 @@ const NotyfPage = () => {
     });
   };
 
-  const title = 'Notyf: A minimalist JavaScript library for toast notifications.';
-  const description =
-    'Notyf is a JavaScript library for toast notifications. Responsive, A11Y, dependency-free. Tiny (~3KB). Easy integration with React, Angular and Vue';
-
   return (
     <>
-      <Helmet
-        htmlAttributes={{
-          lang: 'en'
-        }}
-        title={title}
-        titleTemplate={`%s`}
-        meta={[
-          {
-            name: `description`,
-            content: description
-          },
-          {
-            property: `og:title`,
-            content: title
-          },
-          {
-            property: `og:description`,
-            content: description
-          },
-          {
-            property: `og:type`,
-            content: `website`
-          },
-          {
-            property: `og:image`,
-            content: 'http://carlos-temp-public.s3.amazonaws.com/ogimage.jpg'
-          },
-          {
-            property: `og:image:secure_url`,
-            content: 'https://carlos-temp-public.s3.amazonaws.com/ogimage.jpg'
-          },
-          {
-            name: `twitter:card`,
-            content: `summary`
-          },
-          {
-            name: `twitter:creator`,
-            content: '@caroso1222'
-          },
-          {
-            name: `twitter:title`,
-            content: title
-          },
-          {
-            name: `twitter:description`,
-            content: description
-          }
-        ]}
-      />
       {/* <div className="notyf-ctti-banner">
         <CttiBanner />
       </div> */}
@@ -155,11 +107,11 @@ const NotyfPage = () => {
                 <form className="notyf-page__controller" onSubmit={handleSubmit(fireNotyf)}>
                   <section>
                     <label className="as-header">Message</label>
-                    <input type="text" name="message" className="as-header" ref={register}></input>
+                    <input type="text" className="as-header" {...register('message')}></input>
                   </section>
                   <section>
                     <label className="as-header">Duration</label>
-                    <input type="number" name="duration" className="as-header" ref={register}></input>
+                    <input type="number" className="as-header" {...register('duration')}></input>
                   </section>
                   <section>
                     <label className="as-header">Position - X</label>
@@ -170,8 +122,7 @@ const NotyfPage = () => {
                           value="left"
                           type="radio"
                           className="as-header"
-                          name="positionX"
-                          ref={register}
+                          {...register('positionX')}
                         ></input>
                         <label className="as-header" htmlFor="x-left">
                           Left
@@ -183,8 +134,7 @@ const NotyfPage = () => {
                           value="center"
                           type="radio"
                           className="as-header"
-                          name="positionX"
-                          ref={register}
+                          {...register('positionX')}
                         ></input>
                         <label className="as-header" htmlFor="x-center">
                           Center
@@ -196,8 +146,7 @@ const NotyfPage = () => {
                           value="right"
                           type="radio"
                           className="as-header"
-                          name="positionX"
-                          ref={register}
+                          {...register('positionX')}
                         ></input>
                         <label className="as-header" htmlFor="x-right">
                           Right
@@ -214,8 +163,7 @@ const NotyfPage = () => {
                           value="top"
                           type="radio"
                           className="as-header"
-                          name="positionY"
-                          ref={register}
+                          {...register('positionY')}
                         ></input>
                         <label className="as-header" htmlFor="y-top">
                           Top
@@ -227,8 +175,7 @@ const NotyfPage = () => {
                           value="bottom"
                           type="radio"
                           className="as-header"
-                          name="positionY"
-                          ref={register}
+                          {...register('positionY')}
                         ></input>
                         <label className="as-header" htmlFor="y-right">
                           Bottom
@@ -244,8 +191,7 @@ const NotyfPage = () => {
                           id="with-ripple"
                           type="checkbox"
                           className="as-header"
-                          ref={register}
-                          name="ripple"
+                          {...register('ripple')}
                         ></input>
                         <label className="as-header" htmlFor="with-ripple">
                           With ripple
@@ -256,8 +202,7 @@ const NotyfPage = () => {
                           id="dismissible"
                           type="checkbox"
                           className="as-header"
-                          ref={register}
-                          name="dismissible"
+                          {...register('dismissible')}
                         ></input>
                         <label className="as-header" htmlFor="dismissible">
                           Dismissible
@@ -273,9 +218,8 @@ const NotyfPage = () => {
                           id="type-success"
                           type="radio"
                           className="as-header"
-                          name="type"
                           value="success"
-                          ref={register}
+                          {...register('type')}
                         ></input>
                         <label className="as-header" htmlFor="type-success">
                           Success
@@ -286,9 +230,8 @@ const NotyfPage = () => {
                           id="type-error"
                           type="radio"
                           className="as-header"
-                          name="type"
                           value="error"
-                          ref={register}
+                          {...register('type')}
                         ></input>
                         <label className="as-header" htmlFor="type-error">
                           Error
@@ -299,9 +242,8 @@ const NotyfPage = () => {
                           id="type-custom"
                           type="radio"
                           className="as-header"
-                          name="type"
                           value="custom"
-                          ref={register}
+                          {...register('type')}
                         ></input>
                         <label className="as-header" htmlFor="type-custom">
                           Custom
@@ -351,5 +293,25 @@ const NotyfPage = () => {
     </>
   );
 };
+
+export const Head = () => (
+  <>
+    <html lang="en" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="http://carlos-temp-public.s3.amazonaws.com/ogimage.jpg" />
+    <meta
+      property="og:image:secure_url"
+      content="https://carlos-temp-public.s3.amazonaws.com/ogimage.jpg"
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:creator" content="@caroso1222" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+  </>
+);
 
 export default NotyfPage;

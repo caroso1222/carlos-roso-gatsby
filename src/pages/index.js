@@ -39,7 +39,6 @@ const IndexPage = () => {
 
   return (
     <Layout>
-      <SEO title="Home" />
       <div className="container main-container">
         <div className="row">
           <div className="col-sm-8">
@@ -101,5 +100,7 @@ const IndexPage = () => {
     </Layout>
   );
 };
+
+export const Head = () => <SEO title="Home" />;
 
 export default IndexPage;
